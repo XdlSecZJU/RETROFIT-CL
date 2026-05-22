@@ -157,6 +157,8 @@ If you wish to compute additional metrics:
 python Binary_Analysis/Eval_Metrics.py --base_dir Binary_Analysis/Output
 ```
 
+Besides BLEU reported in the main experiments of our paper, we provide supplementary summarization benchmark results [here](https://github.com/XdlSecZJU/RETROFIT-CL/blob/main/Binary_Analysis/complementary_summarization_metric.pdf).
+
 ## License
 
 This project is licensed under the Apache 2.0 License.
