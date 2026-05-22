@@ -1,6 +1,8 @@
-# RETROFIT: Continual Learning with Controlled Forgetting for Binary Security Detection and Analysis
+# RETROFIT
 
 The repository contains a complete implementation of our proposed continual learning framework RETROFIT, along with all reproducible workflows necessary to adapt, merge, and evaluate models in the two binary security applications described in the paper, i.e., malware detection and binary summarization.  
+
+For more details, please refer to our paper `RETROFIT: Continual Learning with Controlled Forgetting for Binary Security Detection and Analysis`
 
 ## MALWARE DETECTION
 
