@@ -1,6 +1,6 @@
-# RETROFIT: Continual Learning with Controlled Forgetting for Security Applications
+# RETROFIT: Continual Learning with Controlled Forgetting for Binary Security Detection and Analysis
 
-This repository contains the replication package for our paper on achieving controlled forgetting in security applications through continual learning techniques.
+The repository contains a complete implementation of our proposed continual learning framework RETROFIT, along with all reproducible workflows necessary to adapt, merge, and evaluate models in the two binary security applications described in the paper, i.e., malware detection and binary summarization.  
 
 ## MALWARE DETECTION
 
