@@ -1,6 +1,6 @@
-# RETROFIT: Continual Learning with Bounded Forgetting for Security Applications
+# RETROFIT: Continual Learning with Controlled Forgetting for Security Applications
 
-This repository contains the replication package for our paper on achieving bounded forgetting in security applications through continual learning techniques.
+This repository contains the replication package for our paper on achieving controlled forgetting in security applications through continual learning techniques.
 
 ## MALWARE DETECTION
 
