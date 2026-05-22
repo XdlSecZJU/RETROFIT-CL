@@ -1,0 +1,534 @@
+0	Compute a 32bit DJB hash of a buffer
+1	Allocate a new H5T_t structure, initializing it correctly
+2	Retrieves the current automatic cache resize configuration from the metadata cache, and return it in config_ptr
+3	Initializes 'latch' as initially unset
+4	return 0 on packet, no more left, 1 on packet, 1 on partial packet
+5	Setup the input buffer state to scan a string
+6	Creates an empty structure holding all required parameters
+7	Destroys the specified simple xml parser
+8	Push an ECC instruction onto the stack
+9	Conditional expansion of this file
+10	Store the flags that aren't set by size_ok
+11	Kick the destination into running
+12	Flush the metadata accumulator to the file
+13	Conditional expansion of this file
+14	Write the uint16_t to the buffer
+15	Setup the input buffer state to scan a string
+16	Same as anterior, but for memory blocks
+17	Parameterless version of pseudo_print to ease usage in dyn_print
+18	Import a public key from a ssh string
+19	Adds a property with the given 'type' and 64bit 'value' to 'msg'
+20	Given an <ESL_SQFILE> that's already been opened, configure it to expect subsequent input to conform to the digital alphabet <abc>
+21	return length of buffer used
+22	assumes heights is allocated with hmm>M floats
+23	return number of nodes being used in a cluster
+24	Removes conversion paths that match the specified criteria
+25	Additions by RX '2004
+26	Initialize the interface from some other layer
+27	prescaler set (and make time tables)
+28	Free a score matrix
+29	Convert native long double to native unsigned int using hardware
+30	Convert native unsigned integer to native float using hardware
+31	Converts `unsigned char' to `unsigned short'
+32	Converts `unsigned int' to `short'
+33	Converts `unsigned int' to `unsigned int'
+34	Convert native float to native unsigned long using hardware
+35	Convert native unsigned integer to native long double using hardware
+36	Convert native unsigned integer to native long double using hardware
+37	Convert native float to native unsigned long using hardware
+38	Convert native unsigned integer to native float using hardware
+39	Convert native unsigned short to native float using hardware
+40	Converts `unsigned long' to `unsigned short'
+41	Convert native float to native unsigned long using hardware
+42	Convert native float to native unsigned long using hardware
+43	Convert native long double to native unsigned int using hardware
+44	Converts `unsigned int' to `short'
+45	Convert native unsigned integer to native float using hardware
+46	Convert native unsigned integer to native double using hardware
+47	Convert native unsigned integer to native float using hardware
+48	Converts `unsigned long' to `unsigned char'
+49	Converts `unsigned int' to `short'
+50	Convert native unsigned integer to native long double using hardware
+51	Converts `unsigned long' to `unsigned short'
+52	Converts `unsigned long' to `unsigned short'
+53	Convert native unsigned long to native long double using hardware
+54	Convert native unsigned integer to native double using hardware
+55	Converts `unsigned int' to `unsigned short'
+56	Convert native long double to native unsigned short using hardware
+57	Convert native unsigned integer to native long double using hardware
+58	Convert native long double to native unsigned long using hardware
+59	Convert native double to native unsigned int using hardware
+60	Convert native unsigned integer to native long double using hardware
+61	Convert native unsigned integer to native float using hardware
+62	Convert native integer to native long double using hardware
+63	Converts `unsigned short' to `unsigned short'
+64	Converts `unsigned int' to `unsigned long long'
+65	Convert native unsigned integer to native double using hardware
+66	Convert native float to native unsigned long using hardware
+67	Converts `unsigned long' to `unsigned short'
+68	Convert native float to native unsigned long using hardware
+69	Convert native unsigned integer to native double using hardware
+70	Convert native long double to native unsigned short using hardware
+71	Convert native float to native long using hardware
+72	Convert native unsigned integer to native double using hardware
+73	Convert native long double to native unsigned short using hardware
+74	Convert native long double to native unsigned short using hardware
+75	Convert native unsigned integer to native long double using hardware
+76	Convert native float to native unsigned long using hardware
+77	Convert native unsigned integer to native long double using hardware
+78	Convert native unsigned long to native long double using hardware
+79	Converts `unsigned char' to `unsigned short'
+80	Converts `unsigned long' to `short'
+81	Converts `unsigned short' to `unsigned short'
+82	Convert native integer to native float using hardware
+83	Convert native float to native unsigned short using hardware
+84	Converts `unsigned int' to `short'
+85	Converts `unsigned int' to `unsigned int'
+86	Convert native unsigned integer to native double using hardware
+87	Sorts members of a compound or enumeration datatype by their names
+88	Begin streaming video from the stream into the callback function
+89	Given a pointer to a cache, an entry type, and an index, dirty the target entry
+90	Given a pointer to a cache, an entry type, and an index, dirty the target entry
+91	Used for both SeqBAIJ and SeqSBAIJ matrices
+92	Do a read only protect the entry indicated by the type and index
+93	Creates a new, empty dataset structure
+94	Convert an u32_t from network to host byte order
+95	Get a random x coordinate within the y limits of a room
+96	Retrieves the type of extent for a dataspace object
+97	Initialize the context for an H5SM_sohm_t struct
+98	Fucntion to call a given filter with each element as its entry
+99	Enumerate CA(Certificate Authority) in the hub
+100	Retrieve storage for btree and heap (1
+101	default routine, can be overridden by user
+102	Allocate SIZE bytes, clear them and return the pointer
+103	@func GPS_D311_Get Get track header data (A301 protocol)
+104	arv_device_set_integer_feature_value: @device: a #ArvDevice @feature: feature name
+105	Set the current line number
+106	Set the input stream
+107	Reads the data field of a structure
+108	Find an EA entry inside a xattr block
+109	FUNCTION bfd_get_master_section_by_name SYNOPSIS asection bfd_get_master_section_by_name (bfd abfd, const char name); DESCRIPTION Given
+110	Reset a group hierarchy name to an empty state
+111	Generate a stream of random data
+112	Implements the default OpenSSL RAND_bytes() method
+113	Search for next superblock of a RADIUS server
+114	10 21 TBDR Timer B Data Register
+115	Table 68 Definition of TPMS_EMPTY Structure <IN OUT>
+116	Communicate with agent: send request and read reply
+117	Get next item in list
+118	caller should free the return value
+119	Main entry point in this file
+120	helper function to keep code base small
+121	Insert a new member having a NAME and VALUE into an enumeration data TYPE
+122	Insert a new enumeration data type member into an enumeration type
+123	Sets the memory allocate free pair for VL datatypes
+124	i_cal_property_set_trigger: (skip) @prop: The #ICalProperty to be set
+125	Extract an implicitly 2D array of 32bit float Fwd residue emission values from an optimized profile <om>
+126	Encode a WBXML Tag
+127	Documentclass: Groonga::ID This module provides Groonga ID related features
+128	qsrec : recursive part of quicksort (stack implementation)
+129	If 'key' is in 'smap', removes it
+130	number of ticks since system start (1 Tick is about 1 second)
+131	in place quaternion first order integration with constant rotational velocity
+132	Add an opcode to the stack
+133	returns 0 on success, 1 on failure
+134	threadshared initialization that should be repeated after a reset
+135	i_cal_property_set_trigger: @propname: The name to be set
+136	Does not free os, only the nonflat storage within
+137	This function is called by H5Literate() to gather storage info for SNODs
+138	this is to avoid linking with openSSL
+139	Like MatSetRandom_SeqAIJ(), but do not set values on columns in range of [low, high)
+140	Generic hook that takes a rtx and an int and returns void
+141	Release of the slinkedl_list list
+142	Duplicate a hyperslab vector <h> into a newly allocated one
+143	used by synthesis, which has a full, alloced vi
+144	Implementation of MUF PARSE_EXTERN Consumes a string, and attempts to parse it into a string
+145	Remove the current entry from the queue
+146	Called under uipcps lock
+147	Fucntion to execute a given command with the given args
+148	This one is a liitle bit more complex, so need not set tid beg end
+149	@internal Free all resources and memory associated with LOOP
+150	static DEVICE_STOP( ymf278 )
+151	Called with BQL taken
+152	Gets the name for the specified H
+153	Helper function to keep code base small
+154	Initializes the global dataset infomration arrays
+155	static DEVICE_STOP( ymf278 )
+156	Reset the options used by the default plugin
+157	callseq: initialize(fields, size, align)
+158	Release of the socket library
+159	i#2089: we skip this for nondetach
+160	Add jbd filesystem to the path list
+161	Get the next item in the list
+162	Iterate all the free extents in the group
+163	NOTE: Signed due to 1 on error
+164	Create a new event object and insert it into event queue
+165	add at the end of the list
+166	Read and discard "n" 8bit bytes of data
+167	Same as anterior, but for memory blocks
+168	Passing in stub's info avoids a vmvector lookup
+169	unlock all pipes and free all resources
+170	reset frame synchronizer object
+171	Add a file to the freespace manager
+172	Get the root VOL object for the file
+173	Similar, but look up a IL by name
+174	described in Profinet 2
+175	default routine, can be overridden by user
+176	Dispense a cereal into the bowl
+177	does not free os, only the nonflat storage within
+178	Reads data of type @c data_type by userdefined dimensions
+179	Reads data of type @c data_type by userdefined dimensions for 2D
+180	Check if an object has the requisite messages for being a dataset
+181	takes esiposition, ediorientation vector, ecxrotation order
+182	Set the file access property list FAPL_ID to use the family driver
+183	Return a printable representation of an HMM
+184	Causes poll_block() to wake up if 'txn' has completed committing
+185	Return true if token is an assignment operator
+186	Parse the ICMP reply packet received from the socket
+187	Resolve a syscall name to a number
+188	Frob eflags into and out of the CPU temporary format
+189	Determines if a rectangle is within a rectangle
+190	Note: we assume the four high bytes are set to zero
+191	Table 170 Definition of {ECC} TPMS_SIGNATURE_ECC Structure
+192	Configure 'flow' with userdefined data
+193	Finalize MDCT and free allocated memory
+194	reset frame data statistics
+195	DKure: added for output closer to ISO 8601
+196	read the main packet
+197	mrb_gc_protect() leaves the object in the arena
+198	compute a 32bit CRC of a number
+199	Poll the current session for an event and call the appropriate
+200	Find a permutation of modes such that the first mode is 'custommode'
+201	Hidden debug function, to force external dictionary mode
+202	Called with BQL taken
+203	Public interface for the disassembler
+204	@func GPS_A201_Get Get track header data (A301 protocol)
+205	Helper function to keep code base small
+206	{{{ Stacking list stuff
+207	return true if mapname is contained in maphash, false otherwise
+208	how many timesetting units in a second
+209	Implements the default OpenSSL RAND_bytes() method
+210	Receive a packet (client > client)
+211	The main entry point in this file
+212	how many timesetting units in a second
+213	Version for when blocks are 4 by 4
+214	This function should be called first on the ThrottleTimers
+215	i#2089: we skip this for nondetach
+216	get object from table, return name
+217	Given a coordinate description of a location in an array, this function returns the byte offset of the coordinate
+218	Send a SSH_MSG_UNIMPLEMENTED error
+219	Here's for the guts of the game
+220	not declared static because a machinespecific function may call this one in some cases
+221	killough 11 98: kill an object
+222	Same as anterior, but for streams
+223	Start playing a mid
+224	Implementation of \@mpi command This is the main program
+225	commit COW file into the raw image
+226	default routine, can be overridden by user
+227	Iterate all the elements in a stack
+228	Enumerate CA(Certificate Authority) in the hub
+229	Returns a malloc()'d string describing 'key', for use in logging
+230	Generic hook that takes a rtx and an int and returns void
+231	Generic hook that takes a rtx and an int and returns void
+232	Same as anterior, but for memory blocks
+233	Set the input stream
+234	Generic hook that takes a rtx and an int and returns void
+235	takes esiposition, ediorientation vector, ecxrotation order
+236	This is to support dr_create_client_thread()
+237	Print token structurally (for debugging) pointing to a single character
+238	opens a file and maps it to 0x0
+239	{{{ Stacking list stuff
+240	Main entry point in this file
+241	defined(S) && !defined(S)
+242	Initialize the hash table
+243	this code is a rewrite from OpenCV's legendary LucasKanade optical flow implementation
+244	Rename entry in a dictionary
+245	Return the value associated to a key, as a struct array
+246	Returns the current time, in microseconds
+247	Same as anterior, but for memory blocks
+248	nfft adjoint, return pointer to coefficients for access by Julia if pointer isn't set
+249	This function gets called during a group iterate operation
+250	liveness analysis: sync globals back to memory
+251	insertion routine that lets you change the error reporting callback
+252	Set the current line number
+253	Executes the specified command
+254	Print a character to current cursor position
+255	Move the cursor on one screen line
+256	Build an Ipv4 Multicast Option from the socket
+257	Get the current token
+258	Serializes a disconnect packet into the supplied buffer, ready for writing to a socket
+259	Same as anterior, but for streams
+260	Return the size of a KsTree
+261	Send a notification to all widgets in the group
+262	Receive a packet from the network into a buffer
+263	Return a pointer to the root of the file
+264	Release of the socket library
+265	Build the opt_info_t object from the rule entry
+266	initializes statically built (compiled in) modules
+267	Close a TCP netconn
+268	Create a new Channel
+269	Create and return an empty section
+270	Returns the number of the elements in a list
+271	Convert a 32bit value from host order to little endian
+272	Convert numeric IP address into decimal dotted ASCII representation
+273	return the host CPU cycle counter and handle stop restart
+274	Convert an u16_t from network to host byte order
+275	Convert an u16_t from network to host byte order
+276	Allocate a memory buffer with the semantics of malloc()
+277	This function should be called at the end of a timed region
+278	@func GPS_D700_Get Get track header data (A301 protocol)
+279	Called with iothread lock taken
+280	contributed by Damien Stehle
+281	To be called first on the ThrottleTimers
+282	Print some values from a dataset referenced by region blocks
+283	Prints the string buffer to the output STREAM
+284	set 0 < i < max; 1 < i < max
+285	Construct the envp and argv tables on the target stack
+286	default routine, can be overridden by user
+287	Viterbi score of sequence, banded LocalGlobal mapping through sequence discovery
+288	Call external programs with flags and with array of strings as parameters
+289	get the size of the ith instruction in a basic block
+290	Create a worksheet with a chart
+291	Initializes 'simap' as an empty stringtointeger map
+292	FUNCTION bfd_set_arch_info SYNOPSIS bfd_boolean bfd_set_arch_info (bfd abfd, enum bfd_architecture arch, unsigned long mach); DESCRIPTION Set the architecture info of
+293	Called under uipcps lock
+294	return number of userdefined links
+295	Here's for the guts of the game
+296	simulate button release event of 5 key osd cable
+297	Add an event to check whether a player is standing or not
+298	Initialize the hashing context
+299	Initialize the hashing context
+300	Convert a 32bit value from host order to little endian
+301	Opens an existing group for modification
+302	Add a new member having a NAME and VALUE to an enumeration data TYPE
+303	return < 0 if error, otherwise the number of bytes loaded in memory
+304	Get the next statement in the current function
+305	Generate a BPF representation of the filter DB
+306	default routine, can be overridden by user
+307	Return number of elements left to process in iterator
+308	Table 68 Definition of TPMS_EMPTY Structure <IN OUT>
+309	Called with BQL taken
+310	match smaller memory size up to bigger memory size
+311	Check to see if this is a Geneve packet
+312	Get a password from the password list
+313	Implementation of \@examine command This shows statistics about programs that have been running
+314	free os related resource in union recv_frame
+315	Insert a plugin search path at the end of the list
+316	Return the number of vertices in the vertex graph
+317	i#682: add pos so that the caller knows which opnd is used
+318	select given object when stream selection is available
+319	Conditional expansion of this file
+320	Return the address of the first byte after the last allocated memory in the pool
+321	Implementation of the \@debug command This creates a new MCP session object, and returns a pointer to it
+322	Parse an IKE packet
+323	Propagate constants and copies, fold constant expressions
+324	This function is modified from MatPtAPSymbolic_MPIAIJ_MPIAIJ()
+325	takes esiposition, ediorientation vector, ecxrotation order
+326	qsrec : recursive part of quicksort (stack implementation)
+327	not declared static because a machinespecific function may call this one in some cases
+328	Dump the raw contents of matrix <ox> to stream <fp> for diagnostics
+329	Send a message to all widgets in the group
+330	Fucntion to execute a given command with the given args
+331	if old_name is set then set it to new_name
+332	Set a callback function to be called for each knote's event loop
+333	Same as anterior, but for streams
+334	Registers a new VOL connector as a member of the virtual object layer class
+335	Clears the contents of 'row' in table "Manager"
+336	Creates and returns an OFPT_ECHO_REQUEST message with an empty payload
+337	Send a message and receive a response
+338	Get the current time, in ms
+339	Get the next busy time for the current request
+340	returns 0 iff all writes succeeded
+341	Return the number of changes that were successfully parsed
+342	Return TRUE if LOOP nest should be optimized for speed
+343	Perform a binary operation on two operands
+344	May only be called for selfcontained media
+345	Initialize global constants used in DH key agreement
+346	Add space to the current line
+347	Handle ANSI ED (erase in page)
+348	Like rdbSaveBinaryDoubleValue() but single precision
+349	To be called first on the ThrottleTimers
+350	FUNCTION bfd_is_local_label_name SYNOPSIS enum bfd_local_label_name bfd_is_local_label_name (bfd abfd, const char name); DESCRIPTION Return the name of a local label
+351	Return type of event (e
+352	static DEVICE_START( saa1099 )
+353	default routine, can be overridden by user
+354	Generate samples for one of the YM2608s
+355	Called within RCU critical section
+356	Setup the input buffer state to scan a string
+357	To be called first on the ThrottleTimers
+358	Print some values from a dataset referenced by region blocks
+359	g_strconcat: @string1: the first string to add, which must not be %NULL
+360	Create a worksheet with a chart
+361	Handles the attribute specific callback
+362	Helper function to keep code base small
+363	Converts an u16_t from network to host byte order
+364	Deserialize a TCP packet into the supplied buffer
+365	Called with BQL taken
+366	Count the number of nodes in a tree
+367	Get the next node in the tree
+368	Utility function to free the buffer
+369	Return 1 if a is a subset of b, 0 otherwise
+370	Determine if two types are equal
+371	find the node in the tree and return it
+372	Frees resources within a context, but doesn't free the context
+373	Initializes 'set' as an empty set of strings
+374	Get rid of whole linked list
+375	Build AoE ATA command IU
+376	Returns the number of bytes reserved or 0 on error
+377	To be called first on the ThrottleTimers
+378	Implements the default OpenSSL RAND_bytes() method
+379	Clean up compression context and free up any associated resources
+380	static DEVICE_START( saa1099 )
+381	This function is executed in case of error occurrence
+382	Find leastsquares prediction gain for one signal based on another and quantize it
+383	Load a WAV stream from the given RWops object
+384	Returns a pointer to the object location for a dataset
+385	Combine records from src into dst
+386	Private version of H5FDlock()
+387	Encode driverspecific data into the output arguments
+388	commit COW file into the raw image
+389	update access control list
+390	@short Free and closes the channel @memberof onion_listen_point_t @ingroup listen_point Calls the custom listen_stop if any, and if
+391	Same as anterior, but for streams
+392	Frees 'idl' and all the memory it owns
+393	Redirect the client to the specified endpoint
+394	Disconnect from a session (client or server)
+395	disconnect a SSH session with timeout
+396	XXX: this function is slow!
+397	Remove a specific watchpoint by name
+398	Convert an u32_t from network to host byte order
+399	Returns true if 'rconn' is connected, false otherwise
+400	used to set the next time event, if any
+401	Get the RSN of a given sample
+402	Returns a string representation of a given length
+403	reset frame synchronizer object
+404	Conditional expansion of this file
+405	Send data and return the remaining data
+406	Write a single byte to the header
+407	Initialize a TMR_TagOp as a Gen2 IAVDenatran Write Sec operation with the provided parameters
+408	Conditional expansion of this file
+409	Conditional expansion of this file
+410	returns 0 if the handle is invalid, and 1 if it is
+411	Set the player's energy in the range [0, 1)
+412	static DEVICE_STOP( ym2151 )
+413	Set the current line number
+414	Creates a new row of kind "SSL"
+415	Return a pointer to the object location for a given object
+416	This function gets called during a group iterate operation to return total number of nodes in group
+417	Convert an OpenSSL EC_POINT to a binary array
+418	ifndef YY_NO_INPUT Immediately switch to a different input stream
+419	contributed by Damien Stehle
+420	Export a private key to a file on disk
+421	@internal Define chunking stuff for a var
+422	Prints debugging info about an object header
+423	Given an <ESL_SQFILE> that's already been opened, configure it to expect subsequent input to conform to the digital alphabet <abc>
+424	initializes an rtx using the given seed
+425	Allocates memory for an ELF linker hash table
+426	Iterate over all the CHAPs in the CHAP
+427	used to set the next time event, if any
+428	Construct a GaussLegendre quadrature
+429	Creates a new row of kind "NetFlow"
+430	Generic hook that takes a rtx and an int and returns void
+431	Free all memory used by the SOHM table
+432	return 1 if not found
+433	Reads data of type @c data_type by userdefined dimensions
+434	Reads a slab of data from the mat variable @c matvar
+435	Reads a subset of a MAT variable using a 1D indexing
+436	This function encodes a mixture Dirichlet prior <h> into <h>
+437	Increment all bits in a region
+438	signed integer converted from n bits unsigned int to int
+439	static DEVICE_START( ymf278 )
+440	g_int_hash() is lifted from glib2
+441	decode vector dim granularity gaurding is done in the upper layer
+442	Resample with a 3d matrix
+443	Makes a copy of <src> from <src> to <dest>
+444	Creates a new row of kind "Manager"
+445	Resample with a 2nd order AR filter followed by FIR interpolation
+446	Private function for iterating over links in a group
+447	NOTE: Signed due to 1 on error
+448	default routine, can be overridden by user
+449	Release all the objects in queue
+450	Unload a module by name
+451	Assumes contents are already zeroed
+452	Set the userdefined data
+453	static DEVICE_STOP( ymf278 )
+454	called during topology destroy
+455	Frees an entire linked list of struct line's
+456	Generic hook that takes no arguments and returns true
+457	Conditional expansion of this file
+458	Transact a LLRP request and response to a connection
+459	Conditional expansion of this file
+460	Reset string to an empty state
+461	Destroys the specified simple xml parser
+462	!! retcodes: 1 or 1 !!
+463	default routine, can be overridden by user
+464	Add a custom SIP header to the list
+465	Enumerate CA(Certificate Authority) in the hub
+466	PoolClassCheck check the consistency of a pool class
+467	Flush any dataset sieve buffer info cached in memory
+468	default routine, can be overridden by user
+469	Get the current call object of a UserAgent
+470	fluid_hashtable_patch: @hashtable: a #fluid_hashtable_t
+471	Resample with a 2nd order AR filter followed by FIR interpolation
+472	Return a random x coordinate within the x limits of a square matrix
+473	Perform a binary operation on two operands
+474	Release a permutation matrix
+475	Apply function FUNC to each element of a list
+476	Remove all matching items according to a comparison comparison
+477	Destroys graph <gx> in newly allocated space
+478	Write to a contiguous dataset
+479	Determines if a simple dataspace's extent has been set (e
+480	Release table containing a list of links for a group
+481	these two are a little unstoked at the moment
+482	these two are a little unstoked at the moment
+483	Return TRUE if LOOP nest should be optimized for speed
+484	Table 68 Definition of TPMS_EMPTY Structure <IN OUT>
+485	Optimal Rate double pairing e(P,Q)
+486	This function should be called each time a new segment is added to the segment list
+487	Same as anterior, but for streams
+488	Return 1 on success or 0 on failure
+489	l_ and k_ are allowed to be the same spinors
+490	Rewind the cursor to the start of the next line
+491	Compare the contents of <om1> and <om2>; return <eslOK> if they are equal, and <eslFAIL> if not
+492	mrb_gc_protect() removes the object from GC root
+493	Returns the number of bytes reserved or 0 on error
+494	Return the name of a member of a compound or enumeration datatype
+495	rename to r_io_assign_group like the rest
+496	Push an element onto the stack
+497	clear out the OggVorbis_File struct
+498	mps_class_ams return the AMS pool class descriptor
+499	Find LPC and LTP coefficients
+500	Implements the default OpenSSL RAND_add() method
+501	nfft trafo, return pointer for access by Julia if pointer isn't set
+502	Retrieve the 'offset' field for the file
+503	Retrieve the error code from the last error
+504	called by fmiEventUpdate() after setting eventInfo to defaults
+505	write the block to a fractal heap
+506	Finishes lexing a structure
+507	i#2089: we skip this for nondetach
+508	Enumerate CA(Certificate Authority) in the hub
+509	Frob eflags into and out of the CPU temporary format
+510	Thomas Wang 32bit integer hash function
+511	default routine, can be overridden by user
+512	Find an EA entry inside a xattr block
+513	Creates and returns an OFPT_ECHO_REQUEST message
+514	Load a WAV stream from the given RWops object
+515	Finds a camera identified by vendor, product and or serial number
+516	Same as anterior, but for memory blocks
+517	Call external programs with array of strings as parameters
+518	Check to see if the current node is not a match for the current node
+519	To be called first on the ThrottleTimers
+520	This function should be called periodically to update 'lacp'
+521	Removes all of the strings from 'set'
+522	mps_reservoir_available return memory available in the reservoir
+523	Return true if T is a gimple address
+524	The to_goto_record method of target recordbtrace
+525	Parse a RADIUS packet
+526	Call external programs with various parameters number
+527	be nice and clean up resources
+528	if not found, create a new one
+529	returns whether to execute syscall
+530	shared by all GCM ciphers
+531	ThreadDeregister deregister a thread from a queue
+532	Convenience routines to keep code base small
+533	Same as anterior, but for streams

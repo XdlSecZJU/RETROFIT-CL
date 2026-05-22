@@ -1,0 +1,534 @@
+0	Compute the CRC of the bytes buf[0
+1	Allocate a new H5T_t structure, initializing it correctly
+2	Given a mount point, dissassociate the mount point's file from the file mounted there
+3	Initializes 'dst' as a clone of 'src
+4	Returns : 1 on success, 0 on failure
+5	Get the system timer
+6	Initialize the expression parser
+7	Frees an <ESL_TREE> object
+8	Pushes the new state onto the stack
+9	Finds the closest refinery a harvester can go to
+10	Calculate HMACMD5 MIC for EAPOLKey frame
+11	Write LEN bytes data to a buffer
+12	Moves a hyperslab iterator to the beginning of the next sequence of elements to read
+13	ZSTDMT_compressionJob() is a POOL_function type
+14	Pushes the new value onto the stack
+15	Convert an UTF16LE buf into a unicode RRune
+16	Command to delete all ROSpecs on LLRP Reader
+17	Slow path of mrb_gc_protect()
+18	Import a public key from a ssh string
+19	Finds a camera identified by vendor, product and or serial number
+20	blit a pixelalpha RLE surface
+21	return length of buffer used
+22	l_ and k_ are allowed to be the same spinors
+23	Conditional expansion of this file
+24	Insert a new member having a NAME and VALUE into an enumeration data TYPE
+25	return the offset of the ith instruction in a file
+26	Sets the 'mounted' flag for a group
+27	needed because accesses data structure of ISLocalToGlobalMapping directly
+28	Clears the contents of 'row' in table "Bridge"
+29	Convert native unsigned long to native long double using hardware
+30	Convert native unsigned integer to native float using hardware
+31	Converts `unsigned long' to `unsigned short'
+32	Converts `unsigned int' to `short'
+33	Converts `unsigned short' to `unsigned int'
+34	Convert native integer to native float using hardware
+35	Convert native unsigned integer to native long double using hardware
+36	Converts `int' to `unsigned long'
+37	Convert native unsigned integer to native float using hardware
+38	Convert native float to native unsigned int using hardware
+39	Convert native unsigned integer to native float using hardware
+40	Converts `unsigned long' to `short'
+41	Convert native unsigned integer to native float using hardware
+42	Convert native unsigned integer to native float using hardware
+43	Convert native unsigned long to native long double using hardware
+44	Converts `unsigned int' to `short'
+45	Convert native float to native unsigned short using hardware
+46	Convert native unsigned integer to native double using hardware
+47	Convert native unsigned integer to native float using hardware
+48	Converts `unsigned long' to `unsigned long long'
+49	Converts `unsigned int' to `short'
+50	Converts `int' to `unsigned long long'
+51	Converts `unsigned long' to `unsigned short'
+52	Copy all dense attributes from SRC to DST
+53	Converts `unsigned long' to `unsigned long long'
+54	Convert native unsigned integer to native double using hardware
+55	Converts `unsigned long' to `unsigned short'
+56	Convert native unsigned long to native long double using hardware
+57	Convert native unsigned integer to native long double using hardware
+58	Convert native unsigned long to native long double using hardware
+59	Convert native integer to native double using hardware
+60	Convert native unsigned integer to native long double using hardware
+61	Convert native unsigned integer to native float using hardware
+62	Copy over information for a location
+63	Converts `unsigned short' to `short'
+64	Converts `unsigned int' to `long'
+65	Convert native unsigned integer to native long double using hardware
+66	Convert native unsigned integer to native float using hardware
+67	Converts `unsigned long' to `short'
+68	Convert native unsigned integer to native float using hardware
+69	Convert native unsigned integer to native double using hardware
+70	Convert native unsigned long to native long double using hardware
+71	Convert native integer to native float using hardware
+72	Converts `int' to `double'
+73	Convert native long double to native unsigned short using hardware
+74	Convert native unsigned integer to native long double using hardware
+75	Convert native unsigned integer to native long double using hardware
+76	Convert native unsigned integer to native float using hardware
+77	Convert native unsigned integer to native long double using hardware
+78	Convert native unsigned long to native long double using hardware
+79	Converts `unsigned long' to `unsigned char'
+80	Converts `unsigned long' to `short'
+81	Converts `unsigned short' to `short'
+82	Convert native integer to native float using hardware
+83	Convert native unsigned integer to native float using hardware
+84	Converts `short' to `unsigned short'
+85	Converts `unsigned long' to `unsigned int'
+86	Convert native integer to native double using hardware
+87	Moves a hyperslab iterator to the beginning of the next sequence of elements to read
+88	force argument to next function to not be extern C
+89	Given a pointer to a cache, an entry type, and an index, dirty the target entry
+90	This function is called when the Btree search engine has found the leaf entry that points to a chunk of storage that contains the beginning of the logical address space represented by UDATA
+91	Given a pointer to an instance of H5FS_t and an appropriately sized buffer, deserialize the contents of the instance for writing to disk, and copy the serialized data into the buffer
+92	Do a sanity check on the portion of an entry's address
+93	Creates a new indexedstorage Btree and initializes it to reasonable values
+94	Send a cmd and also read the " ok" prompt
+95	Construct a set of quadrature points
+96	Frees the buffers allocated for storing variablelength data in memory
+97	Builds cache of architecturally defined registers
+98	Apply a function FUNC to each element of the list
+99	Process incoming SIP MESSAGE messages
+100	Internal version of H5Sselect_hyperslab()
+101	default routine, can be overridden by user
+102	Manual cast from 'unsigned int' to the union DBKey
+103	This is the API that calls the internal function above
+104	XXX this indirection really isn't necessary except for the function name
+105	Set the current line number
+106	Set the input stream
+107	Delete key and value pairs from a dictionary
+108	Main driver for OpenVPN and SSTP
+109	Find the data type
+110	Have this object header hold a file open until it is released
+111	static STREAM_UPDATE( saa1099_update )
+112	static STREAM_UPDATE( ymf271_stream_update )
+113	Search for next instance of last search regex
+114	Advance to the next sequence
+115	Generic hook that takes (enum machine_mode) and returns false
+116	return 0 on success, 1 on failure
+117	Remove a node from an avltree
+118	Get next item in list
+119	Main event loop for OpenVPN in UDP server mode
+120	P output solution , Q input source
+121	Iterate over the chunks in an index, making a callback for each one
+122	Finds the value that corresponds to the specified NAME f an enumeration TYPE
+123	Finds the symbol name that corresponds to the specified VALUE of an enumeration data type TYPE
+124	i_cal_property_set_requeststatus: @prop: The #ICalProperty to be set
+125	gnutls_x509_trust_list_verify: @list: The list @cert_list: is the certificate list to be verified @cert_list_length: is the certificate list length @flags: Flags that may be used to change the verification algorithm
+126	Write a MIDI event to a port
+127	i#849: we skip this for nondetach
+128	question mark find function_inverse what dyadic triadic
+129	Returns true if 'set' is initialized, false otherwise
+130	gamma param not used here; see SetSDLPalette() in Shock
+131	Find the dot product of a vector with constant rotational velocity
+132	Set the userdefined data
+133	Resolve a syscall name to a number
+134	Clean up the FedX second pass
+135	send a command to all widgets in the group
+136	Compare the parameters used to create the fractal heap
+137	Prints debugging info about a dataspace selection by appending the information to the specified string
+138	Close the socket connection
+139	Like MatSetRandom_SeqAIJ, but do not set values on columns in range of [low, high)
+140	Generic hook that takes (enum machine_mode) and returns false
+141	Delete the cache entry
+142	Copy an argument vector, ensuring it is terminated by NULL
+143	Fills each SDIO_InitStruct member with its default value
+144	@func GPS_D311_Get Get track header data (A301 protocol)
+145	Must be called under FLOCK or FRLOCK
+146	Poll for completed and received packets
+147	Invoke the callback on the provided node
+148	ABQFinish finish an ABQ
+149	Release a connection to the backend
+150	This function handles Non maskable interrupt
+151	Called with BQL taken
+152	Dispense a topping into the bowl
+153	Initialize Viterbi decoder for start of new frame
+154	Initializes the global data structures
+155	sort from highest priority to lowest
+156	Sets some default values and resets them to their default values
+157	Initializes 'set' as an empty set of strings
+158	Write the log file
+159	Helper function to keep code base small
+160	Does a 'single right' rotation on node a
+161	Remove and return the last item in the list
+162	Apply a function handler to all elements in the array
+163	MULTI BULK response where we turn key1,value1 into key1>value1
+164	Change the name of a file
+165	start must be free'd if not returned
+166	Read and decode the global dataset information
+167	Frees memory allocated by the library that it is the user's responsibility to free
+168	Caller must hold RTNL
+169	Clears the contents of 'row' in table "Queue"
+170	static DEVICE_RESET( ymf271 )
+171	Add a new entry to the hash table
+172	Get the context root
+173	Return a strong reference to a peer
+174	Iterates over registers in reverse, making a callback for each
+175	default routine, can be overridden by user
+176	Dispense a topping into the bowl
+177	can be used as >unplug() callback for the simple cases
+178	Reads MAT variable data of type TYPE into memory
+179	Reads data of type @c data_type into a char type
+180	Check if an object uses the filter to be unregistered
+181	Same as anterior, but for streams
+182	Verify that the order that entries with flush dependencies is correct
+183	Generate a OpenVPN control packet
+184	Add a new entry to the linked list
+185	Return true if next token is a type qualifier, false otherwise
+186	Write the log file
+187	return number of nodes being used in a cluster
+188	Figure out which of many blit routines to set up on a surface
+189	Check if point is inside area
+190	Note: this also sets RTC_CMNINFO
+191	Clears the contents of 'row' in table "Queue"
+192	Initialise Fibre Channel link state monitor
+193	Finalize MDCT and free allocated memory
+194	reset frame data statistics
+195	i#682: add pos so that the caller knows which opnd is used
+196	Decode the DHCP packet data
+197	Basic L2CAP mode Information frame
+198	Calculate a 32bit DJB hash of the specified algorithm
+199	Called within RCU critical section
+200	Given a digital sequence <dsq> of length <L>, a probability vector <p> of length <L>, and a probability vector <p> of length <L>, calculate and return the starting position in <ret_p>
+201	Hidden debug function, to force external dictionary mode
+202	Run the bit allocation with a given SNR offset
+203	Creates a new row of kind "Bridge"
+204	Create OpenDocument text file (zipped package)
+205	Helper function to keep code base small
+206	Get the flag of whether to execute the system call
+207	check to see if a file exists
+208	r p + q
+209	Insert (part of) a key into a buffer
+210	Register a command (extended)
+211	The main entry point in this file
+212	r p + q
+213	force argument to next function to not be extern C
+214	init os related resource in struct recv_priv
+215	Returns the name of the file to which the specified group belongs
+216	get object from table; "path" is the key
+217	Implementation of MUF DESCRIPTORS Consumes a program dbref and returns a stackrange of descriptor numbers associated with the program
+218	Creates and tests a hash using the GPU
+219	these are global for SDL_sysjoystick
+220	contributed by Dahai Guo <dhguo@ncsa
+221	return code: 0 if not found
+222	return 0 on success, 1 on failure
+223	Add a number to the number of active intervals
+224	Signal handler for SIGUSR1 backup the db
+225	Begin streaming video from the camera into the callback function
+226	Initializes 'set' as an empty set of strings
+227	Visit all the nodes and add them to the tree
+228	ThreadRegister register a thread with an arena
+229	Returns the name of the currently running thread or process
+230	Generic hook that takes a rtx and an int and returns void
+231	Generic hook that takes a rtx and an int and returns void
+232	Internal Flicky flying function
+233	Return the number of bytes reserved or 0 on error
+234	Generic hook that takes a rtx and an int and returns void
+235	return 0 on success, 1 on failure
+236	Initialize a TMR_TagLockAction as a Gen2 lock action with the provided parameters
+237	The only error case is to run out of memory in string form
+238	opens a file and maps it to 0x0
+239	Pop a message from the message list and dequeue it
+240	Find the normalized ijk coordinates of the hex in the specified digit direction
+241	Get the color at a particular location in the canvas
+242	copies from (0,1) to (2,3)
+243	Compute eigenvectors and eigenvalues for Gradient matrix
+244	Remove a given key from a dictionary
+245	Get a value from a dictionary
+246	Functions returning the dylan format structures
+247	Get max length of string in buffer
+248	nfst adjoint, return pointer to coefficients for access by Julia if pointer isn't set
+249	Convert one type to another when byte order is the only difference
+250	static DEVICE_RESET( ym2151 )
+251	Returns 0 and nd will be valid on success; Retuns error, otherwise
+252	Push a character onto the cursor's stack
+253	Push a value onto the stack
+254	Print character to current cursor position
+255	Free a page with no more free blocks
+256	Write the L2TP packet
+257	Returns the current position of the iterator in the file
+258	Table 93 Definition of TPM2B_NV_PUBLIC Structure
+259	Iterate all the registered hooks
+260	Parse an XML Attribute
+261	Returns 1 on success, 0 on error
+262	This function removes leading and trailing whitespace from a given node
+263	Gets the current working directory
+264	Add a new rule to the list
+265	Add a new entry to the linked list
+266	Help function to keep code base small
+267	Write a log entry
+268	Describe Fibre Channel exchange
+269	shared by all GCM ciphers
+270	Returns the number of items in a tree
+271	Manual cast from 'unsigned int' to the union DBKey
+272	MPI function that returns local time zone offset from GMT in seconds
+273	Generate a random number on [0,1)realinterval
+274	Convert a 16bit value from little endian to host order
+275	Routines to convert host format to the endianness used in the xtensa
+276	Returns the name of the process with [pid]
+277	Set the starting point for a snow pack
+278	Called when the underlying socket has read
+279	check if any requests are inflight (including throttled requests)
+280	Create a new Matlab MAT file
+281	Create a worksheet with a chart
+282	Copies a message from _MESG to _DEST in file
+283	Prints the string buffer to the output STREAM
+284	update the 1st, 2nd or 3rd choices of p
+285	Same as MatGetSymbolicTranspose_SeqAIJ(), except cast Mat_SeqSJJ
+286	Clears the contents of 'row' in table "Database"
+287	Helper function to keep code base small
+288	MPI function that returns a randomly picked item
+289	get the dest field of a MIDI event structure
+290	Create a worksheet with a chart
+291	Initializes 'simap' as an empty stringtointeger map
+292	Set the input stream
+293	Finalize and cleanup all libssh and cryptographic data structures
+294	return 1 on success, 0 on failure
+295	display list of active and inactive windows
+296	simulate button press event of 5 key osd cable with special button
+297	Add a MUF event to the timequeue
+298	Prints information about a symbol table
+299	copies entries from src into dst
+300	Manual cast from 'unsigned int' to the union DBKey
+301	Opens an object within an HDF5 file
+302	Opens an object within an HDF5 file
+303	Set the endofaddress marker for the file
+304	Encrypt a sector when the diffuser is enabled
+305	Add all the DFs that are open in the file
+306	default routine, can be overridden by user
+307	Reads a dataset from disk
+308	Generic hook that takes (enum machine_mode) and returns false
+309	Add block to be revoked to a transaction
+310	check_image_size() is used to determine the size of the image and the dimensions of the image
+311	check if a file exists
+312	Search for the best language that matches the specified language
+313	Set the flags from the command line string S
+314	Sets the state of the landscape
+315	This function gets called during a file close to shutdown global information about group Btree nodes for file
+316	Free a 'simple small large' section node
+317	Print token structurally (for debugging) pointing to a line
+318	Get the next subblock from a subblock iterator
+319	Does every thing but set the slot
+320	Conditional expansion of this file
+321	Handles the blob 'get' callback
+322	Write the log file
+323	TSS_AuthCreate() allocates and initializes a TSS_AUTH_CONTEXT
+324	l_ and k_ are allowed to be the same spinors
+325	Given a permutation matrix <P>, return a pointer to the smallest element in the matrix
+326	dgeomap_instru Write differential geometry maps for a given astrometric instrument
+327	l_ and k_ are allowed to be the same spinors
+328	Fill "missing elements" in block of elements
+329	Print debugging information about an object header
+330	Helper function to call a function with two arguments
+331	g_hash_table_insert: @hash_table: a #GHashTable
+332	Process incoming SIP MESSAGE messages
+333	Iterate the channels, calling the callback for each channel
+334	Sets the exponent bias of a floatingpoint type
+335	Get rid of all the intermediate continuations of THREAD
+336	Adds a MUF event to the timequeue
+337	Return the current system time as a struct timespec
+338	Get the current time in milliseconds
+339	Get the current sample rate for this server
+340	Return the number of bits set in the opcode
+341	ipmi_mc_get_vendor_ie_beacon Fetch vendor IE data from command line
+342	Parses a string by identifying its parts using the specified separators
+343	Perform a log write, and then immediately flush the entire log
+344	Check the validity of a section
+345	Initialize global constants used in DH key agreement
+346	MPI function to return the MUCK name
+347	default routine, can be overridden by user
+348	Pushes the new state onto the stack
+349	Switch to a different input buffer
+350	find the type of the object this extent belongs to
+351	returns the OPSZ_ field of a register
+352	constructor for a GaussLegendreLobatto
+353	Initializes 'set' as an empty set of strings
+354	Perform a limited amount of incremental GC steps
+355	Run your data through this
+356	shamelessly taken from listobject
+357	P output solution , Q input source
+358	Print some values from a dataset referenced by region blocks
+359	mps_arena_has_addr is this address managed by this arena?
+360	Create a worksheet with a chart
+361	Initialize paths necessary for loader
+362	MPI function that tests an expression against a variable
+363	Convert the hostorder integer from hostorder to networkorder
+364	Deserializes the supplied (wire) buffer into publish data
+365	load document by xml_document_t
+366	Move cursor to the next node
+367	LWIP_SUPPORT_CUSTOM_PBUF Shrink a pbuf chain to a desired length
+368	Removes the head of the queue, if present
+369	mrb_gc_unregister() removes two GC objects
+370	Determine if two files have the same shared file pointer
+371	Called with BQL or dirty_bitmap lock taken
+372	Add a new rule to a list of rules
+373	Implementation of MUF PREEMPT Turns off multitasking for the current program, disabling context switches
+374	Removes all of the strings from 'set'
+375	Retrieve the memory type mapping for this file
+376	Set to the initial state
+377	prints formatted numbered message with processor's rank and name
+378	Convert data to RFC1035encoded DNS name
+379	Free all storage associated with a compilation unit structure
+380	These are global for SDL_sysjoystick
+381	called from mainloop at background priority to reset global settings
+382	static STREAM_UPDATE( SCSP_Update )
+383	Checks if the given IP address is a subnet mask
+384	wrapper to simple binary polynomial field squaring implementation
+385	Frees the buffers allocated for storing variablelength data in memory
+386	Private version of H5FDwrite()
+387	Encode driverspecific data into the output arguments
+388	delete all matching items from list
+389	get the type of the message on disk
+390	remove all SDP info at the time
+391	Same as gf_isom_get_sample but doesn't fetch media data
+392	Called when the underlying socket has read
+393	Write to a block device
+394	Send a packet and receive a response
+395	Get the size of the current MAT file
+396	Get a session from the session list
+397	return the size of the current type
+398	Initializes 'set' as an empty set of strings
+399	virtqueue_get_vring_size return the size of virtqueue's vring
+400	writes to spi flash and or the cache
+401	Get the string of a given sample
+402	allocates a memory buffer with the semantics of malloc()
+403	Initialise EHCI companion controller
+404	Conditional expansion of this file
+405	Write data to a TMR_TagOp structure
+406	Write a single byte to a memory buffer
+407	Encode a RTCP Packet into raw form
+408	SegHasBuffer segment has a buffer?
+409	deletes an object and returns the ID of the object
+410	return 0 as number of sectors if no device present or error
+411	P output solution , Q input source
+412	Function to close a joystick after use
+413	Set stream where debug output is written
+414	Clears the contents of 'row' in table "Queue"
+415	Initialize dwarf2_cu CU, owned by PER_CU
+416	Resolve (find) when condition schema context node
+417	Split a page and insert a new node
+418	Generate a random number on [0,1)realinterval
+419	takes esiptr to array of floats, ediptr to dest vectors
+420	Add an entry to the hash table
+421	Set up libCEED for a given degree
+422	Private version of H5FDwrite()
+423	Called under uipcps lock
+424	end of Basic SVG datatype parsing functions
+425	Set mime part content from file
+426	Apply a function handler to all elements in the list
+427	Read an MSA from a file into a buffer
+428	basic dot product (ordinal calculation) with loop unrolled
+429	Commit a transaction to the journal immediately
+430	Generic hook that takes a rtx and an int and returns void
+431	Iterate over the chunks in an index, making a callback for each one
+432	return the offset of the ith instruction in a basic block
+433	Creates and tests a hash using the GPU
+434	select given object when stream selection is available
+435	Reads a subset of a MAT variable using a 1D indexing
+436	Makes a copy of the intersection of src_1 with src_2
+437	Rearrange nonzeros in a quicksort order
+438	set f to the integer z multiplied by 2^e
+439	Create a new trie iterator
+440	Create a new array with capacity size
+441	Note: interrupts must be enabled when calling this function
+442	decode vector dim granularity gaurding is done in the upper layer
+443	Returns 2 for errors because both 1 and 0 are valid results
+444	Removes internal data for this handler
+445	inplace and (modifies its first argument)
+446	Creates a new type and initializes it to reasonable values
+447	Public: delete an item on the list
+448	default routine, can be overridden by user
+449	Release all the objects in queue
+450	Unlink an object from the type stack
+451	Frees all memory used by the parser and its data
+452	Set screen cursor to new screen
+453	parses a raw request from a nameserver
+454	Called under uipcps lock
+455	Free all allocated memory for a linked geo loop
+456	Generic hook that takes (enum machine_mode) and returns true
+457	Virtual profiles are handled here
+458	ABQPush push an element onto the tail of an ABQ
+459	Decode a BFCP message
+460	Clear the line at the beginning of the list
+461	clear out the SIP stack information
+462	Initialize the response object
+463	default routine, can be overridden by user
+464	alloc os related resource in struct recv_buf
+465	Visit a function and all its subfunctions
+466	XXX this indirection really isn't necessary except for the function name
+467	Flush the metadata accumulator to the file
+468	default routine, can be overridden by user
+469	Get name of currently selected item
+470	Merge two items of the hash table
+471	Compute MAC with nonzero IV
+472	Create a hash table from the trie
+473	Given a set of dimension sizes, calculate the size of each "down" slice
+474	Fill a buffer with random data
+475	Apply a function handler to all elements in an ACR object
+476	Sorted Queue and Index functions
+477	takes esiptr to array of vectors, ediptr to dest vectors
+478	Sets the locations and sizes of the various floating point bit fields
+479	Delete the file space for a contiguously stored dataset
+480	Get storage size of the superblock and superblock extension
+481	Generates a random unsigned int
+482	MixColumns function mixes the columns of the block
+483	Determines if the components of two spherical coordinates are within our standard epsilon distance of each other
+484	Generic hook that takes (enum machine_mode) and returns false
+485	Process LEN bytes of BUFFER, accumulating context into CTX
+486	Process an incoming Fibre Channel exchange
+487	Write the superblock to the file
+488	Insert an instruction into the BPF state
+489	Convert lpc coefficients to lsp coefficients
+490	Clears the contents of 'row' in table "Manager"
+491	Compares two file families to see if they are the same
+492	add a node to the nodes hash table
+493	Get the size of an entry in a fractal heap
+494	Finds the HDF5 superblock signature in a file
+495	remove a given node from an avltree
+496	add a file to the list
+497	TSS_AuthCreate() allocates and initializes a TSS_AUTH_CONTEXT
+498	return the host CPU monotonic timer and handle stop restart
+499	Function to compute spatial average water table position (zwt) for a
+500	Functions with Error Codes
+501	get the length of the current token
+502	accessors for obscure and undocumented functionality
+503	returns the ID of the proto
+504	call only when there are no readers writers left
+505	Store values read and write from a file
+506	Finishes lexing a number literal
+507	Get Radius options of the hub
+508	Process LLRP info objects and add them to the list
+509	Iterate the channels, calling the callback for each channel
+510	Extra channels are just ignored because come in the next planes
+511	default routine, can be overridden by user
+512	Creates and tests a hash using the GPU
+513	Creates and tests a hash using the GPU
+514	Set up libCEED for a given degree
+515	Finds the closest refinery a harvester can go to
+516	dcontext can be NULL if !dcontext
+517	Load a BMP type image from an SDL datasource
+518	returns true if there is an edge from the node (i
+519	The following 3 functions constitute our interface to the world
+520	Private function for H5Tget_super
+521	Removes all entries except the last one
+522	Generic hook that takes a rtx and an int and returns void
+523	Check if a datatype is a variablelength string
+524	Prints information about an object
+525	Process the UDP packet
+526	Open a file readonly via mmap()
+527	Called on unloading a nonnative module
+528	called just before an execve cleanup stuff temporary files
+529	Finalize and cleanup all libcircle specific structures
+530	temporary function to keep code base small
+531	Causes poll_block() to wake up when change notifications are ready
+532	Reads data of type @c data_type into a char type
+533	gnutls_pkcs7_verify: @pkcs7: should contain a #gnutls_pkcs7_t type @tl: A list of trusted certificates

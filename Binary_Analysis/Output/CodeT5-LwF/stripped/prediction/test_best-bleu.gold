@@ -1,0 +1,534 @@
+0	Return a 32bit CRC of the contents of the buffer
+1	Pin an object header down for use during a sequence of message operations, which prevents the object header from being evicted from the cache
+2	Touch an object by setting the modification time to the current time and marking the object as dirty
+3	Initialize an NPEG1 board (XXX not working)
+4	Initialize an NPE400 board
+5	extra item for NULL pointer at end of queue
+6	Create a dummy console
+7	Delete a PCI bus
+8	Rotate a vector v by the euler angles defined by the 3vector delta
+9	Calculate and fill in IPv4 checksum
+10	Got incoming message (UDP datagram), i
+11	Read packed array of bytes of at most "max" bytes
+12	Refresh the source datasets
+13	tune map smoothing via this value
+14	modifies streambuf so that written data are prepared for reading
+15	Push work onto the stack to be consumed by a thread
+16	Inflate data into supplied buffer
+17	Generate a random number in the range 0 to 2^641, inclusive, working from a given state vector
+18	Add records from first table to second table
+19	Delete records from middle of table ("pulling up" all the records after it)
+20	Copy string vector array by allocating items from a supplied memory buffer and filling given destination vector with pointers
+21	fill string with SUNDIALS version information
+22	sort_reduce Espresso strategy for ordering the cubes before reduction
+23	Returns the number of objects currently allocated
+24	Append a new message to an object header
+25	set I O arrays to zero
+26	Retrieves the amount of free space in the file
+27	Create a sky track for a satellite
+28	Remove a NM16ESW from the specified slot
+29	Convert native long double to native int using hardware
+30	Convert native float to native signed char using hardware
+31	Converts `signed char' to `unsigned int'
+32	Converts `int' to `short'
+33	Converts `unsigned int' to `unsigned short'
+34	Convert native long double to native short using hardware
+35	Convert native signed char to native long double using hardware
+36	Convert native long to native double using hardware
+37	Convert native float to native unsigned long using hardware
+38	Convert native float to native unsigned int using hardware
+39	Convert native short to native float using hardware
+40	Convert native unsigned char to native double using hardware
+41	Convert native long long to native float using hardware
+42	Convert native unsigned long to native float using hardware
+43	Convert native long double to native unsigned int using hardware
+44	Converts `int' to `unsigned short'
+45	Convert native float to native int using hardware
+46	Convert native double to native unsigned long using hardware
+47	Convert native signed char to native float using hardware
+48	Convert native integer to native double using hardware
+49	Converts `short' to `unsigned int'
+50	Convert native long long to native double using hardware
+51	Converts `short' to `unsigned char'
+52	Convert native unsigned integer to native long double using hardware
+53	Convert native signed char to native double using hardware
+54	Convert native double to native unsigned char using hardware
+55	Converts `int' to `signed char'
+56	Convert native long double to native unsigned short using hardware
+57	Convert native short to native long double using hardware
+58	Convert native long double to native long using hardware
+59	Convert native double to native int using hardware
+60	Convert native unsigned char to native long double using hardware
+61	Convert native unsigned integer to native float using hardware
+62	Convert native unsigned long long to native double using hardware
+63	Converts `unsigned long long' to `unsigned int'
+64	Convert native unsigned integer to native double using hardware
+65	Convert native unsigned char to native float using hardware
+66	Convert native float to native unsigned char using hardware
+67	Convert native short to native double using hardware
+68	Convert native unsigned long long to native float using hardware
+69	Convert native double to native short using hardware
+70	Convert native long double to native unsigned long using hardware
+71	Convert native float to native unsigned long long using hardware
+72	Convert native unsigned long to native double using hardware
+73	Convert native long double to native signed char using hardware
+74	Convert native long double to native unsigned char using hardware
+75	Convert native unsigned short to native long double using hardware
+76	Convert native long to native float using hardware
+77	Convert native integer to native long double using hardware
+78	Convert native unsigned long to native long double using hardware
+79	Converts `signed char' to `unsigned char'
+80	Convert native unsigned short to native double using hardware
+81	Converts `short' to `signed char'
+82	Convert native integer to native float using hardware
+83	Convert native float to native unsigned short using hardware
+84	Converts `signed char' to `unsigned short'
+85	Convert native unsigned short to native float using hardware
+86	Convert native double to native unsigned short using hardware
+87	Sorts members of a compound or enumeration datatype by their names
+88	Given a pointer to a cache, an entry type, an index, and a new size, set the size of the target entry to the new size
+89	Do nothing if pass is FALSE on entry
+90	Given a pointer to a cache, an entry type, and an index, determine if the entry is currently in the cache
+91	Move the entry indicated by the type and index to its main or alternate address as indicated
+92	Do a read only protect the entry indicated by the type and index
+93	Calls the list callback for each leaf node of the Btree, passing it the UDATA structure
+94	sprintf format with buffer overflow checking
+95	sprintf formatting, returning a dynamically allocated string
+96	Iterate over attributes for an object
+97	Increment the number of executed instructions (performance debugging)
+98	Traverse set, invoking callback for each entry
+99	Traverse set, invoking callback for each entry and removing it when the callback function returns TRUE
+100	Release table containing a list of attributes for an object
+101	Create a new empty switch list
+102	If status is nonzero, then force all doubleprecision floatingpoint values to single precision
+103	COPY FUNCTIONS FOR GENERIC PMIX TYPES
+104	charlen is in characters see also Jim_NewStringObj()
+105	Set the current line number
+106	Set the input stream
+107	Is the IP of the host among the set of addresses?
+108	step hook: the main functionality of the block is here
+109	This graph API finds a vertex in the graph according the vertex data
+110	Finds the HDF5 superblock signature in a file
+111	Copy a memory block from VM physical RAM to real host
+112	Copy a memory block to VM physical RAM from real host
+113	find sequence of bytes in VM cacheable physical memory interval [first,last]
+114	Play the script for the given time
+115	preconditioner setup nothing to do here since everything is already stored
+116	Called when we parsed successfully a query hit packet
+117	This is only applicable when only single thread consume only
+118	This is only applicable when only single thread consume only
+119	Erase and delete curses window, and refresh standard windows
+120	Create a new GtkSkyGlance widget
+121	Insert a new member having a NAME and VALUE into an enumeration data TYPE
+122	Finds the value that corresponds to the specified NAME f an enumeration TYPE
+123	Finds the symbol name that corresponds to the specified VALUE of an enumeration data type TYPE
+124	Create and run GtkSatModule popup menu
+125	function makes a new communicator to which topology information has been attached
+126	FLASH (special var header: size, id, flag, offset, page)
+127	Request to send (std var header: NUL padded, fixed length)
+128	`dst' serves both as source and destination
+129	Remove key from the PATRICIA tree
+130	PT1 Low Pass filter
+131	Computes a biquadFilter_t filter on a sample (slightly less precise than df2 but works in dynamic mode)
+132	Slew filter with limit
+133	Convert a string containing an IP address in binary
+134	Splash Screen Initialization Function
+135	Set new Splash Screen Text
+136	Validate an "old style" group with 'nlinks' soft hard links in it
+137	Create a contiguous dataset w variablelength datatype
+138	Are we running in the crashing thread?
+139	delvar delete variables from A, minimize the number of column shifts
+140	This function is only here to avoid crash in the test:
+141	Explicitly initialize a condition
+142	Map a token list to an array
+143	Free memory used by a parser context
+144	Open logging to file
+145	Record the small thread ID of the main thread
+146	Iterate over all the threads and invoke the supplied callback on each nonNULL instance of the key within the thread
+147	Set the name of the current thread
+148	Upon reception of a kernel signal, check whether we were in a system call
+149	Block execution of current thread until a thread_unblock() is posted to it or until the timeout expires
+150	Check whether current thread already holds a lock
+151	Check whether current thread has pending signals
+152	Delete a key used for threadlocal storage
+153	Block all signals, for entering a critical section
+154	Initializes the global dataset infomration arrays
+155	for matrayser race: shuffle materials per item class Amy
+156	RBW 11 13 1998 2 new fields to init stacking order chain
+157	Unconfigure an ATM bridge
+158	Get amount of received packets [config interface]
+159	Add a port forwarding (:ext_port > addr:port) [IP or PPP connection]
+160	Get a new object
+161	Return obj to the pool
+162	Build a new list of all matching elements for key, given one matching result
+163	Note: if returning an error, err_buf must be valid if nonNULL
+164	tifiles_build_filename: @model: a calculator model
+165	This inserts a node into the tree based on the passed values
+166	Check the given IP against the entries in the whitelist
+167	EdgeLeaveCommand binds a function to a pan frame Leave event
+168	Handle an ATM cell
+169	Map all TLB entries into the MTS
+170	Shutdown the JIT structures of a CPU
+171	Bind a CPU to a TSG If the group isn't specified, create one
+172	Remove all TC descriptors belonging to a single CPU (ie not shared)
+173	Try to find a TC descriptor to share generated code
+174	Call a function for each FD having incoming data
+175	default routine, can be overridden by user
+176	Create a pbar window
+177	Destroy a pbar window
+178	Reads data of type @c data_type by userdefined dimensions for 2D
+179	Reads data of type @c data_type by userdefined dimensions
+180	Check if the given id is valid
+181	Convert a message name to a type
+182	Parse data until the end of the document, building an XML tree
+183	Parse data with callbacks on element start end and element data, until the end of the document
+184	Set global tokens to be used for element parsing
+185	Sets fatal user error (from callbacks)
+186	Launch a "bucket refresh" lookup
+187	Delete the RC file
+188	Figure out which of many blit routines to set up on a surface
+189	The same but for a complete string
+190	debug capture file STRING
+191	extract LAP from FHS payload
+192	Copy data (symbols) into packet and set rx data
+193	extract UAP from FHS payload
+194	extract NAP from FHS payload
+195	HV packet type payload parser
+196	decode the packet header
+197	extract clock from FHS payload
+198	Generate Sync Word from an LAP
+199	Looks for an AC in the stream
+200	Matching a specific LAP
+201	Hidden debug function, to force external dictionary mode
+202	Obsolete streaming decompression functions
+203	Create a DB map implemented as a SDBM database
+204	Scan for USB devices only (fast, returns the first device found)
+205	Emit vector of IP:port addresses for "IPP"
+206	Check if any enabled elements or stats need the ACC
+207	ubx_port_add a port to a block instance and resolve types
+208	ubx_type_unregister unregister type with node Should we add use count handling and only succeed unloading when not used?
+209	ubx_block_create create a new block @ni node info @block_type type of block to create
+210	ubx_type_register register a type with a node
+211	ubx_block_free free all memory related to a block The block should have been previously unregistered
+212	ubx_block_unregister unregister a block and free its memory
+213	Invalidate the MTS caches (instruction and data)
+214	Restart the memory subsystem
+215	Transparently read in PKCS#3 or X9
+216	get object from table; "path" is the key
+217	add a compression f option to the option list
+218	Initialize curses colors to colors used by NetHack
+219	Create the "main" nonvolitile windows used by nethack
+220	Create a new GtkAzelPlot widget
+221	Enable a Network IO descriptor for the specified slot
+222	Disable Network IO descriptor for the specified slot
+223	Only read the gyro temp every 3 seconds
+224	Function for loop trigger
+225	send a control message as part of a fragment
+226	kept this to deal with nonconst qualified API
+227	Traverse table, invoking callback for each entry
+228	Traverse table, invoking callback for each entry and removing it when the callback function returns TRUE
+229	Duplicates a string, including memory allocation
+230	Resets the SHFlagsEncountered counters
+231	Temporary Init Functions (will refactor to the TELEX soon)
+232	Check if there are pending IRQ
+233	Write float value in the integer form
+234	Initialize the JIT structure
+235	return 0 for OK
+236	32 bytes client nonce with 4 bytes tm, 8 bytes orbit
+237	base on rfc 5869 with sha256, prk is 32 bytes
+238	type 0 DER, 1: PEM
+239	Destructively iterate over survey results
+240	Check for existing piconets in survey results
+241	dropin replacement for perm5() using lookup table
+242	do all the precalculation that can be done before knowing the address
+243	Compute keypoints and descriptors
+244	should make sure the input table exists and is available
+245	should make sure the input table exists and is available
+246	free modules in the deathrow
+247	NOTE: you should be passsing 1, not 0 as lastpos
+248	must be equal to ftell
+249	This function gets called during a group iterate operation
+250	from IEEE802154E: reading the schedule and updating statistics
+251	Produce content octets from a structure
+252	index is one origin, zero unknown power level
+253	band and channel are 1 origin
+254	on 1, off 0
+255	Try to upgrade a read lock into a write lock
+256	Grab a write lock
+257	To send deadline hopbyhop info to upper layers
+258	send from bridge: 6LoWPAN header already added by OpenLBR, send as is
+259	Polymorphic traversal, invoking callback for each key
+260	IRC_WHO Handler for the IRC "WHOIS" command
+261	IRC_LUSERS Handler for the IRC command "SERVLIST"
+262	IRC_ISON Handler for the IRC "LINKS" command
+263	IRC_USERHOST Handler for the IRC command "USERS"
+264	IRC_STATS Handler for the IRC command "SUMMON"
+265	IRC_VERSION Handler for the IRC "WHO" command
+266	Clear the MAC address table
+267	Send a QHT RESET to node
+268	Send a QHT RESET to node
+269	Euler Half Edge methods
+270	returns the size of the component that vertex v is in
+271	Convert a 32bit value from host order to little endian
+272	Convert a 64bit value from network to host byteorder
+273	Convert a 32bit value from little endian to host order
+274	Convert a 16bit value from little endian to host order
+275	These routes are working on both littleendian and bigendian platforms
+276	!EMULATE_SEM Allocate a new userlevel semaphore to be used in this process only
+277	Set the range of the control widget
+278	Update the IRQ flag
+279	drop labels that are inside discarded sections
+280	Generate a base64 encoded string from an SPKI
+281	Load a Netscape SPKI from a base64 encoded string
+282	Print the data values from a dataset referenced by region blocks
+283	Render an element to output STREAM
+284	Beta is 1 4
+285	cube_is_covered determine if a cubelist "covers" a single cube
+286	IGMP protocol used for multicasting
+287	Add or edit a radio configuration
+288	Creates a new browse host context
+289	pattern getters and setters
+290	functions to access ScreenFocus, LastScreenFocus and PreviousFocus
+291	Read TLE data for a given satellite into memory
+292	Remove a NIO from the listener list
+293	RX Listener General Thread
+294	Get NETIO type given a description
+295	call hiscore_close when done playing game
+296	simulate button release event of 5 key osd cable
+297	simulate button press event of 5 key osd cable with special button
+298	Prints information about a dataspace selection by appending the information to the specified string
+299	Prints information about a dataspace selection by appending the information to the specified string
+300	Set an internal sentinel stating whether or not real data should be forced to single precision before being returned
+301	Given a mount point, dissassociate the mount point's file from the file mounted there
+302	Mount file CHILD_ID onto the group specified by LOC_ID and NAME using mount properties PLIST_ID
+303	display a list of discovered artifacts; return their count
+304	Parse the value of the "XNalt" header to extract bad sources for a given SHA1 key, given in the new compact form
+305	This is called when swarming is first requested to get a list of all the servers with the requested file known by dmesh
+306	default routine, can be overridden by user
+307	Create and set tooltips for GtkComboBox
+308	Update Time controller widgets
+309	Create a new zone able to hold items of 'size' bytes
+310	match smaller memory size up to bigger memory size
+311	Print name of datatype
+312	Rename an entry in the registry
+313	Print the nullterminated string 's' to the blackbox device and return the number of bytes written
+314	Create a new GtkSatSelector widget
+315	Insert a new symbol into a table
+316	complement compute the complement of T
+317	PUBSUB command for Pub Sub introspection
+318	Sets the structure field to the given variable
+319	Add a new filter
+320	Extract an ASN1 object from an ASN1_STRING
+321	ASN1_ITEM versions of the above
+322	Initiate a SOAP remote procedure call
+323	cb_sharp form the sharp product between a cube and a cover
+324	dsharp form the disjointsharp product between two cubes
+325	cb1_dsharp disjointsharp product between a cover and a cube
+326	save 500 cubes before containment
+327	sharp form the sharp product between two cubes
+328	cb_dsharp disjointsharp product between a cube and a cover
+329	MULTI PASS Show details about a satellite pass
+330	Write value to the database file, possibly caching it and deferring write
+331	Store DBMW map to disk in an SDBM database, at the specified base
+332	Traverse table, invoking callback for each entry and removing it when the callback function returns TRUE
+333	Traverse table, invoking callback for each entry
+334	Sets the bit offset of the first significant bit
+335	Delete an object instance
+336	Define Dimension Scale DSID to be associated with dimension IDX of Dataset DID
+337	Report if dimension scale DSID is currently attached to dimension IDX of dataset DID by checking if DID has a pointer in the REFERENCE_LIST attribute and DSID (scale ) has a pointer in the DIMENSION_LIST attribute
+338	Converts speed based on the current unit system
+339	Converts altitude based on the current unit system
+340	Determine if any active elements need the ACC
+341	Fill supplied value vector with all the DHT values we have under the key
+342	Remove value from a key, discarding the association between the creator ID and the 64bit DB key
+343	Return the total progress of a download
+344	Return the total progress of a download source
+345	Send files passed on the command line in nogui mode
+346	Buf must be at least FORMATTED_DATE_TIME_BUFSIZE
+347	Bind a NIO to GT96100 Ethernet device
+348	This is an internal function
+349	GQUIC's BLOCKED frame does not have an offset
+350	These are IETF QUIC states
+351	These are IETF QUIC states
+352	Create a new LIOP object instance
+353	default routine, can be overridden by user
+354	Initializes the row writing capability of libpng
+355	Write a sPLT chunk
+356	Put some buttons of the toolbar as sensitive according to some options
+357	Create a new GtkEventList widget
+358	Print some values from a dataset referenced by region blocks
+359	Print some values from a dataset referenced by region points
+360	ReInstall the active colormap
+361	Retrieve the direct block information for a single section
+362	Copy a subset of the data to a buffer
+363	read 16 bits(2 bytes) time, unit: us
+364	the reason is buf + reason_offset, length is reason_length
+365	Parse out packet number
+366	choose a priority value for a node after moving it to the root
+367	The node with the minimum key is stored as the leftmost leaf
+368	same as splitAfter, but returns the left subtree
+369	compares two nodes without using their keys
+370	Returns true of the given tree contains the given node
+371	Finds the closest node to the given key using a binary search
+372	Utility routine to compute all additional words, as an alias expansion
+373	Rerender the header window to reflect active module
+374	Iterate over the list of agents
+375	from upper layer that want to send the ASN to compute timing or latency
+376	This routine must be called once all the files have been added to finalize the computation of the new QRP
+377	Create and initialise location selector
+378	XXX this function uses static buffer
+379	Delete a HOG object
+380	Create a new HOG object
+381	reduce_cube find the maximal reduction of a cube
+382	cost compute the cost of a cover
+383	Called when we add a firewalled source to the dmesh
+384	clean up and quit taken from tty port
+385	Notification that we got matches for a query from some node that needs to be replied to using outofband delivery
+386	Private version of H5FDflush()
+387	Encode driverspecific data into the output arguments
+388	Wait for mixer events
+389	Gets the value of a control
+390	Closes a mixer returned by @ref mixer_open
+391	Gets the number of mixer controls, that go by a specified name, for a given mixer
+392	Updates the control's info
+393	Sets the value of a control, specified by the value index
+394	Set an enumeration value by string value
+395	Some controls may not be present at boot time, e
+396	Gets an instance of mixer control handle, by the mixer control's name and index
+397	Gets the value type of the control
+398	Gets the first instance of mixer control handle, by the mixer control's name
+399	Checks the control for TLV Read Write access
+400	Subscribes for the mixer events
+401	Gets the string representation of an enumerated item
+402	Opens a mixer for a given card
+403	Initialize a PowerPC processor
+404	0xDD00: end of transmission (send)
+405	0x0009: request directory listing
+406	0x0002: begin OS transfer
+407	0x0001: set mode or ping
+408	0x0003: acknowledgement of OS transfer
+409	0x0008 (variant): screenshot data (for TI84 Plus C support)
+410	fork process and create socketpair to stdin, stdout, stderr for data writing and reading
+411	calculates strength of horizon leveling; 0 none, 1
+412	Unbind a NIO from an Intel i8255x device
+413	Store the last item that was added with '+'
+414	Create a new pool
+415	Free specified memory pool
+416	Adds XQueued status in the HTTP reply header for a queued upload
+417	save 500 cubes before containment
+418	Add randomness to the rand31 PRNG state
+419	1 to not allocate array data in speed()
+420	Parse the "XGnutellaAlternateLocation" header if present to learn about other sources for this file
+421	Insert item in the thread event queue of the targeted thread
+422	Flush (and possibly destroy) the entries contained in the specified cache
+423	Build KDTree from data
+424	Set the module totals to calculate percentages
+425	Like str_foreign(), but string structure has not been initialized yet and is a static buffer
+426	Get the nth item in the list (0based index)
+427	determine if the R P Y stick deflection exceeds the specified limit integer math is good enough here
+428	@internal Allocates and creates the marginal distribution Pc
+429	primes_consensus generate primes using consensus
+430	Unlink an element from the hashmap table
+431	This function registers new filter
+432	return 0 found, 1 not found
+433	return 0 for OK
+434	Reads a slab of data from the mat variable @c matvar
+435	Reads a subset of a MAT variable using a 1D indexing
+436	sf_join join A and B into a single set_family
+437	sf_count perform a column sum over a set family
+438	set_fill make "r" the universal set of "size" elements
+439	sf_new allocate "num" sets of "size" elements each
+440	set_clear make "r" the empty set of "size" elements
+441	sf_addset add a set to the end of a set family
+442	sf_or form the "or" of all sets in a set family
+443	sf_append append the sets of B to the end of A, and dispose of B
+444	sf_save create a duplicate copy of a set family
+445	sf_and form the "and" of all sets in a set family
+446	Notify metadata cache that a chunk has been deleted
+447	Fill the supplied shared_file vector, holding sfcount entries, with the most recent shared files we have in the library matching the supplied media_mask (if nonzero) and which are less than SHARE_RECENT_THRESH seconds old
+448	default routine, can be overridden by user
+449	Release all the objects in queue
+450	Unsubscribe any notification subscribers this module has upon unloading
+451	Deletes a GMM object
+452	Set KMeans initialization object
+453	Initialize JIT op pools for the specified CPU
+454	Free memory used by pools
+455	Free a list of JIT ops
+456	libyywrap flex runtime support library "yywrap" function
+457	ticalcs_calc_recv_var_ns: @handle: a previously allocated handle @mode: @content: where to store variables
+458	ticalcs_calc_get_dirlist: @handle: a previously allocated handle
+459	ticalcs_calc_execute: @handle: a previously allocated handle
+460	Free whole tree, discarding each node with the supplied free routine
+461	CGI_free_varlist() frees all memory used by variable list "v"
+462	Build a QHT PATCH message
+463	default routine, can be overridden by user
+464	Creation Destruction Garbage Collecting of packets
+465	Invoke callback on each notified waiter in the master waiter
+466	Iterate on the whole database, applying supplied callback on each item
+467	Flush the metadata accumulator to the file
+468	default routine, can be overridden by user
+469	Returns |trav|'s current item
+470	Initializes |trav| to have the same current node as |src|
+471	sf_ind_unlist make a set family out of a list of pointers to sets
+472	sf_sort sort the sets of A
+473	sf_merge merge three sorted lists of set pointers
+474	sf_list make a list of pointers to the sets in a set family
+475	d1_rm_equal distance1 merge (merge cubes which are equal under a mask)
+476	rm2_equal check two sorted arrays of set pointers for equal cubes
+477	sf_unlist make a set family out of a list of pointers to sets
+478	Call a conversion function to convert from source to destination data type and accumulate timing statistics
+479	Sets the total size in bytes for a datatype (this operation is not permitted on reference datatypes)
+480	Refreshes all buffers associated with a named datatype
+481	Generate a random number in the range 0 to 2^321, inclusive, working from a given state vector
+482	Generate a random number in the range 0 to 2^641, inclusive, working from a given state vector
+483	beamer trap ignores magic resistance Amy
+484	We only support signed data, so these getters are noops
+485	Find specified DHT value
+486	Store values on remote node
+487	Fix a knode inplace by changing its IP:port if we know that its KUID maps to a different value from the RPC recent info or from the routing table
+488	Deletes a KMeans object
+489	Extract the orientation(s) for the stored features
+490	Extract the affine shape for the stored features
+491	sf_equal: Check equality of two set families
+492	s_totals : add time spent in the function and update call count
+493	Like h_strjoinv() but the length of the separator is given, meaning it can contain embedded NUL characters and does not require to be NULterminated
+494	Private function return the number of opened object IDs (files, datasets, groups, datatypes) in the same file
+495	tifiles_content_del_entry: @content: a file content (single group only)
+496	tifiles_content_add_entry: @content: a file content (single group only)
+497	Add or edit a rotor configuration
+498	Move the mouse to a specific point
+499	Special function for sending double clicks, needed for Mac OS X
+500	Press down a button, or release it
+501	Gets the format of the PCM
+502	Gets the rate of the PCM
+503	Gets the file descriptor of the PCM
+504	Set the system id or processor board id in the eeprom
+505	Notification that a message was received that could be the answer to a pending RPC
+506	Receive processdata from slaves
+507	Get SM data from SII SM section in slave EEPROM
+508	Traverse table, invoking callback for each entry and removing it when the callback function returns TRUE
+509	Traverse table, invoking callback for each entry
+510	Generate a random number in the range 0 to 2^641, inclusive, working from a given state vector
+511	default routine, can be overridden by user
+512	Map all PDOs in one group of slaves to IOmap with Outputs Inputs in sequential order (legacy SOEM way)
+513	Map all PDOs from slaves to IOmap with Outputs Inputs in sequential order (legacy SOEM way)
+514	Map all PDOs in one group of slaves to IOmap with Outputs Inputs overlapping
+515	Map all PDOs from slaves to IOmap with Outputs Inputs overlapping
+516	1 button: Close (nonmodal)
+517	1 button: Close (modal)
+518	Determine if focus should be left to the pointer
+519	Try to set window region based on supplied coordinates or window center
+520	Redraws a region bar; need to follow with xcb_flush() or focus_flush()
+521	Sorts transients after parent
+522	Transfer focused window to regionrelative workspace and focus
+523	Peeks at next event to detect autorepeat
+524	Fillin given file_path_t array to be able to load a given file
+525	Cancel GUESS query, nullifying its pointer
+526	Write a string to the message window
+527	Rename files which are in local
+528	Add a file to the file_selection (if it does not exist in the list)
+529	Check for files in the list
+530	Gets calendar time from time() and produces a UTC calendar date
+531	Verify the node address when we get a conflicting one
+532	Fill the supplied vector `hvec' whose size is `hcnt' with the addr:port of random hosts in the routing table
+533	Fill the supplied vector `kvec' whose size is `kcnt' with the knodes that are the closest neighbours in the Kademlia space from a given KUID

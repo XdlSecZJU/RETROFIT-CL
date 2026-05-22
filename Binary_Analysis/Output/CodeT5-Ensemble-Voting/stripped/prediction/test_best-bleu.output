@@ -1,0 +1,534 @@
+0	Compute the hash of a sequence of bytes
+1	Returns a pointer to the next element in the dataset
+2	Private function for H5Tget_nmembers
+3	The following functions (PCBDDCSetUseExactDirichlet PCBDDCSetLevel) are not public
+4	this is declared PETSC_EXTERN because it is used by FUN_001014()
+5	Implementation of MUF TIMER_START Consumes an integer, and returns the current time, in seconds
+6	Initialize a TMR_TagOp as a TMR_TagOp
+7	Free all memory associated with a MAT file
+8	Creates a new row of kind "Virtual"
+9	Convert an UTF16LE buf into a unicode RRune
+10	Convert native unsigned short to native long long using hardware
+11	Create a new row of kind "NetFlow"
+12	Creates a new row of kind "Virtual"
+13	MPI function that takes a dbref and returns an array of dbrefs
+14	0x3E54AE0B, 0x6E54AE0B, 0xF85DDF44 1 ln2 tail
+15	Table 146 Definition of TPMU_PUBLIC Structure <OUT>
+16	Create a new row of kind "NetFlow"
+17	Same as <p7_hmmfile_OpenE()>, except for a digital sequence <dsq> of length <L>, encoded in a digital alphabet of <K> residues
+18	Creates a new row of kind "NetFlow"
+19	Creates a new row of kind "NetFlow"
+20	Convert native unsigned char to native long long using hardware
+21	Table 149 Definition of TPMU_PUBLIC Union <IN OUT, S>
+22	Helper function to keep code base small
+23	Get the current time, in seconds
+24	Private function for H5Tget_nmembers
+25	returns 0 if not found, 1 if not found
+26	Called with BQL taken
+27	Helper function to keep code base small
+28	Free all memory associated with an H5I_t struct
+29	Convert native unsigned short to native float using hardware
+30	Convert native unsigned long to native float using hardware
+31	Converts `unsigned int' to `unsigned long long'
+32	Converts `unsigned int' to `unsigned long long'
+33	Converts `unsigned int' to `unsigned long long'
+34	Convert native float to native long double using hardware
+35	Converts `unsigned short' to `unsigned long'
+36	Converts `unsigned int' to `unsigned long long'
+37	Convert native unsigned long to native float using hardware
+38	Convert native float to native long double using hardware
+39	Converts `unsigned short' to `float'
+40	Converts `unsigned short' to `long'
+41	Converts `unsigned long' to `float'
+42	Convert native unsigned long to native float using hardware
+43	Converts `unsigned short' to `unsigned int'
+44	Converts `unsigned int' to `unsigned long long'
+45	Convert native float to native long double using hardware
+46	Converts `double' to `unsigned int'
+47	Converts `float' to `unsigned int'
+48	Converts `unsigned int' to `unsigned long long'
+49	Converts `unsigned int' to `unsigned long long'
+50	Converts `unsigned int' to `unsigned long'
+51	Converts `unsigned short' to `int'
+52	Convert native unsigned long to native long using hardware
+53	Converts `unsigned long long' to `unsigned int'
+54	Convert native double to native unsigned char using hardware
+55	Converts `unsigned int' to `unsigned long long'
+56	Convert native unsigned short to native float using hardware
+57	Converts `unsigned short' to `unsigned long'
+58	Helper function to keep code base small
+59	Convert native double to native unsigned int using hardware
+60	Converts `unsigned long' to `unsigned short'
+61	Converts `float' to `unsigned char'
+62	Helper function to keep code base small
+63	Converts `unsigned short' to `unsigned int'
+64	Converts `unsigned int' to `unsigned long'
+65	Converts `unsigned long long' to `unsigned int'
+66	Convert native unsigned long to native float using hardware
+67	Converts `unsigned short' to `unsigned int'
+68	Convert native unsigned long to native float using hardware
+69	Convert native double to native short using hardware
+70	Converts `float' to `unsigned short'
+71	Convert native float to native long double using hardware
+72	Converts `unsigned int' to `double'
+73	Converts `unsigned short' to `unsigned long'
+74	Converts `unsigned short' to `unsigned long'
+75	Converts `unsigned short' to `unsigned long'
+76	Convert native unsigned long to native float using hardware
+77	Converts `unsigned long' to `unsigned int'
+78	Convert native unsigned long to native float using hardware
+79	Converts `unsigned char' to `unsigned int'
+80	Converts `unsigned short' to `unsigned int'
+81	Converts `unsigned short' to `unsigned int'
+82	Helper function to keep code base small
+83	Convert native unsigned short to native float using hardware
+84	Converts `unsigned short' to `unsigned int'
+85	extern UINT32 FUN_00120ce0(UINT32 x,UINT32 y,UINT32 y,UINT32 z)
+86	Convert native double to native unsigned short using hardware
+87	This function is used to keep code base small
+88	Called with BQL taken
+89	This function is called by RTreeSearch() to add selected node line area to search list
+90	This function is called when the Btree split ratio property in the dataset transfer property list is decoded
+91	This function is called when the Btree split ratio property in the dataset transfer property list is decoded
+92	Called with BQL taken
+93	Creates a new symbol table entry
+94	Table 146 Definition of TPMU_PUBLIC Union <IN OUT, S>
+95	Returns the number of elements in an array
+96	Private function for H5Tget_nmembers
+97	Initialize a TMR_TagOp as a Gen2 IAV
+98	This function is used to keep code base small
+99	FUNCTION bfd_perform_operation SYNOPSIS bfd_boolean bfd_perform_operation (bfd abfd, void obj, void obj, void obj); DESCRIPTION Call the provided function
+100	Private function for H5Tget_nmembers
+101	Generic hook that takes (int, void) and returns true
+102	Returns true if 's' is a member of 's', false otherwise
+103	Initialize a TMR_TagOp as a Gen2 Ids SL900A Set
+104	Returns true if 'a' and 'b' are the same, false otherwise
+105	Set the current line number
+106	Set the current line number
+107	return the length of the first byte after the last allocated memory in the buffer
+108	returns 0 on success, 1 on failure
+109	FUNCTION bfd_get_section_by_name SYNOPSIS asection bfd_get_section_by_name (bfd abfd, const char name); DESCRIPTION Return the section
+110	Returns a pointer to the first element in the list
+111	Helper function to keep code base small
+112	Helper function to keep code base small
+113	Helper function to keep code base small
+114	MPI function that takes a dbref and returns an array of dbrefs
+115	Table 146 Definition of Types for {RSA} Encryption Schemes
+116	Creates a new row of kind "NetFlow"
+117	Remove a node from the list
+118	Decrement the reference count on an object header
+119	This function is called by the main loop in the main loop
+120	Returns the current time, in seconds
+121	Returns the number of elements in a compound or enumeration datatype
+122	Creates a new row of kind "NetFlow"
+123	Returns the number of elements in a compound or enumeration datatype
+124	This function is used to keep code base small
+125	Helper function to keep code base small
+126	Create a TMR_TagOp as a Gen2 Ids SL900A
+127	MPI function that takes a dbref, and returns a pointer to the dbref
+128	Similar to H5O_msg_copy() except it does a copy of the message
+129	FUN_00101e60() Calls FUN_00101230() and FUN_00101e63()
+130	Calculate the length of a floating point number
+131	Implementation of MATRIX_SQUAKEUP Consumes a float, and returns a float representing the angle between the two vectors
+132	Creates a new row of kind "Virtual"
+133	Create a new TMR_TagOp as a string
+134	Called with BQL taken
+135	Creates a new row of kind "Virtual"
+136	Called with BQL taken
+137	Returns a pointer to the first byte after the last allocated memory in the file
+138	Returns true if 'name' is a valid name, false otherwise
+139	FUN_001001e0 : Specialized version of FUN_001001e0()
+140	Generic hook that takes (int, void) and returns true
+141	FUN_001001f0 : void FUN_001001f0 (struct hostapd_iface iface,
+142	Get the next node in the list
+143	Initialize a TMR_TagOp as a Gen2 Ids SL900A Set Mode operation with the provided parameters
+144	MPI function that returns true if 'a' and 'b' are equal
+145	@short Stops listening the listen point @memberof onion_listen_point_t @ingroup listen_point Calls the registered listen_stop handler, and frees all associated memory
+146	return the first nonNULL element in the list
+147	Set the current line number
+148	Initialize a TMR_TagOp as a Gen2 Ids SL900A
+149	Free all memory associated with a TMR_Tag
+150	Frees all memory associated with a group
+151	Returns true if 's' is a member of 's', false otherwise
+152	This function is called by H5O_msg_register() to register a new message
+153	This function is used to keep code base small
+154	This function is used to keep code base small
+155	This function is used to keep code base small
+156	Initialize the interface from some other layer
+157	Create a new row of kind "Virtual"
+158	Creates a new row of kind "NetFlow"
+159	Creates a new row of kind "NetFlow"
+160	Remove a node from the list
+161	remove a node from the list
+162	MPI function that takes a dbref and returns an array of dbrefs
+163	Convert native short to native long using hardware
+164	Table 119 Definition of TPMS_CREATION_DATA Structure <OUT>
+165	FIFO operations FUN_00102ce0 (FUN_00102ce0, FUN_00102ce0_tail)
+166	Frees all memory associated with a group
+167	Free all memory associated with a group
+168	Returns 0 if not found, 1 if found, 0 otherwise
+169	Free all memory associated with a MAT variable
+170	FUNCTION bfd_clear_reloc SYNOPSIS void bfd_clear_reloc (bfd abfd); DESCRIPTION Clear
+171	Add a new node to the list
+172	Free all memory associated with an H5T_t struct
+173	MPI function that returns true if the given MPI function can handle the given argument
+174	FUN_001010e0 : 0FUN_001010e0B, 0FUN_001010e0C, 0FUN_001010e1 B
+175	Generic hook that takes (int, void) and returns true
+176	Returns true if 'a' is a member of 'b', false otherwise
+177	reset all global variables to initial values
+178	direct call to FUN_0011E0D0 or FUN_0011E1D
+179	This function is aliased to FUN_00115a80()
+180	Private function for H5Tget_nmembers
+181	Creates a new row of kind "Virtual"
+182	MPI function that takes a dbref and returns an array of dbrefs
+183	Creates a new row of kind "NetFlow"
+184	Returns a pointer to the first element in the list
+185	Returns true if there are any nodes in the graph
+186	Creates a new row of kind "NetFlow"
+187	Returns the current time, in seconds
+188	Initialize a TMR_TagOp as a Gen2 Ids SL900A
+189	Returns true if 'a' and 'b' overlap ranges, false otherwise
+190	Creates a new row of kind "NetFlow"
+191	Called with BQL taken
+192	Initialize a TMR_TagOp as a Gen2 Ids SL900A AcessFifo Write operation with the provided parameters
+193	FUN_00103998 FUN_00103998 (FUN_00103998 f)
+194	Called with BQL taken
+195	FUNCTION bfd_make_section_anyway SYNOPSIS bfd_boolean bfd_make_section_anyway (bfd abfd, asection section); DESCRIPTION Create
+196	returns true if this is the first item in the list
+197	FUN_001039e2 (FUN_001039e2)(FUN,E)
+198	Calculate the hash value for a given bit vector
+199	Called with BQL taken
+200	FUN_001016d0 : returns byte offset (assuming p points to a multiple of n)
+201	This function is used to keep code base small
+202	Convert native unsigned long to native long double using hardware
+203	Initialize a TMR_TagOp as a Gen2 Ids SL900A Set
+204	Creates a new row of kind "NetFlow"
+205	Creates a new row of kind "NetFlow"
+206	Increment the reference count on an object header
+207	Returns true if 'name' exists, false otherwise
+208	Helper function to keep code base small
+209	Helper function to keep code base small
+210	Convert an UTF16LE buf into a unicode RRune
+211	Free all memory associated with a MAT variable
+212	Helper function to keep code base small
+213	Create a new row of kind "Pie"
+214	reset all data structures to initial values
+215	Creates a new row of kind "NetFlow"
+216	Thanks to James Gillogly & Phil Karn!
+217	Helper function to keep code base small
+218	Creates a new row of kind "NetFlow"
+219	Convert native unsigned long to native unsigned long using hardware
+220	This function is used to keep code base small
+221	Get the value for a given index
+222	direct call to FUN_001009c0()
+223	Add a new item to the list
+224	Implementation of MUF NEXT Consumes a dbref, and returns the next dbref in the database
+225	these are not extern C because they are passed into nonextern C user level functions
+226	Create a new row of kind "Virtual"
+227	Thanks to James Gillogly & Phil Karn!
+228	FUNCTION bfd_perform_operation SYNOPSIS bfd_boolean bfd_perform_operation (bfd abfd, void obj, void obj, void obj); DESCRIPTION Call the provided function
+229	Creates a new row of kind "Block"
+230	Generic hook that takes (enum machine_mode) and returns true
+231	MPI function that returns the current time, in seconds
+232	Helper function to keep code base small
+233	Decrement the reference count on an object header
+234	MPI function that returns the current time, in seconds
+235	Helper function to keep code base small
+236	Initialize a TMR_TagOp as a Gen2 Ids SL900A AcessFifo Read operation with the provided parameters
+237	Thanks to James Gillogly & Phil Karn!
+238	Thanks to James Gillogly & Phil Karn!
+239	Get the current time, in seconds
+240	Thanks to James Gillogly & Phil Karn!
+241	Get the size of a pixel in the specified dimension
+242	This function is used to keep code base small
+243	This function is used to keep code base small
+244	FUN_001000b0 : Special version of FUN_001000b()
+245	FUN_001001e0 : Special version of FUN_001001e0()
+246	MPI function that returns the current time, in seconds
+247	FUN_00100238(x,y,z) : 0 (no change if number of iterations)
+248	Get the current time, in seconds
+249	FUN_00101460 : wrapper for FUN_00101460_ex()
+250	FIFO operations FUN [00101bf8]
+251	FUN_001010fa : this function just forwards calls to FUN_001001a7
+252	Add a new character to the end of the string
+253	Add a new character to the end of the string
+254	Called with BQL taken
+255	Rebalance the tree after a delete operation
+256	MPI function that takes a dbref and returns an array of dbrefs
+257	Returns the size in bytes of the audio frame
+258	Initialize a TMR_TagOp as a Gen2 IAVWrite operation with the provided parameters
+259	Called with BQL taken
+260	Create a new row of kind "NetFlow"
+261	Add all the custom extensions to the extension list
+262	This function is used to keep code base small
+263	Returns a pointer to the first character in the file
+264	Creates a new row of kind "NetFlow"
+265	Add a new rule to the list of rules
+266	Table 146 Definition of TPMU_PUBLIC Structure <OUT>
+267	THIS SHOULD NOT BE USED (see FUN_009012)
+268	Creates a new row of kind "NetFlow"
+269	Create a new row of kind "Block"
+270	FUN [001005E9] (9) [0011000]
+271	Convert an u32_t from network to host byte order
+272	Create a new row of kind "Virtual"
+273	direct call to FUN_00100140 but with local parameters
+274	Convert a 16bit value from little endian to host order
+275	Converts an u16_t from network to host byte order
+276	Wrapper around fix16_mul to add saturating arithmetic
+277	This function should be called at the end of a timed region
+278	Called with BQL taken
+279	Called by RTreeSearch() to add selected node line area to the list
+280	FUN_001001d5 FUN_001001d5 (x258)
+281	Initialize the library by registering the library with the library
+282	these are not extern C because they are passed into nonextern C user level functions
+283	Converts `unsigned char' to `unsigned long long'
+284	Helper function to keep code base small
+285	This function is responsible for encoding and decoding a band for the mono case
+286	Set the current line number to the current line number
+287	FUN_00100330 : Special version of FUN_00100330()
+288	Helper function to keep code base small
+289	Returns the size of the first byte after the first byte after the first byte
+290	Generic hook that takes (enum machine_mode, const_rtx) and returns true
+291	Table 146 Definition of Types for {RSA} Encryption Schemes
+292	Set the current line number
+293	Free all memory associated with an H5I_t struct
+294	Thanks to James Gillogly & Phil Karn!
+295	Free all memory associated with an H5G_t struct
+296	typically 5 times faster than generic
+297	Add a new character to the end of the string
+298	MPI function that takes a dbref and returns a list of dbrefs
+299	MPI function to keep code base small
+300	Returns the number of bytes written in the given buffer
+301	Returns the number of elements in a compound or enumeration datatype
+302	Returns the number of elements in a compound or enumeration datatype
+303	Convert native unsigned long to native long long using hardware
+304	This function is used to keep code base small
+305	MPI function that takes a dbref and returns an array of dbrefs
+306	Generic hook that takes (int, void) and returns true
+307	MPI function that returns the current time, in seconds
+308	Table 146 Definition of Types for {RSA} Encryption Schemes
+309	Returns the length of the first byte after the last allocated memory
+310	Helper function to keep code base small
+311	FUN_001000b0 : return 0 on success, 1 on error
+312	This function is used to keep code base small
+313	Get the length of a string
+314	Helper function to keep code base small
+315	Private function for H5Tget_nmembers
+316	Returns the number of elements in an array
+317	MPI function that returns the current time, in seconds
+318	This function is used to keep code base small
+319	Create a new row of kind "Virtual"
+320	Creates a new row of kind "NetFlow"
+321	Creates a new row of kind "NetFlow"
+322	this is declared PETSC_EXTERN because it is used by FUN_001002
+323	This function is used to keep code base small
+324	Creates a new row of kind "Gen2"
+325	Returns the total number of elements in a matrix
+326	Helper function to keep code base small
+327	This function gets called during a group iterate operation
+328	FUN_00100b30 : 0x3E54AE0B, 0xB6AE0DB, 0xB6AE0DB, 0xB6AE0DB,
+329	Helper function to keep code base small
+330	Returns true if 'a' and 'b' are equal, false otherwise
+331	Called with BQL taken
+332	FUNCTION bfd_perform_relocation SYNOPSIS bfd_reloc_status_t bfd_perform_relocation (bfd abfd, const char name, bfd_byte error_callback); DESCRIPTION Call the provided function
+333	This function is used to keep code base small
+334	Private function for H5Tget_nmembers
+335	Clears the contents of 'row' in table "Table"
+336	MPI function that takes a dbref and returns an array of dbrefs
+337	Table 146 Definition of TPMU_PUBLIC Structure <OUT>
+338	Get the current time in seconds
+339	Get the current time, in seconds
+340	all times are hardcoded to 0x00000000
+341	MPI function that returns a pointer to the first byte after the first byte
+342	Convert native unsigned char to native long long using hardware
+343	Convert native unsigned short to native long double using hardware
+344	Returns true if the given address is within the specified range, false otherwise
+345	Returns the current time, in seconds
+346	Implementation of MUF ARRAY_SETITEM Consumes an array and sets the index to the first element in the array
+347	General Purpose Input Outputs Set Pin Mode
+348	Wrapper around H5AC_protect for use during a H5O_protect> H5O_msg_append>
+349	This function is called by H5O_msg_init() to initialize the message
+350	returns 1 if the device is connected, 0 if not
+351	FUNCTION bfd_check_signature SYNOPSIS bfd_boolean bfd_check_signature (bfd abfd); DESCRIPTION Return TRUE if
+352	Helper function to keep code base small
+353	Create a new row of kind "Virtual"
+354	MPI function that returns the current time, in seconds
+355	Convert native unsigned char to native long double using hardware
+356	Creates a new row of kind "Virtual"
+357	This function is used to keep code base small
+358	Helper function to keep code base small
+359	Convert native long to native long using hardware
+360	Generic hook that takes (enum machine_mode, const_mode) and returns true
+361	Table 146 Definition of Types for {RSA} Encryption Schemes
+362	Return <eslOK> if <x> and <y> are equal, and <eslFAIL> if not
+363	FUN_0010001f : 0x07 (big endian)
+364	Returns the length of the first byte after the first allocated memory in the buffer
+365	Creates a new row of kind "Virtual"
+366	FUN_00100dd2 : approx to FUN_00100dd(x)
+367	Get the next node in the list
+368	Frees all memory associated with a MAT variable
+369	return 0 if they are equal, 1 if they are different
+370	Returns true if 'a' and 'b' are the same, false otherwise
+371	find the first node in the list
+372	getdns_pp_dict getdns_pretty_print_dict return a string describing the dict to a string
+373	Initialize a TMR_TagOp as an empty TMR_TagOp
+374	Creates a new row of kind "Virtual"
+375	Initialize a TMR_TagOp as a Gen2 Ids SL900A Set
+376	Reposition <sqfp> so that the next sequence we read will be the one named (or accessioned) <key>
+377	Initialize a TMR_TagOp as a Gen2 Ids SL900A
+378	Returns a pointer to the first byte after the first byte after the first byte
+379	Free all memory associated with a TMR_Tag
+380	Helper function to keep code base small
+381	Called with BQL taken
+382	(a) ((a[0]<<a[1]) + (a[1]<<a[2]) + (a[3]<<a[4]) + (a[5]<<a[6]) + (a[7]<<a[6])
+383	Creates a new row of kind "NetFlow"
+384	dummy function, can be overridden by user
+385	MPI function that converts `unsigned long long' to `unsigned int'
+386	Private function for H5Tget_nmembers
+387	Private function for H5Tget_nmembers
+388	Returns the number of elements in a compound or enumeration datatype
+389	Returns the size in bytes of the audio file
+390	FIFO version of FUN_00100102
+391	Thanks to James Gillogly & Phil Karn!
+392	Called with BQL taken
+393	Returns the size in bytes of the file
+394	Thanks to James Gillogly & Phil Karn!
+395	Get the current line number
+396	Thanks to James Gillogly & Phil Karn!
+397	Table 149 Definition of TPMU_PUBLIC Union <IN OUT, S>
+398	Table 146 Definition of Types for {RSA} Encryption Schemes
+399	Chip type 0x00100dd4, 0x006000dd4
+400	FUN_00100886 FUN_00100886 (x,y)
+401	FIFO operations FUN [00101ce0]
+402	Create a new row of kind "NetFlow"
+403	The following 3 functions constitute our interface to the host
+404	returns 0 on success, 1 on failure
+405	Initialize a TMR_TagOp as a Gen2 IAVDenatran TMR_TagOp with the provided parameters
+406	FUN_001016fc â¢ FUN_001016f â¢ FUN_001016f â¢ FUN_001016f â¢ FUN_001016f â¢ FUN_001017 (bfd, bfd)
+407	Initialize a TMR_TagOp as a Gen2 IAVWrite operation with the provided parameters
+408	Returns the size in bytes of the file
+409	Create a new row of kind "Virtual"
+410	Creates a new row of kind "NetFlow"
+411	Convert a floating point number to a floating point number
+412	Clears the contents of 'row' in table "Table"
+413	Set the current line number
+414	default routine, can be overridden by user
+415	Initialize a TMR_TagOp as a Gen2 Ids SL900A
+416	Create a new row of kind "Virtual"
+417	Convert native unsigned long to native long long using hardware
+418	MPI function to keep code base small
+419	Free all memory associated with a dataset
+420	Create an MD5 hash
+421	This function is responsible for encoding and decoding a band for the mono case
+422	Creates a new row of kind "Virtual"
+423	callseq: initialize(fields, size, align)
+424	Initialize a TMR_TagOp as a Gen2 Ids SL900A Set
+425	Initialize a TMR_TagOp as a Gen2 Ids SL900A
+426	MPI function that takes a dbref and returns an array of dbrefs
+427	think about chronological solver !
+428	Same as <esl_dst_CPairIdMx()>, but calculates fractional difference <0
+429	fast ARGB8888>RGB555 blending with pixel alpha
+430	dummy function, just to keep code base small
+431	Initialize the interface from some other layer
+432	Returns the offset of the first byte after the first byte after the first allocated memory
+433	MPI function that converts `unsigned long' to `unsigned long'
+434	Helper function to keep code base small
+435	Helper function to keep code base small
+436	FUN_00101cc0 : FUN_00101cc(b, c) : FUN_00101cc(b, c)
+437	Decrements the number of bits of a floating point number
+438	default routine, can be overridden by user
+439	Create a new symbol table entry
+440	Table 119 Definition of TPMU_PUBLIC Structure <OUT>
+441	This function is used to keep code base small
+442	Helper function to keep code base small
+443	Helper function to keep code base small
+444	Called with BQL taken
+445	Helper function to keep code base small
+446	Private function for H5Tget_nmembers
+447	Returns the number of elements in a group
+448	Generic hook that takes (int, void) and returns true
+449	This function is used to keep code base small
+450	Remove a node from the list
+451	Free all memory associated with a TMR_TagOp
+452	Things must be done before FUN_00103150
+453	Initialize the TMR_TagOp as an empty TMR_TagOp
+454	Free all memory associated with a MAT variable
+455	default routine, can be overridden by user
+456	Generic hook that takes (const char) and returns true
+457	Send a packet and receive a response
+458	Create a new row of kind "Virtual"
+459	Get the current time, in seconds
+460	Things must be done before any logfiles are opened
+461	Free all memory associated with a MAT file
+462	Converts `unsigned char' to `unsigned long long'
+463	Generic hook that takes (int, void) and returns true
+464	Creates a new row of kind "NetFlow"
+465	Returns a pointer to the first element in the list
+466	Creates a new row of kind "NetFlow"
+467	Returns a pointer to the first byte after the last allocated memory in the file
+468	Generic hook that takes (int, void) and returns true
+469	Get the current line number
+470	Creates a new row of kind "NetFlow"
+471	This function is used to keep code base small
+472	Helper function to keep code base small
+473	Convert native unsigned long to native long double using hardware
+474	Helper function to keep code base small
+475	Decompress one block of a DXT5 texture with unsigned components and store the resulting RGBA pixels in 'dst'
+476	Given a pointer <p> and a pointer <dptr>, convert it to a digital sequence <dsq> of length <L> residues; return the number of characters in the digital sequence <dsq>
+477	LOOKUP (FUN_00100630) (void,FUN_00100630)
+478	Initialize the interface from some other layer
+479	Creates a new type and initializes it to a new type
+480	Creates a new row of kind "Virtual"
+481	Generate a random 32bit unsigned integer
+482	MPI function that returns a random number between 0 and 1
+483	Convert native unsigned char to native long long using hardware
+484	Table 146 Definition of Types for {RSA} Encryption Schemes
+485	MPI function that converts `unsigned int' to `unsigned long long'
+486	Returns the size in bytes of the first 32 bits of the first 32 bits of the second
+487	Creates a new row of kind "NetFlow"
+488	Initialize a TMR_TagOp as a Gen2 Ids SL900A Set
+489	Helper function to keep code base small
+490	Get the current line number
+491	Returns true if 'a' and 'b' are equal, false otherwise
+492	Add a new item to the list
+493	FUN_00100270 : FUN_00100270(x, y, z)
+494	Returns the name of a member in a compound or enumeration datatype
+495	Thanks to James Gillogly & Phil Karn!
+496	Add a new item to the list
+497	Free all memory associated with a MAT file
+498	MPI function that returns the current time, in seconds
+499	This function is used to keep code base small
+500	Calculate the length of a MAT variable
+501	Returns the size in bytes of the file
+502	Returns the number of bytes in the file
+503	Returns the number of elements in an array
+504	Called with BQL taken
+505	extern S32_t FUN_001005e0(S32 x,S32 y,S32 z)
+506	Thanks to James Gillogly & Phil Karn!
+507	Returns the size in bytes of a MAT variable
+508	FUNCTION bfd_perform_operation SYNOPSIS bfd_boolean bfd_perform_operation (bfd abfd, void obj, void obj, void obj); DESCRIPTION Call the provided function
+509	This function is used to keep code base small
+510	Thanks to James Gillogly & Phil Karn!
+511	Generic hook that takes (int, void) and returns true
+512	Convert native unsigned short to native long long using hardware
+513	Convert native unsigned short to native long long using hardware
+514	Convert native unsigned short to native long long using hardware
+515	Convert native unsigned short to native long long using hardware
+516	Called with BQL taken
+517	Creates a new row of kind "NetFlow"
+518	FUN_0011b4c6 : same function as FUN_0011b6c and not extern C
+519	Things must be done before FUN_0011187
+520	Thanks to James Gillogly & Phil Karn!
+521	Because we really don't have an IR, this stuff is a little messy
+522	Generic hook that takes (enum machine_mode) and returns true
+523	Returns true if 'a' is a member of 'b', false otherwise
+524	0x3E54AE0B, 0xF85DDF44 1 ln2 tail
+525	This function is used to keep code base small
+526	Creates a new row of kind "NetFlow"
+527	Called with BQL taken
+528	Free all memory associated with a group
+529	Returns true if the library is loaded, false otherwise
+530	Initialize a TMR_TagOp as a Gen2 IAVTagOp
+531	Thanks to James Gillogly & Phil Karn!
+532	this function is aliased to FUN_00106b10
+533	This function is responsible for encoding and decoding a band for the mono case

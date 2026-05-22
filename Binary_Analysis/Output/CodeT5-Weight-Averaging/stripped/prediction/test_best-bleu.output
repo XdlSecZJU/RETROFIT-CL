@@ -1,0 +1,534 @@
+0	Compute a 32bit random number on [0,0xffffffff]interval
+1	Allocate a new memory pool
+2	Initialize the library by registering the library with the library
+3	initialization of shared memory structures
+4	returns 1 if successful, 0 if not
+5	Return the next instruction in the stack
+6	Initialize the RAX module
+7	Set up the callbacks for a given DHCP session
+8	Copy the contents of 'a' and 'b' into 'c'
+9	This is the main entry point for FUN_001049d1
+10	Convert native unsigned short to native long using hardware
+11	Create a new DHCP packet
+12	Called with BQL taken
+13	This is the implementation of the MUF MD5 hash algorithm
+14	Append a string to the end of a buffer
+15	Converts `int' to `unsigned char'
+16	Allocate a buffer with the requested size
+17	Move left and right one step
+18	Reads data from a file into a buffer
+19	Returns the number of bytes required to store the message
+20	This function is identical to FUN_00100291B() except it does all the work
+21	Convert a 32bit integer from host to network byte order
+22	Convert a matrix into a 4x4 matrix
+23	Generic hook that takes no arguments and returns an error
+24	This function is used by H5O_msg_append() and H5O_msg_append()
+25	Get the address of the packet
+26	This function initializes the symbol table
+27	Similar to FUN_00102971() except it operates on a 2D array
+28	This function initializes all global variables to their default values
+29	Convert native unsigned short to native float using hardware
+30	Convert native unsigned long to native float using hardware
+31	Convert native long to native long using hardware
+32	Convert native unsigned integer to native long using hardware
+33	Convert native unsigned integer to native long using hardware
+34	Convert native double to native float using hardware
+35	Convert native unsigned integer to native long double using hardware
+36	Convert native long to native int using hardware
+37	Convert native unsigned long to native float using hardware
+38	Convert native float to native long double using hardware
+39	Convert native short to native float using hardware
+40	Convert native unsigned long to native long using hardware
+41	Convert native unsigned long to native float using hardware
+42	Convert native float to native long using hardware
+43	Convert native unsigned short to native float using hardware
+44	Convert native unsigned integer to native long using hardware
+45	Convert native float to native long double using hardware
+46	Similar to FUN_00166c0 except it works on floats
+47	Convert native float to native long double using hardware
+48	Convert native long to native long using hardware
+49	Convert native unsigned integer to native long using hardware
+50	Convert native long to native int using hardware
+51	Convert native long to native long using hardware
+52	Convert native long to native long using hardware
+53	Convert native unsigned long to native long using hardware
+54	Convert native unsigned long to native double using hardware
+55	Convert native long to native long using hardware
+56	Convert native unsigned short to native long double using hardware
+57	Convert native unsigned short to native long double using hardware
+58	Convert native unsigned short to native long using hardware
+59	This function computes the Bessel distance between two points
+60	Convert native unsigned long to native float using hardware
+61	Convert native unsigned long to native float using hardware
+62	! \brief Convert a symbol table entry to a symbol table entry
+63	Convert native unsigned short to native long using hardware
+64	Convert native unsigned long to native long using hardware
+65	Convert native unsigned long to native long using hardware
+66	Convert native unsigned long to native float using hardware
+67	Convert native unsigned short to native long using hardware
+68	Convert native unsigned long to native float using hardware
+69	Convert native short to native double using hardware
+70	Convert native unsigned short to native long double using hardware
+71	Convert native float to native long double using hardware
+72	This function is based on FUN_00147d
+73	Convert native unsigned short to native long using hardware
+74	Convert native unsigned short to native long using hardware
+75	Convert native unsigned short to native long double using hardware
+76	Convert native unsigned long to native float using hardware
+77	Convert native unsigned long to native float using hardware
+78	Convert native unsigned long to native float using hardware
+79	Convert native unsigned long to native long using hardware
+80	Convert native unsigned long to native long using hardware
+81	Convert native unsigned short to native long using hardware
+82	Convert native long double to native float using hardware
+83	Convert native unsigned short to native float using hardware
+84	Convert native unsigned integer to native long using hardware
+85	Convert native unsigned int to native long using hardware
+86	This function is responsible for encoding and decoding data
+87	Move all the lines up one step
+88	Add a pixel to the texture
+89	Called from RCU critical section
+90	This function is called by H5O_msg_reset() to reset the state of the message
+91	This function is called by H5O_msg_reset() to reset the state of the message
+92	Called with BQL taken
+93	Initialize a symbol table entry
+94	Convert a 32bit value from network to host byte order
+95	default routine, can be overridden by user
+96	Get the address of a file
+97	Allocate memory for a new TMR_TagReadData structure
+98	Implementation of the MUF FUNC_00100870 This function implements the FUNC_00100871 routine
+99	Implementation of MUF ARRAY_SETITEM Consumes a dbref and returns an array of pointers to the object's data
+100	Given a pointer to an instance of H5HL_prfx_t and an array of H5HL_prfx_t, calculate the size and alignment of the instance
+101	Default routine, can be overridden by user
+102	Set the current line number to the given value
+103	Decode an IPv4 address into a port number
+104	Call FUN_0010f2d0() for each node in the tree
+105	Set the current line number
+106	Set the current line number
+107	return 0 if ok, 1 if not found
+108	return 1 on success, 0 on failure
+109	Find the symbol with the given name
+110	Returns true if the file exists and is readable
+111	Fill in a buffer with random data
+112	This is the main function for H5Tget_raw_packet
+113	Advance to the next block in a block
+114	Move left and right one bit
+115	Generic hook that takes no arguments and returns false
+116	Returns 0 on success, 1 on failure
+117	Same as FUN_001007B, except it increments the reference count
+118	Decrement the reference count on a file
+119	This function initializes all global variables to their default values
+120	This function calculates the Euclidean distance between two data points
+121	Returns the number of bytes actually read in the file
+122	Add a new symbol to the symbol table
+123	This function is used by H5O_msg_append() and H5O_msg_append()
+124	Create a new TMR_TagOp structure and initialize it
+125	This function is based on the Bernstein Bernstein algorithm by Dahai
+126	Send a frame to the RTP layer
+127	Send a packet to the remote host
+128	Similar to memcpy(1,2) except it operates on two sets of sizes
+129	Check if a file exists
+130	Gauss random number generator
+131	in place quaternion product with constant rotational velocity
+132	Allocate a buffer with the provided parameters
+133	Returns 0 on success, nonzero on failure
+134	reset all global constants to their initial values
+135	Set up the socket for the virtual host
+136	This function is called by H5O_msg_send() to send a message to all registered handlers
+137	This function is the implementation of MUF FUN_001038
+138	Wrapper around memset() to free memory
+139	Decompress one block of data into a contiguous block of memory
+140	Generic hook that takes no arguments and returns false
+141	Unlink a device from its list
+142	Return a copy of the list
+143	Initialize a TMR_TagOp as an empty TMR_TagOp structure
+144	This function is not static because it is called from RCU critical section
+145	Called by the RCU critical section
+146	Find first nonNULL element in list
+147	Apply a function to every element of the tree
+148	Allocate a new random number generator
+149	This function initializes the FPU state
+150	Check to see if the system is running in a critical section
+151	Check if address is in the range [start, end)
+152	Thanks to James Gillogly & Phil Karn!
+153	Initialize the frame buffer state
+154	main function to keep code base small
+155	Implementation of MUF SEXT14 algorithm
+156	Initialize some global variables
+157	Generic hook that takes no arguments and returns NULL
+158	This function is called by RCU critical section
+159	Helper function to keep code base small
+160	Remove a node from the list
+161	Remove a node from the linked list
+162	Send a packet to the remote host
+163	This function is aliased to FUN_00101feb()
+164	Create a new IPv4 address
+165	LWIP_CHECKSUM_ON_COPY Asserts that all blocks in the block are locked by the caller
+166	This is the main entry point
+167	Deallocate memory for each device
+168	Called with BQL taken
+169	Set the device id to the default CHKID
+170	Free all memory associated with a board
+171	Add a node to the linked list
+172	Called with BQL taken
+173	Called with BQL taken
+174	Iterate over the bits in an array and call a function for each
+175	Default routine, can be overridden by user
+176	XXX: This is a hack to get rid of it from the compiler
+177	Release all resources used by the library
+178	Check the validity of a packet
+179	This function is used by H5O_msg_append() to add a new packet to the queue
+180	Returns TRUE if the address is a part of the address, FALSE otherwise
+181	Open a file named NAME and initialize FILE
+182	Similar to FUN_00103e71 except it operates on a contiguous region of memory
+183	Figure out what to do with the given arguments
+184	FUN_00101620_get_key_values: @key: The key to get the key
+185	return 1 if no more data was read, 0 if error
+186	return 0 on success, 1 on failure
+187	return a random number on [0,1)
+188	Parse a DHCP packet
+189	Check if a point is inside a rectangle
+190	Enable or disable interrupts
+191	Set the input stream to the default output stream
+192	Initialize a TMR_TagOp as a Gen2 IAV write operation with the provided parameters
+193	Set the block size to the maximum
+194	Set the input stream to nonblocking mode
+195	return 0 on success, 1 on failure
+196	Check whether the MD5 checksum of the packet is correct
+197	Set the link state to active
+198	Calculate the hash value for a given mask
+199	This function is a wrapper around FUN_00101164() which does the actual work
+200	Given a buffer with length n, calculate the hash value of the next 32bit word
+201	Read a frame from the frame buffer
+202	Convert native unsigned short to native long using hardware
+203	Add a new segment to the segment list
+204	return 0 on success, 1 on failure
+205	This function does the actual work of writing a file to disk
+206	return 1 if success, 0 if failure
+207	Returns true if 'name' is not empty, false otherwise
+208	Implementation of MurmurHash3_x86_32 Solaris (1994)
+209	Compute the hash of a 256bit block
+210	Convert an RGB888 texture into a RGB888 texture
+211	FUN_00103b10 is for backwards compatibility
+212	same as FUN_00103ce1, but for 64 bit input
+213	Set up the FPU for the current thread
+214	reset all internal structures to their initial values
+215	Firmware version of this file
+216	Convert a path string to an absolute path
+217	This function is based on the Bernstein Bernstein algorithm by Darren
+218	Similar to FUN_00100120() except it does all the work
+219	This function initializes the interface from some other package
+220	This function calculates the Euclidean distance between two datasets
+221	Called with BQL taken
+222	Called with BQL taken
+223	This function increments the value of _DAT_00000000
+224	(Re)initialize the random number generator with a given seed
+225	Called within RCU critical section
+226	Helper function to keep code base small
+227	Implementation of the \@unwind command This is the implementation of the \@unwind command
+228	Call the provided callback function with the given data
+229	Return a random number on [0,0xffffffff]interval
+230	This function should be removed in a future release
+231	MPI function that does nothing
+232	Convert a 16bit integer from littleendian to host byte order
+233	Return the next 32bit unsigned int
+234	This function should be removed in a future release
+235	returns 0 on success, 1 on failure
+236	Initialize a TMR_TagReadData structure with an empty buffer
+237	Implementation of MUF REALLOC_VECTOR This is the implementation of MUF REALLOC_VECTOR
+238	Convert a 64bit integer to a 64bit integer
+239	Get the current line number
+240	This is the main entry point for the H5T_read_packet() function
+241	Get the value at a particular location in the file
+242	Set a random number in the range [0,0xffffffff]
+243	This subroutine computes the eigenvector of a cell
+244	Remove an entry from the hash table
+245	Get the symbol table entry for a given name
+246	Free memory allocated by fb_init()
+247	Get a random number between 0 and n
+248	Firmware version of this file
+249	Add a chunk to the metadata cache
+250	Mark device as disconnected
+251	Called from RCU critical section
+252	Push a byte onto the stack
+253	FUN_00100380() converts a 16bit integer to a 32bit integer
+254	Write a single character to the output stream
+255	Add a new symbol to the symbol table
+256	Convert an IPv6 address to a network byte order
+257	Get the current frame size
+258	Set the flags that this driver is capable of supporting
+259	Call a function for every block in the block_list
+260	Returns 1 on success, 0 on failure
+261	This is the implementation of the MUF DESCRIPTORS command
+262	This is the main function for H5Tget_all_devices
+263	Returns NULL on failure
+264	Add a new rule to the list of rules
+265	This is the implementation of MUF EXPR_FUNC which does the real work
+266	Return the current system time
+267	This function is based on FUN_00100e3
+268	return 0 on success, 1 on failure
+269	Create a new context and return it
+270	Get the number of elements in the tree
+271	Convert an u32_t from host to network byte order
+272	Returns the current working directory
+273	Get the current CPU time, in microseconds
+274	Read a 16bit value from the FPU
+275	Convert an u16_t from host to network byte order
+276	returns a pointer to a newly allocated memory block
+277	Set the start and end points of a bounding box
+278	Called from RCU critical section
+279	Called with BQL taken
+280	Firmware version of this file
+281	Initialize the FPU peripheral
+282	This function is similar to FUN_00102b() except it operates on a block of memory
+283	Convert a 16bit integer to a 32bit unsigned int using hardware
+284	Compute the next power of two
+285	Implementation of MUF ARRAY_FUNC This is the implementation of MUF ARRAY_FUNC
+286	Set the current line number
+287	Thanks to James Gillogly & Phil Karn!
+288	Create an I O buffer
+289	Get the value of the register at address ADDR
+290	Generic hook that takes no arguments and returns an empty string
+291	Returns the number of elements in the array
+292	Initialize the interface from some other layer
+293	Free all memory allocated by alloc
+294	Firmware version of this file
+295	Initialize the library by registering the library with the library
+296	Set up the screen to the maximum size
+297	Add a new symbol to the symbol table
+298	Implementation of MUF ARRAY_SIZE_INIT and MUF ARRAY_SIZE_INIT
+299	Implementation of MUF ARRAY_SIZE and ARRAY_SET_SIZE
+300	Convert an u32_t from host to network byte order
+301	Create a file and initialize it to reasonable values
+302	Print a string to the screen
+303	Read from a contiguously stored image
+304	Decompress one block of data
+305	This is the main entry point for the binary search algorithm
+306	Default routine, can be overridden by user
+307	Returns 1 on success, 0 on failure
+308	Generic hook that takes no arguments and returns false
+309	Called with BQL taken
+310	Find the smallest value less than or equal to a given value
+311	Return the type of the current instruction
+312	Check whether the specified IP address is in the specified IP address space
+313	Returns the number of characters in the string
+314	This function is a version of the FM_00100e70() function
+315	Open a file named NAME and initialize FILE
+316	Return the number of elements in the matrix pointed to by A
+317	Special routine for H5Tget_packet_type
+318	Add a new segment to the segment list
+319	This function is called by RCU critical section
+320	Transparently transmits a packet to the peer
+321	Create a new socket and initialize it
+322	this is the main entry point
+323	This function initializes the state of the H5T_t structure
+324	This function initializes the interface from some other layer
+325	This function produces a random 8bit unsigned int
+326	Similar to FUN_00100d1 except it operates on a 3D tensor
+327	returns the size of the image in bytes
+328	Returns a pointer to the next element in the matrix
+329	This function calculates the hash function for a given pair of operands
+330	Helper function to check if a callback returns true
+331	Called with BQL taken
+332	Implementation of MUF DISK_FUNC This is the implementation of MUF DISK_FUNC
+333	Implementation of the \@unwind command This is the implementation of the \@unwind command
+334	Open a file named NAME and initialize FILE
+335	Called with BQL taken
+336	This is the implementation of MUF ARRAY_SET_VAL and MUF ARRAY_SET_FUNC
+337	Returns the current CPU time, in microseconds
+338	Get the current time, in milliseconds
+339	Get the current sample rate
+340	return 1 if all bits are set, 0 otherwise
+341	Called with BQL taken
+342	This function does the actual work of converting a binary string to a binary number
+343	Convert a 64bit unsigned integer to a 64bit unsigned int using hardware
+344	Check if an address is in the range [start, end)
+345	Returns the file descriptor of the HDF5 file
+346	MPI function that increases the counter by 2
+347	Enable or disable the specified bit in the register
+348	Wrapper for FUN_00100011, which is called by FUN_00100012
+349	Called with BQL taken
+350	Return the type of checksum used in the file
+351	Decide what kind of transfer method I should use
+352	This subroutine solves the Bessel algorithm
+353	Returns the current working directory
+354	write a block of data to the fifo
+355	This function is used by H5Ocopy() and H5Ocopy()
+356	Returns the type of object pointed to by `obj`
+357	This function initializes the DP matrix
+358	same as MUF_00103d90() except it operates on a multithreaded dataset
+359	Convert native long to native long using hardware
+360	Generic hook that takes no arguments and returns an empty string
+361	Returns a random number on [0,1)
+362	Same as above but for the case when two operands are equal
+363	Convert an u16_t from network to host byte order
+364	Decode an instruction from the BITS table
+365	wrapper for FUN_0010000e and FUN_0010000f
+366	Increment the reference count on a symbol table entry
+367	Get the next node in the linked list
+368	Return a pointer to the next free block
+369	determines if two nodes are adjacent
+370	Compare two nodes for equality
+371	Find a node in the linked list
+372	Get the file name of a file by name
+373	Free all memory associated with this library
+374	Create an IPv4 or IPv6 address list
+375	Fill in a TMR_TagOp structure with values from the current frame
+376	Reset the state of the instruction
+377	This function initializes the DP matrix according to the specified
+378	Encode an IPv6 address into a binary string
+379	Free all memory associated with the FAPL
+380	Implementation of MUF DEFINITIONS This is the implementation of MUF DEFINITIONS
+381	Thanks to James Gillogly
+382	compute a 3D matrix
+383	Returns 1 on success, 0 on failure
+384	Returns the address of the current CPU
+385	This function creates a dataset with a certain number of dimensions
+386	Write a block of memory to a file
+387	Call the userdefined callback function
+388	Return the number of bytes written
+389	Called with BQL taken
+390	Call the callback function for the current thread
+391	Get the number of nodes in the cluster
+392	Free the memory allocated by alloc_dma_buf
+393	Send a message to the server
+394	FUN_00101d3f: (method) @see FUN_00101d3f @see FUN_00101d3
+395	Check the validity of the file
+396	Get the address of an IPv4 address
+397	Return the type of the next command
+398	Convert a 32bit value from network to host byte order
+399	Get the mode of the output
+400	Called with BQL taken
+401	Get the value at a particular location in the file
+402	Allocates a memory buffer and returns it
+403	reset all configuration options
+404	Convert a 32bit value from host to network byte order
+405	Encode an UTF16LE buf into a buffer
+406	Write a 32bit integer to a memory buffer
+407	Encode 16bit unsigned integer to host byte order
+408	Returns 0 on success, 1 on failure
+409	return 0 on success, 1 on failure
+410	Returns 0 on success, nonzero on failure
+411	This function calculates the logarithm of a floating point number
+412	Free all memory associated with an H5P_t struct
+413	Set the userdefined callback function
+414	Free memory allocated by gen_pool_alloc
+415	Free memory allocated by FUN_00100580
+416	Called with BQL taken
+417	This function is identical to FUN_00100b7_r () except it operates on a contiguously stored dataset
+418	return 0 on success, 1 on failure
+419	this function is not public, it is not public
+420	Create an IPv4 or IPv6 link
+421	Read an image from an SDL datasource
+422	Add a new symbol to the symbol table
+423	This is the implementation of the MUF DESCRIPTORS command
+424	Initialize a TMR_TagReadData structure with default values
+425	Create a TMR_TagOp structure
+426	Implementation of MUF FUN_00100419 This is the implementation of MUF FUN_00100419 This is the implementation of MUF FUN_00100419 with the addition of MUF FUN_00100419 with the addition of MUF FUN_00100419
+427	return the number of bytes actually read
+428	This function calculates a random number on [0,1]interval
+429	Decompress one block of a MPEG2 frame
+430	Generic hook that takes no arguments and returns nothing
+431	Get information about an image
+432	Returns the offset of the first byte after the byte after the byte after the byte
+433	Similar to FUN_0010054f() except it operates on a single file
+434	Add a new segment to the segment list
+435	This function is based on FUN_00104
+436	This function is identical to FUN_001017B, except it operates on one block of memory
+437	Decrement the number of bits in a block
+438	Fill in an int32_t structure
+439	allocate and initialize a symbol table entry
+440	Generate a hash value for a given integer
+441	Read a block from a memory buffer
+442	Decompress one block of a 3x3 matrix
+443	Similar to FUN_00102071() except it operates on two arrays
+444	Free the memory used by the library
+445	Decompress one block of a symmetric matrix
+446	Allocate space for a chunk
+447	Allocate a block of memory
+448	Default routine, can be overridden by user
+449	Turn off multitasking for the current instruction
+450	Free all memory associated with OBJ
+451	Create a new H5FD_t struct and initialize it
+452	Called with BQL taken
+453	Set the input stream state to an empty state
+454	Free all memory associated with the VFD
+455	Set the color of all the nodes in the list
+456	Generic hook that takes no arguments and returns false
+457	Call a function registered with the kernel
+458	return 0 on success, 1 on failure
+459	Process the packet received from the host
+460	Free all memory associated with a node
+461	Set up the callbacks for an incoming SIP Session
+462	This function initializes the DP matrix according to the specified parameters
+463	Default routine, can be overridden by user
+464	Create a new hash table entry
+465	This is the implementation of the MUF DESCRIPTORS command
+466	Wrapper for FUN_00103130() that does the actual work
+467	Returns the size of the raw message in bytes
+468	Default routine, can be overridden by user
+469	Get the IP address of the network interface
+470	Replace the contents of a node with another
+471	Convert an array of 32bit integers to 64bit integers
+472	Build a hash table from a matrix
+473	same as FUN_00100c50, but for 64 bit input
+474	Fill the array with zeros
+475	Apply a function to all elements of an array
+476	Similar to memcpy(), except it iterates over the elements of two arrays
+477	Convert an array of 32bit integers to 64bit integers
+478	This function is used by H5O_msg_append() to add a new message to the message queue
+479	Open a file with the specified name
+480	Convert a symbol table entry to a symbol table entry
+481	Generate a random 32bit integer from the given seed
+482	Generate a random 32bit unsigned integer
+483	This function initializes the AES algorithm with the provided parameters
+484	Generic hook that takes no arguments and returns false
+485	Send a packet to the server
+486	Convert an IPv4 address to an IPv6 address
+487	return 0 on success, 1 on failure
+488	Fill in a TMR_TagOp structure with default values
+489	This subroutine computes the eigenvector of a matrix
+490	Return the next element in the list
+491	Compare two Btree entries for equality
+492	Advance to the next block
+493	Iterate over the blocks in a group and add them to the list
+494	Get the name of the first symbol in a symbol table
+495	Add a new segment to the segment list
+496	Add a packet to the receive queue
+497	This function initializes the hash table with a new hash
+498	Release all memory associated with the FPU
+499	same as FUN_00100171, but for 64 bit input
+500	Returns 1 if the number of bits is odd, 0 otherwise
+501	Return the address of the first byte after the last read
+502	Returns the number of bits set in the register
+503	Returns the number of elements in 'a'
+504	Free all resources allocated by alloc_shared_ram
+505	returns 0 on success, 1 on failure
+506	Return the number of bytes written
+507	Read a 16bit integer from a memory buffer
+508	Implementation of MUF ARRAY_SETITEM Consumes a dbref and an array of dbrefs, and returns an array of dbrefs
+509	Implementation of the MUF DISK_FUNC This is the implementation of the MUF DISK_FUNC defined in MUF
+510	same as FUN_00100650B, except for 32bit input
+511	Default routine, can be overridden by user
+512	Read a block of memory from the specified address using the hardware
+513	This function is identical to H5Z_xchg() except it operates on a contiguously distributed dataset
+514	This function is used by H5Fget_native_type to get the native type of the object
+515	This function is the implementation of MUF FUNC_001047d0
+516	Open a file with the given name
+517	Returns 1 on success, 0 on failure
+518	Check if an image is contained in a frame
+519	Add a new peer to the peer list
+520	Set the BIOS version to the latest version
+521	Remove all NULLs from the list
+522	Generic hook that takes no arguments and returns nothing
+523	Check if the given byte is valid
+524	This function is used by H5FD_read_chunk and H5FD_write_chunk
+525	This function is based on FUN_00106E60_init()
+526	Convert a string to a hex string
+527	Called from RCU critical section
+528	Free all memory allocated by alloc
+529	check if the library is already loaded
+530	Fill a frame with random data
+531	Unlink a device from its list
+532	return 0 on success, 1 on failure
+533	This function does the actual work of MUF CONCAT and CONCAT2

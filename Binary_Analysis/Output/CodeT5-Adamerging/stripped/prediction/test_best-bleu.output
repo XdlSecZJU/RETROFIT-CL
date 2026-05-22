@@ -1,0 +1,534 @@
+0	Compute the hash of a block of data
+1	Allocate a free space manager
+2	This function was created without documentation
+3	This function initializes the ring buffer
+4	returns 0 on success, <0 on failure
+5	caller must hold lock
+6	Initialize the core module
+7	Set up callbacks for all callbacks
+8	Copy a block from src to dst
+9	Uncompress one block (20 bytes > 16bit)
+10	Uncompress one block (8 bits)
+11	Send a packet to the remote end
+12	Unlink all links, and remove them from the chain
+13	This is the main function that does all the work
+14	Set a pointer to the next element in the list
+15	Returns the number of bytes copied from src to dst
+16	Send a packet to the remote peer
+17	Move left and right (inclusive) to the right
+18	This function is responsible for encoding and decoding data
+19	Create a list of DHCP packets
+20	This is the main function that does all the work
+21	Returns the number of bytes written
+22	This function does all the work
+23	The following function is not used
+24	Walks over all the nodes in the tree, performing all the necessary operations
+25	Returns the address of the file
+26	Initialize the interface from some other layer
+27	Similar to FM_00102970() except it operates on multilayer objects
+28	Free all memory used by the driver
+29	This function is responsible for encoding and decoding data
+30	Convert from HSB to HSB
+31	Convert from native to native format
+32	Convert from Huffman to fixed point format
+33	Convert from fixed point number to fixed point number
+34	Convert from integer array to floating point array
+35	Convert from littleendian to native float using hardware
+36	Divide N by N and store the result in N
+37	Convert from SRC to DST
+38	Convert from H3 to H3
+39	Convert from HSB to HSB
+40	This function is responsible for encoding and decoding a block of data
+41	Convert from native to native float using hardware
+42	Convert from SRC to DST
+43	This function is responsible for encoding and decoding a floating point number
+44	Convert from Huffman to fixed point format
+45	Convert from SRC to DST
+46	This function is responsible for encoding and decoding a band structure
+47	Convert from HSV to HSV
+48	Convert from native to native (native) format
+49	Convert from fixed point number to fixed point number
+50	Divide N by N and store the result in N
+51	Allocates memory for a block and initializes information about a block in memory
+52	Allocates memory for a block and initializes it with zeros
+53	Divide N by N and return the remainder
+54	This function is responsible for encoding and decoding a band structure
+55	Allocates memory for a block and initializes it with zeros
+56	This function is responsible for encoding and decoding an array of floats
+57	Convert from littleendian to native float using hardware
+58	This function is responsible for encoding and decoding data
+59	This function is responsible for encoding and decoding a band structure
+60	This function is responsible for encoding and decoding an array of floats
+61	Convert from LSB to LSB
+62	Unwind the stack (stack)
+63	Convert from fixed point number to fixed point number
+64	Convert from littleendian to bigendian
+65	This function is responsible for encoding and decoding a sequence of elements
+66	Convert from Huffman to floating point format
+67	Convert from Huffman to fixed point format
+68	Convert from SRC to DST
+69	This function is responsible for encoding and decoding a band structure
+70	This function is responsible for encoding and decoding data
+71	Convert from int16_t to float
+72	This function is responsible for encoding and decoding a sequence of integers
+73	Convert native short to native long using hardware
+74	Convert native long to native long using hardware
+75	Convert from littleendian to native float using hardware
+76	Convert from SRC to DST
+77	Convert from littleendian to native float using hardware
+78	This function is responsible for encoding and decoding a band structure
+79	Convert a fixed point number to a fixed point number
+80	Convert from Huffman to fixed point format
+81	Convert from fixed point number to fixed point number
+82	Divide N by N and store the result in N
+83	Convert from RGB to HALF (float)
+84	Divide N by N, and multiply by N by N
+85	Convert from Huffman to fixed point format
+86	This function is responsible for encoding and decoding a band structure
+87	Move the buffers to the end of the list
+88	Add a frame to the frame queue
+89	Called when we have no more free blocks
+90	Called when an image is removed from the cache
+91	Called when an image is removed from the cache
+92	Register a callback function to register a callback function
+93	Create a context, and return a pointer to it
+94	Helper function to keep code base small
+95	This function sets up a random number generator from [0,1]
+96	Get the address of a file
+97	Initialize the file structure
+98	Function to perform a sequence of operations
+99	Walks through the list and walks through the list and calls the given callback
+100	If the target entry is not in the cache, load it
+101	This function is never called
+102	Free memory allocated with malloc()
+103	Set the address and length of the packet
+104	Similar to FUN_0010h2d0 except it does all the work
+105	Set the current line number
+106	Set the callback function to be called
+107	This function is deprecated, please don't use it
+108	return 0 on success, 1 on failure
+109	Find the instruction with the given name
+110	Open the file and create a new directory
+111	This is the main function
+112	Figure out how many times to wait for a packet
+113	Advance to the next block in the block
+114	Move to the next block
+115	Generic hook that takes no arguments and returns a string
+116	Returns 0 on success, 1 on failure
+117	Same as FUN_001007B, but increment the reference count
+118	Decrement reference count on a file
+119	Initialization and Configuration functions
+120	This function is responsible for scaling and scaling functions
+121	Unlink all links from the linked list
+122	Create a file and initialize it with default values
+123	This function is responsible for encoding and decoding a block of memory
+124	Register a hook to register an event handler
+125	This is the main entry point for the multithreaded programming algorithm
+126	Add a frame to the frame queue
+127	Send a message to the peer
+128	Sort the nodes in the tree according to the depth
+129	Check if a file exists
+130	This function is optimized for speed, to keep code base small
+131	in place quaternion quaternion product with constant rotational velocity
+132	caller must hold lock
+133	Returns 0 on success, 1 on failure
+134	Initialization and Configuration functions
+135	This function is deprecated, please don't use it in the future
+136	reset all flags that are set according to the current settings
+137	This function is called by H5L_set_bits and H5L_set_bits2
+138	Wrapper around memset() to free memory
+139	This function is responsible for encoding and decoding a block of data
+140	This function is never called
+141	Caller must hold RTNL
+142	Return a pointer to the first element in the list
+143	Reset the state of a trie
+144	Set up the serial port
+145	Free the memory used by the driver
+146	Check if all the filters in the filters list are empty
+147	Invoke the callback function
+148	Allocate a new DHCP packet
+149	This function initializes the Fibre Channel exchange
+150	check if all of the nodes in the tree are empty
+151	Check if a process is in the process list
+152	Set up the hardware for a given port number
+153	bitrate is the power of two
+154	Initialization and Configuration functions
+155	SEXT14 is a special case, so we need to fix it up
+156	Initialize the interface from some other layer
+157	Initialize the driver by registering the driver with the library
+158	This function is called by RCU critical section
+159	This function is deprecated, please don't use it
+160	Remove a node from the linked list
+161	Remove the head of the linked list
+162	Send a packet to all the registered clients
+163	Send a message to the server, and wait for the reply
+164	Create a new DHCP session
+165	This function is called by RCU critical section
+166	This is the main entry point
+167	Deallocate memory for all devices
+168	Find the entry for a given address
+169	Set up device callbacks for all device callbacks
+170	Reset the state of a ring buffer
+171	Add a new entry to the linked list
+172	This function returns a pointer to the threadprivate data structure
+173	Unwrapping according to RFC 5649 section 4
+174	Count the number of bits set
+175	This function is never called
+176	Unwinds the stack (stack is empty)
+177	free all memory used by the library
+178	Check the validity of a packet
+179	Send a command to the server
+180	Returns true if the address is in the range [start, end)
+181	This function is for backwards compatibility
+182	Unlink an entry from the linked list
+183	This function is deprecated, please don't use it
+184	Get the key and value pairs for the current sequence
+185	Check if any of the characters in the stream are valid
+186	Send a packet to the server
+187	Returns: 1 on success, 0 on failure
+188	Parse a DHCP packet
+189	Check if a point is inside a rectangle
+190	Enable or disable interrupts
+191	Clear the status register
+192	Initialize the packet to be sent to the peer
+193	Set the block size to the maximum
+194	Clear the status bar
+195	XXX: move this to ext_cb
+196	return 1 if ok, 0 if not
+197	Clear the status bar
+198	Calculate the hash value for a given mask
+199	Send a packet to the remote end
+200	Compute the hash index of a block of random data
+201	Add a frame to the frame queue
+202	Decompress one block of a block and store the resulting block in block_ptr
+203	Register a function to register an event handler
+204	This is the main entry point
+205	This function is deprecated, please don't use it directly
+206	return 1 if success, 0 if failure > nothing done
+207	Check if a process is running and running
+208	Hash a single 512bit block
+209	Hash a single 512bit block
+210	Decode an encoded DHCP packet
+211	Move all the nodes in the stack to the head of the stack
+212	Compute HMACSHA256 (SHA256) on 128bit block
+213	The following function is not used
+214	reset all the info for the device
+215	Returns a string, or NULL if not specified
+216	Specialized version of strncmp, used by strncmp2
+217	Allocates memory for a block and initializes it with zeros
+218	Similar to FUN_00100120() except it operates on a single file
+219	This function initializes the interface from some other package
+220	This function is based on the FisherâYates filter
+221	call with lock held
+222	call with lock held
+223	_DAT_00000000 increments the number of elements in the array
+224	Allocates memory for a new frame and initializes the frame size
+225	Called within RCU critical section
+226	Returns the current working directory
+227	Function to perform a sequence of operations
+228	Walks through the list and walks through the list and performs a callback
+229	Open a file or create a new directory
+230	This function is never called
+231	This function is never called
+232	Convert a 16bit value to a 32bit value
+233	Return the size of the buffer
+234	This function is never called
+235	returns 0 on success, 1 on failure
+236	Initialize a TMR_TagReadData structure with an empty buffer
+237	The following function is not used
+238	Convert a string to a number
+239	Returns the name of the current thread
+240	This function is responsible for encoding and decoding a MPEG4 frame
+241	Get the color at the given coordinates
+242	This function generates a random number in the range [0,0x4f]
+243	This function is responsible for encoding and decoding a block of data
+244	Delete an entry from the cache
+245	Get the info for a given key
+246	Frees memory allocated by fb_init
+247	This function is deprecated, please don't use it
+248	Returns the size of the raw message in bytes
+249	Add a chunk to the metadata cache
+250	Mark device as unplugged
+251	Returns 0 on success, 1 on failure
+252	Advance to the next byte
+253	Read and write a byte to the stream
+254	Pushes a byte to the stack
+255	Move the tail to the front
+256	Decode a DHCP packet
+257	Get the current frame format
+258	Set the flags that this driver is capable of supporting
+259	Iterate over all the messages in the queue, calling the callback
+260	Check if a key is in the table (i
+261	XXX: this isn't really a good thing, but it's better
+262	Set up the DHCP packets for a DHCP session
+263	Returns NULL on failure, or 1 on success
+264	Add a new rule to the rules list
+265	Create a path from a path_data structure
+266	Returns the address of the first byte in the block
+267	Send a message to the server, and wait for the reply
+268	return 0 on success, 1 on failure
+269	Allocate a new context, and return it
+270	Get the number of items in the heap
+271	Returns the number of bytes required to store the value
+272	Returns a copy of the current working directory
+273	Returns the size of the allocated memory in bytes
+274	Read a 16bit value from the register store
+275	Convert a 16bit value from network to host byte order
+276	returns NULL on failure, otherwise a pointer to a static buffer
+277	Set the start and end points of a bounding box
+278	Free the memory used by the dcpl
+279	Called when the program exits, or when the program exits
+280	Function to sign or sign a string
+281	This function is deprecated, please don't use it
+282	returns 0 on success, 1 on failure
+283	Decode a frame from the frame header
+284	Compute the size of the heap in bytes
+285	This is the main entry point
+286	Set the current execution time to now
+287	Thanks to James Gillogly & James Gillogly & James Gillogly
+288	Create a packet, and return the packet ID
+289	Get the value of a register
+290	Returns the address of the first byte in the file
+291	Returns a pointer to the root of the tree
+292	Register the driver with the library
+293	Free all memory allocated by alloc
+294	This function sets the Fibre Channel version to 1
+295	Initialize the driver by registering the driver with the library
+296	This is the main entry point
+297	Add a new line to the end of the line
+298	This is the main entry point
+299	This is the implementation of the MurmurHash3_x86_32 function
+300	Convert a 32bit integer to a 64bit integer
+301	Create a file and initialize it with default parameters
+302	Create a file and initialize it to reasonable values
+303	Read and write a block of memory
+304	Decompress one block of a block and store it in a block_list
+305	this function is deprecated, please don't use it in the future
+306	This function is never called
+307	Returns 1 on success, 0 on failure
+308	This function is never called
+309	Called with rcu_read_lock held
+310	Find the smallest value in the range [start, end)
+311	Function to check if a socket is connected
+312	This function is used to create a DHCP packet
+313	Count the number of spaces in a string
+314	How many bytes are needed to allocate a block
+315	Close the file and create a file handle
+316	Scan through the table and build the tree
+317	XXX: add more support for multitasking
+318	Called with BH disabled
+319	Called with iothread lock held
+320	This function is deprecated, please don't use it directly
+321	Send a command to the remote end
+322	This function is deprecated, please don't use it in the future
+323	end of the function memcpy
+324	this function should be called by the application when it wants to resize the cache
+325	Returns a pointer to the root of the matrix
+326	Decompress a matrix and store the result in a matrix
+327	Allocate memory for a block of memory
+328	Returns a pointer to the next element in the matrix
+329	caller must hold RTNL
+330	Helper function to check if a function returns true
+331	Move the next node to the next node
+332	Call the provided function with the lock held
+333	Function to perform a sequence of operations
+334	Allocates memory for the VFD and initializes the VFD
+335	Called with BH disabled
+336	This function is for backwards compatibility
+337	Returns the current thread ID
+338	Get the elapsed time in milliseconds
+339	get the current time, in ms
+340	Count the number of bits set
+341	This is the main entry point
+342	This function does the actual work of converting a string to a number
+343	This function is responsible for encoding and decoding a block of data
+344	Check if we have enough free space in the buffer
+345	Returns the size of the raw image in bytes
+346	Reset the state to a known state
+347	Turn on digital mode for digital mode
+348	Wrapper for FUN_00100011, which is called by FUN_00100012
+349	Move cursor to the beginning of the line
+350	Determine the type of packet to be encoded
+351	determines the number of bytes to read
+352	This function is responsible for scaling and scaling functions
+353	This function returns a copy of the input stream
+354	Send a packet to the peer
+355	This function is responsible for encoding and decoding a block of data
+356	! \brief Initialize the interface
+357	This function is responsible for encoding and decoding a band structure
+358	This function is deprecated, please don't use it in the future
+359	Figure out how many times to wait before timing out
+360	Returns a copy of the current working directory
+361	Returns a pointer to the root path of the current working directory
+362	Check if a value is in the range [start, end)
+363	Convert an u16_t to an u16_t
+364	Read the next block from the header
+365	wrapper for FUN_0010000e, but add extra info
+366	Returns the number of nodes in the tree
+367	Get the next node in the linked list
+368	Get the next free block
+369	Check if two linked lists are the same
+370	Same, but return true if src and dst are the same
+371	Find the node with the highest priority (lowest priority)
+372	this function is deprecated, please don't use it
+373	Free all memory used by the library
+374	Returns NULL if no elements are present in the list
+375	Fill in the four bytes of the header
+376	Reset the state of the instruction
+377	This is the main entry point for threaded programming purposes
+378	Function to encode a block of random data
+379	Free all memory associated with the device
+380	This is the implementation of the gamma function
+381	Initialization and Configuration functions
+382	Calculate random number generator from random number generator
+383	This function is deprecated, please don't use it in the future
+384	Returns the address of the first byte after the last allocated memory
+385	Figure out how many bytes to read from a file
+386	Put an address into the address space
+387	Wrapper for H5O_msg_send()
+388	Scan through the table and create a new table entry
+389	Check if the address is in the range [start, end)
+390	call with lock held
+391	Count the number of connected peers
+392	Free the memory used by the driver
+393	Send a message to the peer
+394	Called with iothread lock held
+395	Check if there is enough space in the buffer
+396	Get the address of the last message in the queue
+397	Return the type of the next command
+398	Returns the number of bytes written
+399	Check if device supports multitasking
+400	Send a message to the client
+401	Get the buffer at the given offset
+402	Returns a pointer to a new heap object
+403	reset all the settings for the device
+404	Returns the address of the first free block in the chain
+405	Write a packed 16bit integer to the buffer
+406	Write a 32bit integer to the buffer
+407	write a packed 16bit integer to the buffer
+408	Send a packet to the network layer
+409	return 0 on success, 1 on failure
+410	Returns 0 on success, 1 on failure
+411	This is a very simple algorithm to keep code base small
+412	Free the memory used by the driver
+413	Set the callback function to be called from main()
+414	Release the lock on a thread context
+415	static DEVICE_RESET( ctlr )
+416	This is the main entry point
+417	This function is responsible for encoding and decoding a block of data
+418	return 0 on success, 1 on failure
+419	this function is not public, so it is not public
+420	This function is deprecated, please don't use it
+421	Uncompress a block of memory, and create a block of memory
+422	This function is used by HAL and HAL
+423	This is the main entry point
+424	Return a pointer to the root of the stack
+425	Create a DHCP packet
+426	Walks through the list and walks through the list and calls the callback
+427	Calculate the number of bytes required to encode a packet
+428	This function calculates random numbers from a set of integers
+429	Scan through the table and build the tree
+430	This function is never called
+431	Open a file and initialize it to reasonable values
+432	returns the offset of the first byte after the last allocated memory in the block
+433	Wrapper for FUN_0010054f, which is called by FUN_001008f
+434	Add a new entry to the chain
+435	Add a new segment to the segment list
+436	Copy a block from src to dst
+437	Shift left bit vectors to the right
+438	Set up an int32_t for a given exponent
+439	Create a new context, and return it
+440	Allocates an unsigned integer and increments the bit count
+441	Read and decode a block of memory
+442	Build a permutation matrix from the permutation matrix
+443	Decompress one block of a block of memory
+444	Called from RCU critical section
+445	Decompress one block of memory
+446	Create a file and initialize it to reasonable values
+447	Allocate a block of memory
+448	This function is never called
+449	Add padding bits to the end of the block
+450	Release the memory for a given thread
+451	Returns the version number of the driver
+452	Set the callback function pointer to the callback function
+453	Reset all the fields in the header
+454	Free all memory used by the driver
+455	Mark all nodes in a list as free
+456	This function is never called
+457	Send a message to the host
+458	return 0 on success, 1 on failure
+459	Receive a message from the peer
+460	Free all memory associated with a node
+461	Set up event handlers
+462	This function is responsible for encoding and decoding a band structure
+463	This function is never called
+464	Allocate a memory buffer
+465	Walks over all the nodes in the tree, calling the provided function
+466	Called with BQL taken
+467	Returns the size of the raw data in bytes
+468	This function is never called
+469	Get the address of the link
+470	Replace a node with another
+471	Copy a block of memory to a block of memory
+472	Generate a sequence of 32bit integers
+473	This function is responsible for encoding and decoding a block of memory
+474	Returns a pointer to the allocated memory
+475	Call a function on all elements of a list
+476	Returns the number of bytes copied
+477	Copy a block of memory to a block of memory
+478	Append a chunk to the end of the file
+479	Open a file and create a directory structure
+480	Given a pointer to an image, create an image and add it to the image_list
+481	Generate a random 32bit integer from the last 4 bits
+482	Generates a random 32bit integer from the seed
+483	This function is responsible for encoding and decoding a band structure
+484	This function is never called
+485	Send a message to the server
+486	This function is used to determine if a packet can be delivered to the host
+487	Parse the body of a DHCP packet
+488	Pushes a frame to the frame queue
+489	This function is responsible for encoding and decoding a huffman code
+490	Unlink the object from the pool and return it
+491	Check if they are all equal
+492	Move the cursor to the next line
+493	Read from a file and return the size of the file
+494	Get the name of the object in the metadata cache
+495	Add a new entry to the linked list
+496	Add a new token to the token list
+497	Allocates memory for the packet and initializes the packet state
+498	Free memory allocated by malloc()
+499	Uncompress a block of memory
+500	This function calculates the logarithm of a floating point number, given an integer
+501	Return the address of the last read
+502	Returns the size of the raw data in bytes
+503	Returns the number of items in the list
+504	Free all the memory used by the driver
+505	returns 0 on success, 1 on failure
+506	Return the number of bytes written
+507	Read a frame from the frame buffer
+508	Walks over all the nodes in the tree and adds them to the tree
+509	Function to perform a sequence of operations
+510	AES 128bit block encryption
+511	This function is never called
+512	Uncompress a block of data
+513	This function is responsible for encoding and decoding a chunk of data
+514	This function is responsible for encoding and decoding a MIDI message
+515	This function is responsible for encoding and decoding a block of data
+516	! \brief Initialize the driver with the given settings
+517	returns 0 on success, 1 on failure
+518	Check if a player is in the list of players
+519	Add a new entry to the linked list
+520	This function is deprecated, please don't use it in the future
+521	Remove all the nodes from the list
+522	This function is never called
+523	Check if the packet is in the right format
+524	Create the HDF5 file and create a new HDF5 file
+525	This function is called by RCU critical section
+526	! \brief Convert a string to an RGB string
+527	LWIP_TEST && LWIP_TEST_CLEANUP && LWIP_TEST_CLEANUP_X
+528	Free all memory allocated by alloc
+529	Check if all required modules are loaded and loaded
+530	Fill in the context with a new one
+531	Unlink a device from the list of devices
+532	return 0 on success, 1 on failure
+533	Uncompress a block of data

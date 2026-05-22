@@ -1,0 +1,534 @@
+0	Compute a 32bit DJB hash of a set of bytes
+1	Return a copy of the object pointed to by `loc'
+2	Set the I O operation function pointers for a dataset, according to the dataset's layout
+3	Called with BQL taken
+4	these are not extern C because they are passed into nonextern C user level functions
+5	Implementation of MUF READ_WANTS_BLANKS Specifies that future READs in this frame can return a blank string
+6	Setup the input buffer state to scan a string
+7	Free a profile elements LUT
+8	'a' and 'b' must be integers
+9	Note: we assume the six high bytes are set to zero
+10	Obsolete streaming decompression functions
+11	Get the string value of the specified attribute
+12	Refresh the source datasets
+13	blend fac is 0256, where 0 is all 0, 256 is all 1
+14	This is called by RTreeSearch() to add selected node line area isle to the list
+15	Adds a property with the given 'type' and 64bit 'value' to 'msg'
+16	This function can get ssh options, it does not support all options provided for
+17	FL2_decompressBlock() : FL2POOL_function type
+18	Add records from first table to second table
+19	Add a new member to the routing table
+20	Convert native unsigned integer to native long using hardware
+21	For DYN mode, this gets the content out
+22	Fill "missing elements" in block of elements
+23	Query if space is allocated for layout
+24	Prints debugging info about an object header
+25	Conditional expansion of this file
+26	Checks if all the filters defined in the dataset creation property list are available
+27	Set a generic profile's scores so that the normal <dp_generic> DP algorithms will give the same score as <p7_MSVFilter()>: all t_MM scores 0; all other core transitions inf; multihit local mode; all <t_BMk> entries uniformly <log 2 (M(M+1))>; <tCC, tNN, tJJ> scores 0; total approximated later as 3; rounded in the same way as the 8bit limited precision
+28	Allocates memory for a new H5T_t structure
+29	Convert native unsigned integer to native long double using hardware
+30	This function gets called during a group iterate operation to return total number of members in the group
+31	Creates a hard link from NEW_NAME to CUR_NAME
+32	Converts `unsigned int' to `unsigned short'
+33	Converts `unsigned int' to `unsigned int'
+34	Optimal Rate pairing re(P,Q)
+35	Convert native unsigned short to native long double using hardware
+36	Converts `unsigned long' to `long'
+37	Convert native unsigned long to native float using hardware
+38	Convert native float to native unsigned char using hardware
+39	Convert native short to native float using hardware
+40	Converts `unsigned short' to `long'
+41	Convert native float to native unsigned long long using hardware
+42	Convert native unsigned integer to native float using hardware
+43	Convert native unsigned integer to native long double using hardware
+44	Converts `unsigned int' to `unsigned short'
+45	Convert native float to native unsigned char using hardware
+46	Converts `unsigned long' to `double'
+47	Convert native unsigned integer to native float using hardware
+48	This routine iterates over all the elements selected in a memory buffer
+49	Converts `unsigned int' to `unsigned short'
+50	Converts `unsigned long' to `long'
+51	Copy over information for a dataset
+52	Optimal Rate pairing re(P,Q)
+53	Converts `unsigned int' to `unsigned long'
+54	Converts `unsigned long' to `double'
+55	Create a contiguous dataset w variablelength datatype
+56	Convert native unsigned integer to native long double using hardware
+57	Convert native unsigned short to native long double using hardware
+58	Convert native unsigned short to native long double using hardware
+59	This routine is modified from MatPtAPSymbolic_MPIAIJ()
+60	Convert native unsigned integer to native long double using hardware
+61	Convert native unsigned char to native float using hardware
+62	This function gets called during a group iterate operation to return total number of members in the group
+63	Converts `unsigned short' to `unsigned short'
+64	Converts `unsigned int' to `unsigned int'
+65	Convert native unsigned integer to native long double using hardware
+66	Fade in parts of the screen from one screenbuffer to the other screenbuffer
+67	Converts `unsigned short' to `long'
+68	Convert native unsigned integer to native float using hardware
+69	Converts `unsigned short' to `double'
+70	Convert native float to native unsigned short using hardware
+71	Convert native float to native unsigned int using hardware
+72	Converts `unsigned int' to `unsigned char'
+73	Convert native unsigned integer to native short using hardware
+74	Convert native unsigned integer to native long double using hardware
+75	Convert native unsigned short to native long double using hardware
+76	Convert native unsigned integer to native float using hardware
+77	Convert native unsigned integer to native long double using hardware
+78	Convert native unsigned integer to native long double using hardware
+79	Converts `unsigned int' to `unsigned long'
+80	Converts `unsigned short' to `long'
+81	Converts `unsigned short' to `unsigned short'
+82	Converts `unsigned int' to `float'
+83	Convert native unsigned integer to native float using hardware
+84	Converts `unsigned int' to `short'
+85	Converts `unsigned int' to `unsigned int'
+86	This function gets called during a group iterate operation to return total number of members in the group
+87	Sorts members of a compound or enumeration datatype by their names
+88	Hacky: enable all features for disassembler
+89	Given a pointer to a cache, an entry type, and an index, dirty the target entry
+90	This function gets called during a group iterate operation to return total number of members in the group
+91	Given a pointer to a cache, an entry type, and an index, dirty the target entry
+92	Do a read only protect the entry indicated by the type and index
+93	This function gets called during a group iterate operation to return total number of members in the group
+94	Convert an UTF16LE buf into a unicode RRune
+95	Fade in parts of the screen from one screenbuffer to the other screenbuffer
+96	Frees memory used to store the external file prefix string
+97	Default destroy, if it has never been setup
+98	void FUN_00870(const device_config device, void (func)
+99	Same as anterior, but for memory blocks
+100	Given a reference to some object, creates a copy of the dataset pointed to's dataspace and defines a selection in the copy which is the region pointed to
+101	default routine, can be overridden by user
+102	Conditional expansion of this file
+103	Conditional expansion of this file
+104	This function gets called during a group iterate operation
+105	Set the current line number
+106	Set the current line number
+107	Conditional expansion of this file
+108	Internal Flicky spawning function
+109	not declared static because a machinespecific function may call it
+110	Reset a group hierarchy name to an empty state
+111	copypasta from libtomcrypt's rsa key generation routine
+112	returns the number of bytes written in the output buffer
+113	Write to a contiguous [piece of a] dataset
+114	Unlink a card from the card list and remove it from the list
+115	Table 68 Definition of TPMS_EMPTY Structure <IN OUT>
+116	Directional prediction, zone 2: 90 < angle < 180
+117	Called with BQL taken
+118	returns 0 on success, negative on failure
+119	Some other 3dfloor special things Tails 03112002 (Search p_mobj
+120	I wish I had time to implement a nonboneheaded recursive version
+121	Insert a new member having a NAME and VALUE into an enumeration data TYPE
+122	Insert a new member having a NAME and VALUE into an enumeration data TYPE
+123	Finds the symbol name that corresponds to the specified VALUE of an enumeration data type TYPE
+124	NO_MEMORY_COMMAND Implementation of TPM2B_USES_ARRAY Structure <IN OUT, S>
+125	this is using chpl format according to some NeroRecode samples
+126	Command to set Gen2 Session
+127	@req CANSM090 @req CANSM185 @req CANSM187 @req CANSM188
+128	Determines if two hyperslabs are equal
+129	Returns true if 'rconn' is connected, false otherwise
+130	Find the great circle distance in kilometers between two floats
+131	Conditional expansion of this file
+132	This function is called by RTreeSearch() for nodes to find the node id
+133	returns 0 on success, 1 on failure
+134	Initialize the interface from some other layer
+135	! \brief Unfortunately there is no example of how this is used anywhere in the system
+136	Called by H5B_iterate_helper() to check if a filter is available
+137	Flushes all data to disk and destroys the cache
+138	Setup the input buffer state to scan a string
+139	Hidden debug function, to forcetest external dictionary mode
+140	Generic hook that does absolutely zappo
+141	Free the memory allocated for a malloc()'d string
+142	FUNIONAL METHODS Returns a pointer to the first value in a chain
+143	used by synthesis, which has a full, alloced vi
+144	HDF5 is able to distinguish between character sets of different nationalities and to convert between them to the extent possible
+145	always called before blk_set_io_limits if a limit is set
+146	select given object when stream selection is available
+147	Fucntion to execute a given command with the given args
+148	ArenaCollect collective statistics from the cache
+149	Release access to a dataspace object
+150	Wait until all jobs have finished
+151	Checks whether the given IP address is a broadcast address
+152	Release access to a dataspace object
+153	Get the list of frames with a given size
+154	Initializes the global dataset infomration arrays
+155	Index generation function: Ordered index
+156	Initialize the interface from some other layer
+157	mps_arena_destroy destroy an arena object
+158	XXX this function is slow!
+159	really, have to say this is a pretty simple one, really
+160	Remove a connection from the pool
+161	Remove and return the pointer to the head of the list
+162	This function can get ssh options, it does not support all options provided for
+163	Rate 1 2, k 2, k 3
+164	Conditional expansion of this file
+165	Note that interrupts must be enabled when calling this function
+166	this process will be hung in an infinite loop
+167	Clean call for H5O_msg_reset()
+168	Advance to the next entry in the hash table
+169	Free all the FUNs in the list
+170	Clears the contents of 'row' in table "Bridge"
+171	this function handles only `%d', `%c' and `%f' formats
+172	Return the list of open file & object IDs
+173	Unused, but looks like it was intended to be a hook
+174	this is not static because it is called in intercomm
+175	default routine, can be overridden by user
+176	Dispense a cereal into the bowl
+177	Just like free(3) except null pointers are allowed as arguments
+178	Reads data of type @c data_type by userdefined dimensions for 2D
+179	Reads data of type @c data_type by userdefined dimensions for 1D
+180	Check if a filter is available
+181	Generate an MD5 Base64 string dest buffer MUST be at least 24 chars long
+182	Run a log write to the log file
+183	Generate a hash as a humanreadable hex or base64string
+184	Release all the FUNs in the PCB
+185	Parse a boolean expression
+186	XXX this indirection really isn't necessary except for the function name
+187	generates a random number on [0,0xffffffff]interval
+188	The following 3 functions constitute our interface to the world
+189	Determines if two bounding boxes overlap
+190	end of DPETSC_USE_LOG section
+191	mrb_gc_protect() leaves the object in the arena
+192	This function will initialize a TMR_TagLockAction as a Gen2 lock action with the provided parameters
+193	mrb_gc_protect() leaves the object in the arena
+194	mrb_gc_protect() leaves the object in the arena
+195	Upsample using a combination of allpassbased 2x upsampling and FIR interpolation
+196	Scan the ARP table to see if it is an ARP
+197	mrb_gc_protect() leaves the object in the arena
+198	Calculate a 64 bit DJB hash of a number
+199	Perform a log write, and then immediately flush the entire log
+200	This function is responsible for encoding and decoding a band for the mono case
+201	Hidden debug function, to force external dictionary mode
+202	No dup or free routines needed, as the structure has no pointers in it
+203	NOTE: Signed due to 1 on error
+204	@func GPS_D300b_Get Get track data (A301 protocol)
+205	Create an IPv6 address of the requested type
+206	Return TRUE if we should execute the syscall
+207	Checks if 'who' can teleport to 'where' This is used to see if a player can teleport to a place
+208	Conditional expansion of this file
+209	Advance to the next block within the current block of data
+210	Read the MAT variable identified by matvar
+211	Delete a chunk and all its data
+212	static DEVICE_START( ymf278 )
+213	Set up libCEED for a given degree
+214	static DEVICE_RESET( ymf278 )
+215	Create a new variablelength datatype based on the specified BASE_TYPE
+216	get object from table; "path" is the key
+217	Callback routine which is called whenever the fill value property in the dataset creation property list is compared
+218	FS_LEVEL_FEATURES ! This function gets called during a file close to shutdown global information about group Btree nodes for file
+219	taken from Elena's compound test file
+220	Set up libCEED for a given degree
+221	killough 11 98: kill an object
+222	Don't need to save restore exponent range: the cache does it
+223	Record an integer in the range (0,1)
+224	Implementation of MUF DIE_CLEAR Consumes a player or thing dbref and returns a boolean that represents if the player is editing or not
+225	Read from a contiguous [piece of a] dataset
+226	Generic hook that takes an rtx and returns it
+227	This function should be deprecated because it doesn't consider optional argument values (ARG_HASOPTVALUE)
+228	Same as anterior, but for IPsec SA
+229	Find an object pointer for the given name
+230	Implementation of \@credits Just spits a credits file (tp_file_credits) out to the player
+231	mps_reservoir_limit return the reservoir size
+232	Plan 7, 8, 16 or 32bit quantization indices
+233	Return the number of bytes reserved or 0 on error
+234	Generic hook that takes a rtx and an int and returns void
+235	returns FUN_ST_MEM or FUN_ST_MEM_ERROR
+236	Initialize a TMR_TagReadDataMemBank with the provided data storage area
+237	Called when the size of our inbuf changes
+238	if str ! NULL, call strdup and return string
+239	Get the current automatic cache resize configuration from the metadata cache
+240	Create a new Matlab MAT variable with the given name
+241	Get the color at a particular location in the canvas
+242	helper function to keep code base small
+243	DollarPath contains raw data, plus (possibly) the calculated length
+244	Get a string value from a dictionary
+245	Get the item in the list
+246	Finalize and cleanup all libssh and cryptographic data structures
+247	Apply function FUNC to each member of type TYPE (with nonzero application reference count)
+248	mps_reservoir_limit return the reservoir size
+249	Copies a message from _MESG to _DEST in file
+250	Free all FUNs in the given range
+251	return value: 0 ok, 1 not ok, 1 error
+252	Implementation of MUF DEBUG_LINE Shows the stack trace for the current line
+253	Implementation of \@unlink command This is just a wrapper around _do_unlink (a private function) that does all the logic
+254	Implementation of MUF DEBUG_LINE Shows the stack trace for the current line
+255	Free an ELF linker hash table
+256	Free file space referenced by message
+257	Frees the provided (wire) buffer and initializes the frame
+258	Send a SSH_MSG_KEX_ECDH_REPLY packet
+259	Enumerate entries in a hash table
+260	Flushes the metadata accumulator for the file
+261	Free file space referenced by message
+262	Advance to the next step in a key exchange
+263	Add a new card to a FITS header
+264	Replace the path at the end of the list
+265	Add a new card to a FITS header
+266	Implementation of \@credits Just spits a credits file (tp_file_credits) out to the player
+267	Thanks to James Gillogly & Phil Karn!
+268	Thanks to James Gillogly & Phil Karn!
+269	Allocate and initialize an input buffer state
+270	Returns the number of elements in an array
+271	Convert an u32_t from network to host byte order
+272	Return a pointer to the object location for a dataset
+273	Convert a 32bit value from network to host byte order
+274	Convert a 16bit value from network to host byte order
+275	Convert an u16_t from network to host byte order
+276	Same as anterior, but for memory blocks
+277	Change the location of a bounding box
+278	always called before blk_set_io_limits()
+279	delete all FUNs in the list
+280	Convert a unix timestamp to a string
+281	killough 11 98: kill an object
+282	Print some values from a dataset referenced by region blocks
+283	Prints the string buffer to the output STREAM
+284	This function should be optimized to keep code base small
+285	This function gets called during a group iterate operation to return total number of members in the group
+286	Frees internal pointers and resets the message to an initial state
+287	Thanks to James Gillogly & Phil Karn!
+288	Generate an IPv6 address of the requested type
+289	DMA Stream Get the Transfer Block Size
+290	Generic hook that takes a rtx and an int and returns a string
+291	Creates a time string from a UNIX timestamp delta in "format 2" layout
+292	Frees memory used by the SOHM table
+293	Free all memory associated with a dataspace
+294	Find number of insns in the list
+295	Finalize everything in this file
+296	simulate button release event of 5 key osd cable
+297	Add a player to the player list
+298	Directional prediction, zone 2: 90 < angle < 180
+299	This function should be removed and replace by avc_style_copy_sse2
+300	Convert an u32_t from network to host byte order
+301	Finds the HDF5 superblock signature in a file
+302	Finds the symbol name that corresponds to the specified VALUE of an enumeration data type TYPE
+303	Initialize the VFD through the VFD
+304	Index generation function: Attribute values > index hash keys
+305	Create a contiguous dataset w variablelength datatype
+306	default routine, can be overridden by user
+307	mps_reservoir_limit return the reservoir size
+308	Table 68 Definition of TPMS_EMPTY Structure <IN OUT>
+309	Add block to be revoked to a transaction
+310	Converts `unsigned long' to `unsigned long'
+311	convert internal (nonblocking) to external format
+312	step up function, can be called recursively
+313	Upsample using the given command line
+314	Hacky: enable all features for disassembler
+315	This function gets called during a file close to shutdown global information about group Btree nodes for file
+316	Incremental version of H5O_msg_reset()
+317	MAKE SURE you hold the audio lock (SDL_LockAudio()) before calling this!
+318	flr1, new_z, and dest are the same spinors
+319	ifndef YY_NO_INPUT Immediately switch to 0
+320	Conditional expansion of this file
+321	Creates a new ssh_pcap_context object
+322	XXX this function is slow!
+323	Function to keep code base small
+324	find the GaussLegendre quadrature
+325	allocate an array of objects and clear it to zeros
+326	This function is responsible for encoding and decoding a band for the mono case
+327	Function to compute the variance of an array of values
+328	Allocate a sequence of objects and clear it to zeros
+329	Dummy function to keep code base small
+330	Fucntion to return true if the callback succeeds
+331	add_line_node: add a line node in the editor buffer
+332	MAKE SURE you hold the audio lock (GPIO_lock()) before calling this!
+333	This function should be deprecated because it doesn't consider optional argument values (ARG_HASOPTVALUE)
+334	Sets the total size in bytes for a datatype (this operation is not permitted on reference datatypes)
+335	Initializes 'pvec' as an empty concurrent priority vector
+336	This function gets called during a group iterate operation to return total number of members in the group
+337	[opcode] [0000 0000] [ abs ]
+338	Get the current time, in milliseconds
+339	bugfix by Michael Bloom (mg@ttidca
+340	Returns TRUE if any of the user's flags are set
+341	mps_arena_create_k create an arena object
+342	Check whether a key is under the @p user namespace or not
+343	Note: this does not properly handle chunks that are > 64K under DOS
+344	Index generation function: Attribute values > index hash keys
+345	Initialize this driver by registering the driver with the library
+346	This function is called by H5B_iterate_helper() to gather storage info for SNODs
+347	Note: we assume the two high bytes are set to zero
+348	This function is aliased to mod_exp (with the dh and mont dropped)
+349	return the size of a dataspace
+350	return the FUN type as a string
+351	Conditional expansion of this file
+352	Directional prediction, zone 2: 90 < angle < 180
+353	Initializes 'latch' as initially unset
+354	Encode a meter stat for 'ms' and append to 'replies'
+355	Generate an instance of a H5SM_sohm_t object
+356	lru_cache_add_active_or_unevictable @page: the page to be added to LRU
+357	static DEVICE_START( segapcm )
+358	Print some values from a dataset referenced by region blocks
+359	Print some values from a dataset referenced by region blocks
+360	Generic hook that takes no arguments and returns a NULL string
+361	Clears the contents of 'a' and 'b'
+362	Same as anterior, but for floating point
+363	Converts an u16_t from network to host byte order
+364	return 0 in case of error
+365	Free space for directly accessed, filtered 'huge' object
+366	Returns the number of elements in a list
+367	This function will find a node in a list, and return it
+368	Discard all buffered characters
+369	A quick way to return a field in a struct private in this file
+370	Return true if 'a' and 'b' contain the same strings, false otherwise
+371	if defined(UNPOOLED_P) || defined(UNPOOLED)
+372	getdns_pp_dict getdns_pretty_print_dict Return a character string containing a "human readable" representation of dict
+373	restore parser handlers from previous one in stack
+374	Remove all matching items from list
+375	Convert a local_state_t from network to host byte order
+376	Free all memory associated with OBJFILE
+377	To be called first on the ThrottleTimers
+378	Convert an UTF16 buf into a unicode RRune
+379	Clean up compression context and free up any associated resources
+380	Fade in parts of the screen from one screenbuffer to another
+381	step up function for H5T__get_array_dims
+382	static STREAM_UPDATE( SCSP_Update )
+383	Create an IPv4 address of the requested type
+384	[private functions] [public functions] Called if there is something very wrong
+385	Print some values from a dataset referenced by region blocks
+386	Encode driverspecific data into the output arguments
+387	Encode driverspecific data into the output arguments
+388	this is using chpl format according to some NeroRecode samples
+389	Verify the signature of the received packet
+390	XXX: add IGNNE support
+391	remove all SDP info at the track level
+392	Stop playback of a stream previously started with OGG_play()
+393	This function should be called with chr_write_lock held
+394	This function should be deprecated because it doesn't consider optional argument values (ARG_HASOPTVALUE)
+395	returns the number of messages queued for transmission on 'rc'
+396	Get an IPv6 address from a session
+397	Get the type of a message
+398	Returns true if the 'n' bytes starting at 'p' are zeros
+399	Returns true if 'rconn' is connected, false otherwise
+400	wpa_eapol_key_mic Calculate EAPOLKey MIC @key: EAPOLKey Key Confirmation key
+401	Get the size of a COFF symbol
+402	getdns_pp_dict getdns_pretty_print_dict Return a string containing a "human readable" representation of dict
+403	reset frame synchronizer object
+404	Conditional expansion of this file
+405	Helper function to form the Gen2 IAVDenatran Custom commad write Sec
+406	Write a 16bit integer to the buffer
+407	set a TMR_TagOp as a ISO180006B data read operation with the provided parameters
+408	Free file space referenced by message
+409	Set up and return the hash value of the FUN
+410	MPI function that returns the current settings for the selected item
+411	Very similar to memset() except it operates on hyperslabs
+412	Destroy a data transform object
+413	Register a callback function to be called for tabcompletion
+414	Clear the cache hit rate computation fields
+415	static DEVICE_START( segapcm )
+416	Find a node in the group graph and return it
+417	Read information about Huffman tree used to decode data
+418	these two are a little unstoked at the moment
+419	1 to not allocate array data in speed()
+420	Public function see documentation comment in header file
+421	This function gets called during a group iterate operation to return total number of members in the group
+422	Flushes (and destroys) the metadata cache associated with the specified file
+423	LWIP_SUPPORT_CUSTOM_PBUF Shrink a pbuf chain to a desired size
+424	Initialize a TMR_TagOp as a ISO180006B lock operation with the provided parameters
+425	Modifies an existing [possibly static] buffer
+426	This function may be called with topology>tma set, it cannot free() or realloc()
+427	Directional prediction, zone 2: 90 < angle < 180
+428	Sample a random number on [0,1]realinterval
+429	Add block to be revoked to a transaction
+430	Generic hook that does absolutely zappo
+431	Insert a new member having a NAME and VALUE into an enumeration data TYPE
+432	map internal raw register to 'public' register
+433	Optimal Rate double pairing e(P,Q)
+434	This function is aliased to mod_exp (with the mont stuff dropped)
+435	Reads a subset of a MAT variable using a 1D indexing
+436	This function should be removed and replace by avc_style_copy_s()
+437	Function to keep code base small
+438	This function is aliased to mod_exp (with the mont stuff dropped)
+439	This is always called with BQL taken
+440	Table 2:128 Definition of TPMS_CREATION_DATA Structure (StructuresTable())
+441	Fill the buffer with a 32bit unsigned integer
+442	Frob eflags into and out of the CPU temporary format
+443	takes esiptr to array of vectors, ediptr to dest vectors
+444	forget old pics after a seek
+445	Frob eflags into and out of the CPU temporary format
+446	Initialize a block iterator for walking over all the blocks in a file
+447	Similar to memset() except it operates on hyperslabs
+448	default routine, can be overridden by user
+449	Release all the objects in queue
+450	Note: this does not properly handle chunks that are > 64K under DOS
+451	Free a trie iterator
+452	force argument to next function to not be extern C
+453	static DEVICE_STOP( ymf278 )
+454	Stop listening to incoming SIP MESSAGE messages
+455	Frees all the "struct ofputil_bucket"s in a list
+456	Generic hook that takes no arguments and returns true
+457	Conditional expansion of this file
+458	Command to get active RFControl
+459	Conditional expansion of this file
+460	Discard all buffered characters
+461	Free a SSH message
+462	static DEVICE_START( segapcm )
+463	default routine, can be overridden by user
+464	This function will allocate memory and return a pointer to it
+465	MAKE SURE you hold the audio lock (GPIO_lock()) before calling this!
+466	static DEVICE_START( segapcm )
+467	Query if raw data is cached for dataset
+468	default routine, can be overridden by user
+469	Get last item in list
+470	return 0 or BF_ST_MEM_ERROR
+471	l_ and k_ are allowed to be the same spinors
+472	takes esiptr to array of vectors, ecxrotation order
+473	This function is responsible for encoding and decoding a band for the mono case
+474	allocate an array of uniformly distributed variables
+475	code copied from glib glist
+476	Definitions of Fortran Wrapper routines
+477	l_ and k_ are allowed to be the same spinors
+478	Given a reference to some object, return the type of that reference
+479	Sets the total size in bytes for a datatype (this operation is not permitted on reference datatypes)
+480	Check if fill value is defined
+481	This function returns a random 32bit unsigned integer
+482	NOTE: this is an implementation of MurmurHash3_x86_32
+483	need to add in our signals that the app thinks are blocked
+484	Generic hook that takes no arguments and returns a NULL string
+485	Caller loses reference to the caller
+486	Index generation function: Attribute values > index hash keys
+487	XXX this is O(N)
+488	This is to support dr_create_client_thread()
+489	dgeomap_instru Write differential geometry maps for a matlab variable
+490	mps_arena_destroy destroy an arena object
+491	Compare the parameters used to create the fractal heap
+492	called by fmiGetReal, fmiGetContinuousStates and fmiGetDerivatives
+493	Finds the HDF5 superblock signature in a file
+494	Return the name of a member of a compound or enumeration datatype
+495	rename to r_io_undo_length ?
+496	Add an element to the list
+497	Releases all memory allocated for the given pool
+498	return the current time, in microseconds
+499	helper function to keep code base small
+500	Functions with Error Codes
+501	Query if space is allocated for layout
+502	Returns the number of messages queued for transmission on 'rc'
+503	g_int_hash() is lifted from glib2
+504	Clears the contents of 'row' in table "Interface"
+505	Kept for backwards compatibility
+506	Return the number of bytes reserved or 0 on error
+507	Decode Indeo 4 band header
+508	Remove an event from the event queue
+509	This function should be deprecated because it doesn't consider optional argument values (ARG_HASOPTVALUE)
+510	This is the implementation of MurmurHash3_x86_32
+511	default routine, can be overridden by user
+512	This function should be called periodically to update 'lacp'
+513	This function should be called periodically to update 'lacp'
+514	Helper function to keep code base small
+515	Kept for backwards compatibility
+516	Load an image from an SDL datasource (for compatibility)
+517	getdns_pp_dict getdns_pretty_print_dict Return a string containing a "human readable" representation of dict
+518	returns true if a monster is far away from us
+519	mps_arena_destroy destroy an arena object
+520	add for CONFIG_IEEE80211W, none 11w can use it
+521	The underpinning function of the gui_dlog_close primitive For a given MCP frame and dialog ID, remove the dialog from the list
+522	mps_reservoir_limit return the reservoir size
+523	returns 1 if it's a good address, 0 otherwise
+524	This function should be called periodically to update 'lacp'
+525	Add a packet to the queue
+526	Print information about a dataspace selection by appending the information to the specified string
+527	! \brief frees resources allocated in call to parse_path_args
+528	Frees all of the "struct ofputil_bucket"s in the queue
+529	! \brief check if file is mounted within another file
+530	always use this function to keep code base small
+531	Free a message allocated by tcpip_callbackmsg_new()
+532	Create a contiguous dataset w variablelength datatype
+533	Unlike memcpy(), this uses plexnative closure permutation, not a userspecified permutation such as memcpy()

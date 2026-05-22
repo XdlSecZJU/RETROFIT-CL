@@ -1,0 +1,534 @@
+0	Compute a 32bit random number on [0
+1	Allocate a file structure
+2	Initialize the interface from some other layer
+3	XXX: restore CPU state in registers (PowerPC case)
+4	Called within RCU critical section
+5	Returns the current CPU time, in microseconds
+6	Initialization and Configuration functions
+7	Set the I O handlers for the virtual HUB
+8	Move all the elements from src to dst
+9	XXX: add faster immediate case
+10	Convert native short to native long using hardware
+11	Open a file named NAME and initialize FILE
+12	Release all memory associated with an H5SM_sohm_t structure
+13	This function is responsible for encoding and decoding a DHCP packet
+14	Set the current line number
+15	Convert a 64bit integer from host to network byte order
+16	Send a SSH_MSG_UNIMPLEMENTED error message
+17	Move left one space, and then back to the beginning
+18	Reads data from a file into a buffer
+19	Functions with Error Codes
+20	Convert native unsigned char to native long using hardware
+21	This function is only relevant in some drivers
+22	Fill buffer with random data
+23	Table 182 Definition of TPM2B_PUBLIC Structure <IN OUT, S>
+24	Same as H5O_msg_reset() except it also frees the message pointer
+25	Get the address of a file based on the file format
+26	Similar to H5C_reset() except it also frees all memory
+27	Calculate the soil thermal conductivity and strength of a cell
+28	Free all memory used by the library
+29	Convert native unsigned short to native long double using hardware
+30	Convert native unsigned integer to native float using hardware
+31	Convert one type to another when byte order is the only difference
+32	Convert native unsigned integer to native long using hardware
+33	Convert native unsigned integer to native long using hardware
+34	Convert native double to native float using hardware
+35	Convert native unsigned short to native long double using hardware
+36	Convert native long double to native unsigned char using hardware
+37	Convert native unsigned long to native float using hardware
+38	Convert native float to native long double using hardware
+39	Convert native short to native float using hardware
+40	Convert native unsigned short to native long using hardware
+41	Convert native float to native long double using hardware
+42	Convert native float to native long using hardware
+43	Convert native unsigned short to native long double using hardware
+44	Convert native unsigned integer to native long using hardware
+45	Convert native float to native long double using hardware
+46	Convert native double to native unsigned int using hardware
+47	Convert native float to native long double using hardware
+48	Convert native long double to native unsigned char using hardware
+49	Convert native unsigned integer to native long using hardware
+50	Convert native long double to native unsigned char using hardware
+51	Recursively visit all the links in a group and all the groups that are linked to from that group
+52	Reads (part of) a DATASET into application memory BUF
+53	Converts `unsigned int' to `unsigned long long'
+54	Convert native unsigned long to native double using hardware
+55	Convert one type to another when byte order is the only difference
+56	Convert native unsigned short to native long double using hardware
+57	Convert native long double to native unsigned char using hardware
+58	Convert native long double to native unsigned short using hardware
+59	This function is responsible for encoding and decoding a band for the mono case
+60	Convert native unsigned short to native long double using hardware
+61	Convert native unsigned int to native float using hardware
+62	! \brief Convert a symbol table entry to a string
+63	Convert native unsigned short to native long using hardware
+64	Convert native unsigned integer to native long using hardware
+65	Convert one type to another when byte order is the only difference
+66	Convert native unsigned integer to native float using hardware
+67	Convert native unsigned short to native long using hardware
+68	Convert native float to native long using hardware
+69	Convert native short to native double using hardware
+70	Convert native unsigned short to native long double using hardware
+71	Convert native long double to native float using hardware
+72	Convert native long double to native unsigned int using hardware
+73	Convert native short to native long double using hardware
+74	Convert native unsigned short to native long double using hardware
+75	Convert native unsigned short to native long double using hardware
+76	Convert native float to native long using hardware
+77	Convert native unsigned integer to native long double using hardware
+78	Convert native float to native long double using hardware
+79	Convert native unsigned long to native long using hardware
+80	Convert native unsigned short to native long using hardware
+81	Convert native unsigned short to native long using hardware
+82	Convert native long double to native float using hardware
+83	Convert native unsigned short to native float using hardware
+84	Convert native unsigned short to native long using hardware
+85	Convert native unsigned int to native long using hardware
+86	This function is responsible for encoding and decoding a band for the mono case
+87	Moves an entire linked list to the beginning of another list
+88	used by H5T__visit and H5T__unprotect
+89	Called with BQL taken
+90	This function gets called during a group iterate operation to return number of entries in the group
+91	This function gets called during a group iterate operation to return total number of members in the group
+92	Called with BQL taken
+93	Initializes 'row' as an empty concurrent hash table
+94	Table 177 Definition of TPM2B_SENSITIVE_DATA Structure <IN OUT, S>
+95	default routine, can be overridden by user
+96	Given a reference to some object, determine the type of that object pointed to
+97	called when there are no readers writers left
+98	Functions with Error Codes
+99	Walk over all the links in a group, making a callback for each one
+100	Given a pointer to an instance of H5AC_t and an appropriately sized buffer, create a new instance of H5C_t and initialize it
+101	This function is here to keep code base small
+102	XXX: this function has 'package' visibility
+103	Set the IP address of a Socket Address
+104	Wrapper around H5AC_protect for use during a H5O_protect> H5O_msg_append>
+105	Set the current line number
+106	Set the current line number
+107	Set the expiration date of the certificate
+108	Called with BQL taken
+109	Find the instruction with the matching name
+110	Mark a file's superblock dirty
+111	This function initializes the decoder according to the specified
+112	static DEVICE_START( ym2413 )
+113	Read from a contiguous [piece of a] dataset
+114	Called with BQL taken
+115	Generic hook that takes (enum machine_state) and returns false
+116	Called with BQL taken
+117	Same as FUN_001007, except it increments the reference count
+118	Caller must hold BQL
+119	static DEVICE_START( ymf271 )
+120	This subroutine estimates the number of seconds until the specified number of microseconds has elapsed since the last call to this function
+121	Walks through the linked list, making a callback for each one
+122	Add a file to the list of open files
+123	Same as H5O_msg_reset() except it also frees the message pointer
+124	Free a TMR_TagReadData structure
+125	This function is aliased to memset() except it operates on hyperslabs
+126	Send a SSH_MSG_UNIMPLEMENTED error message
+127	Send a SSH error packet
+128	Sort the packets according to the order within an index
+129	Check if a file exists
+130	Gauss random number probability distribution function
+131	in place quaternion integration with constant rotational velocity
+132	return 0 on success, 1 on failure
+133	Initialize this driver by registering the driver with the library
+134	This function initializes the interface from some other layer
+135	Initialize the interface from some other layer
+136	called during a group iterate operation to check if all the filters have been set (e
+137	This function should be called by H5Literate() to keep code base small
+138	Initialize the event loop
+139	Similar to memset() except it operates on hyperslabs
+140	This function is here to keep code base small
+141	Free a Btree node
+142	Return a copy of the list pointed to by list
+143	Initialize a TMR_TagReadData with the default values
+144	Initialize the interface from some other layer
+145	Call the userdefined callback
+146	Check to see if any of the channels in the group can be removed
+147	Call a userdefined callback
+148	Create a new Matlab MAT file
+149	Release all memory associated with the virtual HUB
+150	check if any of the filters in the current scope are empty
+151	Check if a player is allowed to change its protections
+152	Things to do when we don't have a file available (e
+153	Resample with a fixed point number of bits
+154	default routine, can be overridden by user
+155	Function to keep code base small
+156	Initialize the interface from some other layer
+157	Initializes 'set' as an empty set of strings
+158	This function is aliased to H5C_set_cache_auto_resize()
+159	Called within RCU critical section
+160	Add a node to the tail of a list
+161	Remove the top of the linked list
+162	Iterate over the objects in a group
+163	Called within RCU critical section
+164	Open an existing HDF5 file
+165	Called with BQL taken
+166	This is the implementation of the MUF SET_CURR and SET_CURR_ELMS functions
+167	Destructor (complements the "instr" constructor)
+168	Called with BQL taken
+169	Called with BQL taken
+170	Clears the contents of 'row' in table "Interface"
+171	Add a node to the tail of the linked list
+172	Called with BQL taken
+173	Unwrapping according to RFC 3394 section 2
+174	Count the # of bits in an instruction
+175	This function is here to keep code base small
+176	XXX: this function has 'package' visibility
+177	reset all global settings to initial values
+178	Get the IP address of a service
+179	Convert native long to native long using hardware
+180	Wrapper for H5AC_get_cache_hit_rate()
+181	! Create a group and all of its children
+182	Note: this function assumes that the dataset has already been freed
+183	XXX: add I O support
+184	XXX: this function has 'package' visibility
+185	Check if any of the characters in a buffer are printable
+186	XXX: this function has 'package' visibility
+187	Returns the current working directory position, in bytes
+188	Initialize TMR_TagOp as a Gen2 Ids SL900A AcessFifo Read operation with the provided parameters
+189	Determines if the given point is inside the given bounding box
+190	Enable or disable interrupts
+191	Lock the file for exclusive read write access
+192	Initialize a TMR_TagOp as a Gen2 Ids SL900A Set EPC filter with the provided parameters
+193	Set the endofaddress marker for the file
+194	Clear the DMAy Streamx FIFO
+195	Called with BQL taken
+196	Fill in the components of a DHCP packet
+197	Switch to a different input stream
+198	Calculate the hash value for a given protection mask
+199	XXX: this is somewhat incomplete
+200	Given a buffer containing at least (capacity) bytes of random data, calculate a hash value for it
+201	XXX: this is somewhat incomplete
+202	Convert native unsigned short to native long using hardware
+203	Create a new DHCP packet
+204	Initialize the library by registering the driver with the library
+205	This function is aliased to memset() except it operates on one machine
+206	Returns 1 on success, 0 on failure
+207	Check to see if 'thing' is a pointer to a variable
+208	same as anterior, but for 32 bit input
+209	Calculate HMACSHA256 of a memory buffer
+210	Decode a DHCP message and store the resulting DHCP packet in msg
+211	Walk over all the links in a group and remove them
+212	Conditional expansion of this file
+213	Only called for classic model
+214	static DEVICE_STOP( ymf271 )
+215	Frees memory used by the library
+216	Convert a path string to an external file path
+217	Read from a contiguous [piece of a] dataset
+218	Similar to FUN_001001() except it operates on a multithreaded dataset
+219	This function initializes the interface from some other package
+220	extern const double log_2(x, y)
+221	Called with BQL taken
+222	call with BQL taken
+223	Sample a random number between 0 and 1
+224	Note: we assume the two high bytes are set to zero
+225	Called within RCU critical section
+226	Functions with Error Codes
+227	Iterate over the channels in a group, making a callback for each one
+228	Walk over all the links in a group, making a callback for each one
+229	Open an existing HDF5 file
+230	XXX: add IGNNE support
+231	Dummy function, can be overridden by user
+232	Convert a 16bit integer from network to host byte order
+233	Allocate a buffer with the appropriate number of elements
+234	Default routine, can be overridden by user
+235	returns 0 on success, negative on failure
+236	Initialize a TMR_TagLockAction as a Gen2 lock action with the provided parameters
+237	Close the file specified by FILE_ID by flushing the file back to the output stream
+238	Convert an UTF8 buf into a unicode RRune
+239	Returns the address of the first byte after the last allocated memory in the file
+240	This function calculates the Mid Side representation of the H3Index
+241	Called from RCU critical section
+242	This function initializes the random number generator with the given seed
+243	This function is responsible for encoding and decoding a band for the mono case
+244	Delete an entry from a group
+245	Get the name and value of an attribute
+246	Return the current working directory
+247	Fill a buffer with random data
+248	Get the current line number
+249	This function gets called during a group iterate operation to return total number of members in the group
+250	Called with BQL taken
+251	Called with BQL taken
+252	Called with BQL taken
+253	Issue an instruction and wait for its completion
+254	Called with BQL taken
+255	Decrements the reference count on an encoded bit stream
+256	Convert a DHCP packet into its raw form
+257	Get the current line number
+258	Set the flags that this VFL driver is capable of supporting
+259	Iterate over the channels in a group, making a callback for each
+260	XXX: restore CPU state in registers (PowerPC case)
+261	Called under uipcps lock
+262	Generate a DHCP packet
+263	Returns NULL on success or negative on failure
+264	Add a plugin to the list of plugins
+265	Finds the path that points to the given entry
+266	Returns the current system time, in microseconds
+267	This function is responsible for encoding and decoding a DHCP packet
+268	return 0 on success, 1 on failure
+269	Create a new trie
+270	Get the index of the first node in the tree
+271	Convert an u32_t from host to network byte order
+272	Returns a copy of the dataset creation property list
+273	XXX: add IGNNE support
+274	Send a SSH_MSG_UNIMPLEMENTED error message and exit
+275	Convert an u16_t from host to network byte order
+276	Returns a pointer to the file descriptor of the lowlevel file driver
+277	Set the start and end values of the current bounding box
+278	Called when the underlying socket has given us an error
+279	Called with BQL taken
+280	Convert a 64bit integer from host to network byte order
+281	Initialize the interface from some other layer
+282	This function is aliased to mod_exp (with the mont stuff dropped)
+283	Decode a DHCP packet into a buffer
+284	Set the size of the hash state to a given value
+285	Given a coordinate offset (COORD), the size (NCHUNKS) and the number of chunks in each dimension (NCHUNKS) and the number of dimensions of all of these (NDIMS), calculate a "chunk index" for the chunk that the coordinate offset is located in
+286	Set the current line number
+287	Thanks to James Gillogly & Phil Karn!
+288	Create and fill a buffer with information about an object
+289	Get the 'point' for a given track
+290	Returns the address of the first byte after the last allocated memory in the file
+291	Generic hook that takes (enum machine_mode) and returns false
+292	Hook that is called by the VM
+293	reset all global settings to initial values
+294	Function to send a command to all registered devices
+295	This function initializes the interface from some other layer
+296	MPI function to keep code base small
+297	Send a SSH_MSG_UNIMPLEMENTED error message and exit
+298	This function initializes the random number generator with a given seed
+299	This function initializes the random number generator with a given seed
+300	Convert an u32_t from host to network byte order
+301	Creates a hard link from NEW_NAME to CUR_NAME
+302	Prints debugging info about an object header
+303	Convert native long to native long using hardware
+304	Reads data of type @c data_type by userdefined dimensions
+305	Walk over all the links in a group and create a new group with all the groups that are linked to from that group
+306	This function is here to keep code base small
+307	Default routine, can be overridden by user
+308	Dummy function, can be overridden by user
+309	Called with BQL taken
+310	Given a coordinate description of a location in an array, this function returns the absolute coordinates of the coordinate, the size of the coordinate, the absolute coordinates of the coordinate
+311	XXX: this function has 'package' visibility
+312	Check whether the specified IP address is in the specified IP address space
+313	Count the number of characters in a string
+314	This function initializes the layout struct with information about the layout
+315	Initialize the interface from some other layer
+316	Optimal Rate double pairing re(P,Q)
+317	XXX: add faster immediate 1 case
+318	Called with BQL taken
+319	Attach driver to device
+320	Table 177 Definition of TPM2B_NV_PUBLIC Structure
+321	Create a new socket and initialize it
+322	XXX: this function has 'package' visibility
+323	returns the size of the raw message in bytes
+324	This function initializes the interface from some other layer
+325	Called with BQL taken
+326	Similar to memset() except it operates on hyperslabs
+327	returns the size in bytes of the raw image in the file
+328	Returns a pointer to the first node in the tree
+329	This function initializes the hash table
+330	See if 'func' is a function pointer
+331	Called with BQL taken
+332	Walk over all the links in a group, making a callback for each one
+333	Iterate over the channels in a group, making a callback for each one
+334	Given a dataspace ID, converts the object description (including selection) into binary in a buffer
+335	Called with BQL taken
+336	This function is aliased to mod_exp (with the dh and mont dropped)
+337	Returns the current CPU time, in microseconds
+338	Get the current time, in milliseconds
+339	return the current time, in microseconds
+340	Increment the number of references outstanding for a library
+341	Called with BQL taken
+342	Check if a file exists in an HDF5 file and create a new HDF5 file
+343	Convert native unsigned short to native long using hardware
+344	Check if the current segment can be folded to a particular size
+345	Returns the file descriptor of the lowlevel file driver
+346	Allocate space for a new object header
+347	Enable or disable the selected DAC channel
+348	Same as FUN_00100011() except it operates on a monster object
+349	Called with BQL taken
+350	return the type (NTYPE_ID) of the datatype to be used
+351	Returns: 1 on success, 0 on partial match
+352	This function is responsible for encoding and decoding a band for the mono case
+353	default routine, can be overridden by user
+354	This function should be called within RCU critical section
+355	Convert native long to native long using hardware
+356	Open a file named NAME and initialize FILE
+357	This subroutine initializes the interface from some other layer
+358	wrapper around H5AC_protect for use during a H5O_protect> H5O_msg_append>
+359	Convert native long to native long using hardware
+360	default routine, can be overridden by user
+361	@internal Not allowed for readonly access
+362	Given a coordinate description of a location in an array, this function returns the size of that coordinate, in bytes
+363	Convert an u16_t from host to network byte order
+364	Retrieve information about an instruction This is used by H5Tget_opcode and H5Tget_nopcode to retrieve the address and size of the instruction
+365	wrapper for memset()
+366	Get the length of the next node in a graph
+367	Get the next node in the linked list
+368	Get the next node in the linked list
+369	Returns true if 'a' and 'b' are linked to the same objects, false otherwise
+370	Compare two fractal heap blocks for equality
+371	Find the node in the linked list
+372	returns 1 on success, 0 on failure
+373	reset all global variables to initial values
+374	Create a list of DHCP packets
+375	Retrieve the current MPLS header
+376	Clears the contents of 'row' in table "Interface"
+377	Table 177 Definition of TPM2B_SENSITIVE Structure <IN OUT, S>
+378	LWIP_CHECKSUM_ON_COPY Copy a block of random data from src to dst
+379	Initialization and Configuration functions
+380	This subroutine initializes the objective matrix
+381	Initialization and Configuration functions
+382	static DEVICE_START( ym3812 )
+383	wrapper around H5AC_protect for use during a H5O_protect> H5O_msg_append>
+384	Wrapper around H5AC_protect for use during a H5O_protect> H5O_msg_append>
+385	This function is aliased to memset() except it operates in a different thread
+386	Write data to the metadata cache
+387	Similar to H5FD_query(), but intended for cases when we don't have a file available (e
+388	Returns 0 on success, negative on failure
+389	Wait for a packet to arrive for a certain type
+390	Call the userdefined callback
+391	Get the number of messages queued for transmission
+392	Free all memory associated with the HUB
+393	Send a packet to a peer
+394	Called with BQL taken
+395	Move the cursor to the beginning of the next line
+396	Get the DHCP session
+397	Returns the type of next command to be performed
+398	Convert a 32bit object from network to host byte order
+399	Returns true if 'rf' is a direct read, false otherwise
+400	Called with BQL taken
+401	Get the output buffer for a given player
+402	Allocates and initializes a new hash table
+403	reset all options and reset global variables to their initial values
+404	Conditional expansion of this file
+405	Write a random 16bit integer to a memory buffer
+406	Write a 16bit integer to a memory buffer
+407	Write a 16bit integer to a memory buffer
+408	XXX: restore CPU state in registers (PowerPC case)
+409	return 0 on success, 1 on failure
+410	Returns 0 on success, nonzero on failure
+411	This subroutine estimates the soil thermal conductivity of all soil moisture
+412	Called when the ref count reaches zero on the child
+413	force argument to next function to not be extern C
+414	Called with BQL taken
+415	Initialize a symbol table entry to an empty state
+416	Called with BQL taken
+417	XXX: restore CPU state in registers (PowerPC case)
+418	return 0 on success, nonzero on failure
+419	function to keep code base small
+420	Create and initialize a DHCP session
+421	Reads SIZE bytes of data from FILE beginning at address ADDR into buffer BUF according to data transfer properties in DXPL_ID
+422	Called with BQL taken
+423	Called with BQL taken
+424	Initialize a TMR_TagOp as a Gen2 Ids SL900A AcessFifo Read operation with the provided parameters
+425	Create a DHCP packet
+426	Iterate over all the objects in the group, making a callback for each one
+427	This function computes the number of bits for a given MIDI player
+428	This subroutine computes the expected cumulative distribution function for an array of samples
+429	Decompress one block of a DXT5 texture and store the resulting RGBA pixels in 'dst'
+430	Default routine, can be overridden by user
+431	Get the address of the first byte after the last allocated memory in the file
+432	return the offset of the first byte after the byte after the last allocated memory in the file
+433	wrapper around FAPL_0010054 fractal heap operator
+434	Add a new entry to a fractal heap
+435	Send a packet to a peer
+436	This function is aliased to mod_exp (with the dh and mont dropped)
+437	Increment the number of bits in a word32 vector by one
+438	Fill in an int32_t structure with an unsigned int
+439	Create a new symbol table entry
+440	Create a hash index of a given type
+441	Read a block from the free space manager
+442	Given a profile <gm> that's already been configured, configure it to be able to sample a block of random data
+443	Decompress one block of a DP matrix <gx> into another
+444	Called with BQL taken
+445	Decompress one block of a DP matrix
+446	Given a buffer and an index, set the information for that index
+447	Free a sequence of objects
+448	This function is here to keep code base small
+449	Turn off multitasking for an instruction
+450	Release all memory associated with a given fd
+451	Conditional expansion of this file
+452	Called with BQL taken
+453	Set the input stream state to an empty state
+454	Called with BQL taken
+455	Set the endofaddress marker for all nodes in a group
+456	Generic hook that takes (enum machine_state) and returns false
+457	Send data through a specified endpoint
+458	Returns 0 on success, 1 on failure
+459	Same as anterior, but for memory blocks
+460	Called when the ref count reaches zero on the linked list
+461	Set the IPsec SA to the default gateway
+462	This function is responsible for encoding and decoding a band for the monster
+463	This function is here to keep code base small
+464	Create a new tcp socket
+465	Walk over all the links in a group, making a callback for each one
+466	Add a file descriptor to the list of open files
+467	Returns the size in bytes of the raw message in the file
+468	This function is here to keep code base small
+469	Get the name of the current API call context
+470	Replace a node with another
+471	Decompress one block of a DP matrix whose elements are from one side to another
+472	Build a hash table from the dataset creation property list
+473	This function is aliased to mod_exp (with the dh and mont dropped)
+474	Rearrange an array of points (in place)
+475	Apply function FUNC to each element of an ACR list
+476	Given a pointer to an array, and an index, find the first bit that differs between the first and second elements of the array
+477	Copy a block of memory from source to destination
+478	Pushes a new message onto the stack
+479	Destroy release a dataspace object
+480	Walks over all the links in a group and adds them to the list
+481	Generates a random 32bit integer from the seed
+482	Generates a random 32bit integer from the seed
+483	Similar to FUN_00102580() except it operates on hyperslabs
+484	Dummy function, can be overridden by user
+485	Send a SIP SUBSCRIBE message
+486	Convert a DHCP packet to a TPM2B_EPC packet
+487	Parse the body of a DHCP request packet and store it in req_ptr
+488	Set the input stream state to scan the given stream parameters
+489	This subroutine solves the Euclidean distance matrix, which is the inverse of the Euclidean distance matrix
+490	Called with BQL taken
+491	Compare two file families to see if they are equal
+492	Advance to the next byte after the specified address
+493	Iterate over the chunks in an index, making a callback for each one
+494	Get the address of the first byte after the last allocated memory in the file
+495	Add a new peer to the peer list
+496	Add a packet to the receive queue
+497	XXX: this function has 'package' visibility
+498	Initializes 'dst' as an empty concurrent hash
+499	This function is aliased to mod_exp (with the dh and mont dropped)
+500	returns 1 if number of bits is odd else returns 0
+501	Get the current line number
+502	Returns the current MUCKER level
+503	Get the current line number
+504	Called when the last command in the pipeline has completed
+505	XXX: this function has 'package' visibility
+506	Scan through the hash table and build the hash table structure
+507	Read and decode a frame from the NIC
+508	Walk over all the links in a group, making a callback for each one
+509	Functions with Error Codes
+510	Decompress one block of a 512bit block
+511	This function is here to keep code base small
+512	Read from a contiguous [piece of a] dataset
+513	This function is aliased to memset() except it operates on hyperslabs
+514	This function does all the work for H5Tget_native_type
+515	Read from a contiguous [piece of a] dataset
+516	! \brief Initialize the interface from some other layer
+517	Returns 0 on success, nonzero on failure
+518	Check if the dataset creation property list is empty (i
+519	Register the driver with the library
+520	Set the endofaddress marker for the file
+521	Deallocate the linked list
+522	Default routine, can be overridden by user
+523	Check if the given instruction is a member of the same type
+524	Only called by H5Fget_obj_count or H5Fget_obj_ids
+525	This function is responsible for encoding and decoding a DHCP packet
+526	Convert a hexadecimal string to a unicode RRune
+527	Called from RCU critical section
+528	Free all memory used by the library
+529	Check to see if driver is capable of supporting a device
+530	Initialize a TMR_TagReadData with the provided memory buffer
+531	Release all resources used by the Cedar
+532	returns 1 on success and 0 on failure
+533	Similar to memset() except it operates on hyperslabs
