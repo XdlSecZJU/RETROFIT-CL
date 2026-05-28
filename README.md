@@ -8,7 +8,7 @@ For more details, please refer to our paper `RETROFIT: Continual Learning with C
 
 ### Data
 
-The raw APK samples used in our malware-detection experiments come from the Transcendent dataset and should be requested from the original authors via the project page: [link](https://s2lab.cs.ucl.ac.uk/projects/transcend/). To facilitate reproducibility and avoid redistributing raw APKs, we provide the extracted Drebin features used by our training and evaluation scripts under `Malware_Detection/data/transcendent/`, where you can find raw monthly feature files in:
+The raw APK samples used in our malware-detection experiments come from the Transcendent dataset and should be requested from the original authors: [project page](https://s2lab.cs.ucl.ac.uk/projects/transcend/). To facilitate reproducibility and avoid redistributing raw APKs, we provide the extracted Drebin features used by our training and evaluation scripts under `Malware_Detection/data/transcendent/`, where you can find raw monthly feature files in:
 
 ```text
 Malware_Detection/data/transcendent/YYYY-MM/features.pkl
