@@ -8,7 +8,7 @@ For more details, please refer to our paper `RETROFIT: Continual Learning with C
 
 ### Data
 
-Place raw monthly files in:
+The raw APK samples used in our malware-detection experiments come from the Transcendent dataset and should be requested from the original authors via the project page: [link](https://s2lab.cs.ucl.ac.uk/projects/transcend/). To facilitate reproducibility and avoid redistributing raw APKs, we provide the extracted Drebin features used by our training and evaluation scripts under `Malware_Detection/data/transcendent/`, where you can find raw monthly feature files in:
 
 ```text
 Malware_Detection/data/transcendent/YYYY-MM/features.pkl
@@ -44,8 +44,9 @@ python Malware_Detection/run_all.py draw
 
 ## BINARY ANALYSIS
 
-### Model
-Our [related models](https://huggingface.co/collections/SheHongyu/codet5-capybara-retrofit) have been released on Hugging Face.
+### Data and Model
+
+For the binary-summarization experiments, we use the BinT5 dataset and base model released by the CAPYBARA project; the original [dataset](https://huggingface.co/datasets/AISE-TUDelft/Capybara) and [model](https://huggingface.co/collections/AISE-TUDelft/bint5) are publicly available on Hugging Face. We additionally release our fine-tuned checkpoints on Hugging Face: [link](https://huggingface.co/collections/SheHongyu/codet5-capybara-retrofit) 
 
 ### Setup
 We build our replication package upon the [BinT5](https://github.com/AISE-TUDelft/Capybara-BinT5) environment. Follow the steps below inside your workspace to initialize the container and download the external artifacts:
