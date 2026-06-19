@@ -181,8 +181,15 @@ If you wish to compute additional metrics:
 ```bash
 python Binary_Analysis/Eval_Metrics.py --base_dir Binary_Analysis/Output
 ```
-
 Besides BLEU reported in the main experiments of our paper, we provide supplementary summarization benchmark results [here](https://github.com/XdlSecZJU/RETROFIT-CL/blob/main/Binary_Analysis/complementary_summarization_metric.pdf).
+
+#### Figure 6 Plotting Workflow
+
+```bash
+python Binary_Analysis/draw_fig6.py
+```
+This command uses the evaluation outputs in Binary_Analysis/Output/, runs draw_fig6.py, and reproduces and outputs the content of Figure 6.
+Note: The plotting script depends on smooth_bleu, which is from the official CodeT5 repository. Please ensure that CodeT5/CodeT5/evaluator/smooth_bleu.py is placed in a Python-importable path.
 
 ## License
 

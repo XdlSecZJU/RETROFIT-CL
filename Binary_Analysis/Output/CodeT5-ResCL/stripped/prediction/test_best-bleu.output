@@ -1,0 +1,534 @@
+0	Compute a 32bit DJB hash of a buffer
+1	Allocate a block on a free list and clear it to zeros
+2	Create a new H5T_t structure, initializing it correctly
+3	forget old pics after a seek
+4	mrb_gc_unregister() removes the object from GC root
+5	called by single process upon detection of a problem
+6	Create a new trie iterator
+7	Destroys route_tree by freeing all its memory
+8	'a' and 'b' must be integers
+9	Conditional expansion of this file
+10	Optimal Rate pairing re(P,Q)
+11	XXX this duplicates lots of code in diff_apply()
+12	Flush any dataset sieve buffer info cached in memory
+13	static DEVICE_STOP( ymf271 )
+14	Insert item before item in list
+15	Creates a new row of kind "QoS"
+16	Search specified pattern in specified string
+17	should be deviant some day
+18	Reads a subset of a MAT file
+19	Creates a new row of kind "QoS"
+20	Optimal Rate pairing re(P,Q)
+21	Deserializes the supplied (wire) buffer into subscribe data
+22	Form the orthogonal matrix Q from the packed QR matrix
+23	Conditional expansion of this file
+24	Converts `unsigned long' to `signed char'
+25	return 0 or BF_ST_MEM_ERROR
+26	Initialize the interface from some other layer
+27	Convert lla to utm (float)
+28	static DEVICE_STOP( ymf271 )
+29	Convert native long double to native signed char using hardware
+30	Convert native float to native signed char using hardware
+31	Converts `unsigned int' to `signed char'
+32	Converts `unsigned int' to `signed char'
+33	Converts `unsigned short' to `unsigned int'
+34	Convert native double to native signed char using hardware
+35	Convert native unsigned short to native long double using hardware
+36	Convert native long double to native signed char using hardware
+37	Convert native float to native signed char using hardware
+38	Convert native float to native signed char using hardware
+39	Convert native short to native float using hardware
+40	Converts `unsigned short' to `signed char'
+41	Convert native float to native signed char using hardware
+42	Convert native float to native signed char using hardware
+43	Convert native long double to native signed char using hardware
+44	Converts `unsigned int' to `signed char'
+45	Convert native float to native signed char using hardware
+46	Convert native double to native signed char using hardware
+47	Convert native float to native signed char using hardware
+48	Convert native integer to native long double using hardware
+49	Converts `unsigned short' to `signed char'
+50	Convert native long double to native signed char using hardware
+51	Converts `unsigned short' to `signed char'
+52	Convert native long to native long double using hardware
+53	Converts `unsigned long' to `signed char'
+54	Convert native double to native signed char using hardware
+55	Convert native integer to native long double using hardware
+56	Convert native long double to native signed char using hardware
+57	Convert native unsigned short to native long double using hardware
+58	Convert native float to native signed char using hardware
+59	Convert native double to native signed char using hardware
+60	Convert native unsigned long to native long double using hardware
+61	Convert native float to native signed char using hardware
+62	Converts `signed char' to `signed char'
+63	Converts `unsigned short' to `signed char'
+64	Converts `unsigned int' to `unsigned long long'
+65	Convert native unsigned long to native long double using hardware
+66	Convert native float to native signed char using hardware
+67	Converts `unsigned short' to `signed char'
+68	Convert native float to native signed char using hardware
+69	Convert native double to native short using hardware
+70	Convert native float to native signed char using hardware
+71	Convert native float to native signed char using hardware
+72	Convert native double to native signed char using hardware
+73	Convert native short to native long double using hardware
+74	Convert native long double to native signed char using hardware
+75	Convert native unsigned short to native long double using hardware
+76	Convert native unsigned integer to native long double using hardware
+77	Convert native unsigned integer to native long double using hardware
+78	Convert native float to native signed char using hardware
+79	Converts `unsigned long' to `signed char'
+80	Converts `unsigned short' to `signed char'
+81	Converts `unsigned short' to `signed char'
+82	Convert native long double to native signed char using hardware
+83	Convert native float to native signed char using hardware
+84	Converts `unsigned short' to `signed char'
+85	Converts `unsigned long' to `signed char'
+86	Convert native double to native signed char using hardware
+87	Removes conversion paths that match the specified criteria
+88	change view and focus to previous notebook page
+89	Functions that iterate over locally held blocks in a cluster
+90	Copies a message from _MESG to _DEST in file
+91	Get storage size of the superblock and superblock extension
+92	Patch the toplevel file pointers contained in (dt>shared>u
+93	Copies a message from _MESG to _DEST in file
+94	Table 146 Definition of Types for {RSA} Encryption Schemes
+95	Find leastsquares prediction gain for a axis
+96	Flush any dataset sieve buffer info cached in memory
+97	static DEVICE_STOP( ymf271 )
+98	Function to append Table desc information in a reply list
+99	Enumerate EtherIP ID settings
+100	Copies a message from application memory into a buffer
+101	default routine, can be overridden by user
+102	Returns 'new_base' with any extensions taken from 'cur'
+103	Convert an u16_t from network to host byte order
+104	Conditional expansion of this file
+105	Set the current line number
+106	Set the current line number
+107	Reads data of type @c data_type by userdefined dimensions
+108	Set CRL (Certificate Revocation List) entry
+109	find a node in a container (node
+110	Increment reference count on Btree header
+111	Helper function to turn CW transmission on or off
+112	Helper function to keep code base small
+113	find_amongb is for backwards processing
+114	s MUST BE returned by bam_aux_get()
+115	Generic hook that takes a rtx and returns NULL_RTX
+116	open a file readonly via mmap()
+117	Remove a node from a list by pointer
+118	Get the next item in a list and decrement refcount
+119	Create a worksheet with a chart
+120	Implementation of the \@mpitops command This does not handle basic permission checking
+121	Private function for H5Tget_sign
+122	Insert a plugin search path at the beginning of the list
+123	Call the 'can share' method for a particular class of object header
+124	Free a trie iterator
+125	Form the orthogonal matrix Q from the packed QR matrix
+126	! \brief concatenate two pixmaps horizontal concatenation
+127	! \brief concatenate two pixmaps horizontal concatenation
+128	Form the orthogonal matrix Q from the packed QR matrix
+129	Returns true if 'rconn' is connected, false otherwise
+130	constrainLat makes sure latitudes are in the proper bounds
+131	in place quaternion first order integration with constant rotational velocity
+132	Add a new linked loop to the current polygon
+133	returns 0 on success, negative on failure
+134	Conditional expansion of this file
+135	! Adds specified async event to the queue
+136	This function was created without documentation
+137	Makes callbacks to modify local settings for filters on a new opaque object
+138	Conditional expansion of this file
+139	Form the orthogonal matrix Q from the packed QR matrix
+140	default routine, can be overridden by user
+141	free memory allocated from os_raw_mem_alloc
+142	Duplicates a string, including memory allocation
+143	reset frame synchronizer object
+144	Conditional expansion of this file
+145	Stop playback of a stream previously started with OGG_play()
+146	Purge dead EH edges from basic block BB
+147	This is a POSIXstyle regex implementation
+148	XXX: leaking timer_tree seemingly?
+149	static DEVICE_STOP( ymf271 )
+150	Wait until all jobs have finished
+151	virtqueue_detach_unused_buf detach first unused buffer
+152	blend fac is 0256, where 0 is all 0, 256 is all 1
+153	Initialize a TMR_TagReadDataMemBank with default values
+154	! \brief concatenate two pixmaps horizontal concatenation
+155	static DEVICE_STOP( segapcm )
+156	Does every thing but set the slot
+157	Same as anterior, but for streams
+158	Set CRL (Certificate Revocation List) entry
+159	Directional prediction, zone 1: 0 < angle < 90
+160	Add a new linked loop to the current polygon
+161	Add a new linked loop to the current polygon
+162	Apply a function handler to all the registered assertions
+163	Compressed closure does not apply closure permutation
+164	Table 119 Definition of Types for {RSA} Encryption Schemes
+165	find_among_b is for backwards processing
+166	! \brief concatenate two pixmaps horizontal concatenation
+167	Remove a node from the graph
+168	Called within RCU critical section
+169	schedules downtime for all windows in a group
+170	reset frame synchronizer object
+171	Remove a node from the graph
+172	Called by the exiting task
+173	Return TRUE if LOOP nest should be optimized for size
+174	Apply a function handler to a set of subscript values
+175	default routine, can be overridden by user
+176	Dispense a liquid into the bowl
+177	Initialize global constants used in DH key agreement
+178	Reads data of type @c data_type by userdefined dimensions
+179	returns length of read bytes
+180	Check if a filter is available
+181	This function attaches a palette to an existing image
+182	Creates a new row of kind "QoS"
+183	Add a host to a host list
+184	Send a notification to all vectors of a peer
+185	Return TRUE if EXPR may be nonaddressable
+186	Set CRL (Certificate Revocation List) entry
+187	return the host CPU cycle counter and handle stop restart
+188	Conditional expansion of this file
+189	Whether the bounding box contains a given point
+190	Does every thing but set the slot
+191	Called by single process upon detection of a problem
+192	Initialize a TMR_TagReadDataMemBank with provided data storage area
+193	Clears the contents of 'row' in table "Port"
+194	Disconnects 'rc' and frees 'rc' itself
+195	given internal insn id, return public instruction info
+196	commit COW file into the raw image
+197	Called by single process upon detection of a problem
+198	Compute a 32bit DJB hash of a number
+199	Handles the dataset specific callback
+200	Helper function to filter each sb (64x64)
+201	Convert Left Right stereo signal to adaptive Mid Side representation
+202	Compressed closure does not apply closure permutation
+203	Create a new trie iterator
+204	Conditional expansion of this file
+205	Creates a new row of kind "QoS"
+206	return 1 if envelope runs out
+207	Check to see if this is a Geneve packet
+208	in place first order integration of a rotation matrix
+209	bliP: mute, cuff >
+210	Form the orthogonal matrix Q from the packed QR matrix
+211	Remove a node from the graph
+212	i should just fix some inconsistencies in io>maps
+213	forget old pics after a seek
+214	reset frame synchronizer object
+215	Conditional expansion of this file
+216	Returns the name of a metainformation given by `loc'
+217	! \brief concatenate two pixmaps horizontal concatenation
+218	Set up libCEED for a given degree
+219	! \brief concatenate two pixmaps horizontal concatenation
+220	This function should be called periodically to write some data to the worksheet
+221	used to set the next time event, if any
+222	used to set the next time event, if any
+223	increment the CurrTime by TimeStep
+224	This is the underpinning function of the gui_dlog_close primitive For a given MCP frame and dialog ID, associate the dialog to the frame
+225	Called within RCU critical section
+226	Creates a new row of kind "QoS"
+227	Function to append Table desc information in a reply list
+228	Print token (in original C form)
+229	Creates a new row of kind "QoS"
+230	mps_sac_destroy destroy a scac object
+231	mps_sac_destroy destroy a scac object
+232	Directional prediction, zone 2: 90 < angle < 180
+233	unset_active_list: remove the globalactive list
+234	mps_sac_destroy destroy a scac object
+235	Directional prediction, zone 2: 90 < angle < 180
+236	Initialize a TMR_TagReadDataMemBank with provided data storage area
+237	Creates a new row of kind "QoS"
+238	only leaves last component of path
+239	Returns the current line number of the current line
+240	! \brief concatenate two pixmaps horizontal concatenation
+241	get the color index at a particular location in the canvas
+242	Convert STRING to uppercase
+243	Convert lpc coefficients to lsp coefficients
+244	Remove a host from a host list
+245	Remove a node from a graph
+246	Returns the current time, in seconds
+247	Remove all matching items from a list
+248	g_int_hash() returns the hash as an integer
+249	Convert one type to another when byte order is the only difference
+250	Unregister a UserAgent event handler
+251	arv_device_read_register: @device: a #ArvDevice @address: register address
+252	put a byte onto the lift's queue
+253	schedules downtime for a given unit
+254	Jump (seek) to a given position (time is in seconds)
+255	Convert a FaceIJK address to a FaceIJK address
+256	Parse a VideoControl header
+257	Conditional expansion of this file
+258	Table 119 Definition of TPMU_CAPABILITIES Union <OUT>
+259	TableMap apply a function to all the mappings
+260	Set CRL (Certificate Revocation List) entry
+261	Print token (in original C form)
+262	Parse driver configuration (build cached list of attributes)
+263	Returns the current file position, in bytes; guaranteed nonzero
+264	! \brief Compute HMAC of a packet
+265	Convert a FaceIJK address to a FaceIJK address
+266	Command to get Selected protocols
+267	Set hub administration options
+268	Set Radius options of a connection
+269	Create a new trie iterator
+270	SU 8, Calculate number of bytes in a DBIG output normalised
+271	Allocate SIZE bytes and clear it to zeros
+272	Create a new ssh string and initialize it
+273	return the host CPU cycle counter and handle stop restart
+274	Convert an u16_t from network to host byte order
+275	converts a local_state_t offset to a segment offset
+276	Allocate SIZE bytes, clear them and return the pointer
+277	constrainLat makes sure latitudes are in the proper bounds
+278	Creates a new row of kind "Interface"
+279	! \brief concatenate two pixmaps horizontal concatenation
+280	Conditional expansion of this file
+281	To be called last on the ThrottleTimers
+282	To deal with text streams
+283	Send a fragmented IP packet
+284	in place first order integration of a 2D cartesian vector
+285	Optimal Rate pairing re(P,Q)
+286	Creates a new row of kind "Interface"
+287	reset frame synchronizer object
+288	Create and initialize a new SSH session
+289	given internal insn id, return operand access info
+290	Conditional expansion of this file
+291	Setup the input buffer state to scan a string
+292	Does every thing but set the slot
+293	be nice and clean up
+294	Wait until all jobs have finished
+295	! \brief concatenate two pixmaps horizontal concatenation
+296	This is the underpinning function of the gui_dlog_create primitive
+297	Add a new linked loop to the current polygon
+298	Set up libCEED for a given degree
+299	! \brief concatenate two pixmaps horizontal concatenation
+300	converts a unix timestamp to a local timestamp
+301	Removes conversion paths that match the specified criteria
+302	Insert a plugin search path at the beginning of the list
+303	Creates a new row of kind "QoS"
+304	Index generation function: Attribute values > index hash keys
+305	Set up libCEED for a given degree
+306	default routine, can be overridden by user
+307	Check if remote sleep indication takes place or not
+308	Generic hook that takes a rtx and returns NULL_RTX
+309	returns length of written bytes
+310	returns 1 on match, 0 on failure
+311	Convert a ssh string to a ssh string
+312	delete zone from zone list
+313	get_line_node: return line number of pointer within a line
+314	Conditional expansion of this file
+315	Removes conversion paths that match the specified criteria
+316	Conditional expansion of this file
+317	Conditional expansion of this file
+318	Get the next vertex node in the graph
+319	Add a new linked loop to the current polygon
+320	Conditional expansion of this file
+321	parse Constant Pool String Ref
+322	Set Radius options of a connection
+323	apply hint to op, return NULL if error
+324	takes esiptr to normal vector
+325	Find the center point in a Map Note: Bounds are CADLAG (i
+326	Form the orthogonal matrix Q from the packed QR matrix
+327	! \brief concatenate two pixmaps horizontal concatenation
+328	Create a tensorproduct Lagrange basis
+329	Set up libCEED for a given degree
+330	Apply a function handler and return true if it resolves to true
+331	mrb_gc_unregister() removes the object from GC root
+332	Print token (in original C form)
+333	Iterate over all dependees, making appropriate callbacks
+334	Registers a new VOL connector as a member of the virtual object layer class
+335	reset frame synchronizer object
+336	Optimal Rate pairing re(P,Q)
+337	Connect to the database containing customer information
+338	return the current time, in milliseconds
+339	returns the current CPU cycle counter, 0 in case of error
+340	return 1 if any of the previous options forwarded was 'help'
+341	Resolve reference into a full keyname
+342	Convert a UTF16LE buf into a unicode RRune
+343	Convert native unsigned long to native long double using hardware
+344	virtqueue_detach_unused_buf detach first unused buffer
+345	Conditional expansion of this file
+346	return the name of the currently running thread or process
+347	set a clipped pixel in bankswitched memory
+348	mrb_gc_unregister() removes the object from GC root
+349	XXX: leaking timer_tree seemingly?
+350	used to set the next time event, if any
+351	used to set next time event, if any
+352	l_ and k_ are allowed to be the same spinors
+353	default routine, can be overridden by user
+354	Resample with a 2nd order AR filter followed by FIR interpolation
+355	Optimal Rate pairing re(P,Q)
+356	Conditional expansion of this file
+357	static DEVICE_START( saa1099 )
+358	To be called last on the ThrottleTimers
+359	Convert native long long to native long double using hardware
+360	Conditional expansion of this file
+361	Connect to the database containing customer information
+362	Form the orthogonal matrix Q from the packed QR matrix
+363	Convert an u16_t from network to host byte order
+364	given internal insn id, return operand access info
+365	Creates a new row of kind "Interface"
+366	Increment the reference count of a trie iterator
+367	Remove a node from a list of node IDs
+368	Return a small bit sequence as a number
+369	Remove a node from a list by pointer
+370	Whether 'a' and 'b' are equal
+371	Find a node in a list by its Name
+372	Convert a UTF8 string to a Unicode string
+373	static DEVICE_STOP( segapcm )
+374	Free a list of boundaries pointed to by BNDS
+375	Conditional expansion of this file
+376	reset frame synchronizer object
+377	Conditional expansion of this file
+378	Helper function to keep code base small
+379	static DEVICE_STOP( segapcm )
+380	Create a new rotation matrix from unit vector axis and angle
+381	called by mainloop at background priority to write buffered telemetry log data to log file
+382	in place first order integration of a warped frequency axis
+383	Create a new row of kind "Interface"
+384	Returns the name of the currently running thread or process
+385	Add a MPI event to the timequeue
+386	Private function for H5Tget_sign
+387	Private function for H5Tget_sign
+388	[opcode] [ abs ]
+389	commit COW file into the raw image
+390	Free a trie iterator
+391	Get the number of messages tracked of a certain type
+392	frees the instrlist_t object
+393	commit COW file into the raw image
+394	Search for a given URL by name
+395	return the number of bytes written in the output file
+396	Get a call by callid
+397	used to set the next time event, if any
+398	Creates a new row of kind "QoS"
+399	Query if remote sleep indication takes place or not
+400	ABQFinish finish an ABQ
+401	get the color index at a particular location in the canvas
+402	Create a new trie iterator
+403	reset frame synchronizer object
+404	return 0 or BF_ST_MEM_ERROR
+405	Helper function to form the Gen2 IAVDenatran Custom commad write Sec
+406	Write a single byte to a packet
+407	Initialize a TMR_TagReadDataMemBank with provided data storage area
+408	Conditional expansion of this file
+409	Conditional expansion of this file
+410	Import a public key from a ssh string
+411	increment the CurrTime by TimeStep
+412	Discard all buffered characters
+413	Set the current line number
+414	Free a trie iterator
+415	mps_sac_alloc alloc an object, using cached space if possible
+416	This is a POSIXstyle regex implementation
+417	Conditional expansion of this file
+418	Implementation of the \@sanity command This does sanity checks on the entire database
+419	helper function to keep code base small
+420	Connect to a SOCKS4 proxy
+421	Index generation function: Attribute values > index hash keys
+422	Private function for H5Tget_sign
+423	Add a new linked loop to the current polygon
+424	Initializes 'ccmap' as an empty concurrent hash map
+425	Create a new trie iterator
+426	Apply a function handler to each sb (64x64)
+427	return 0 or BF_ST_MEM_ERROR
+428	Function lu0: implements the serial algo on one diag block (a)
+429	Conditional expansion of this file
+430	Generic hook that takes a rtx and returns void
+431	Flush any dataset sieve buffer info cached in memory
+432	Search for a node in a Btree
+433	Creates a new row of kind "Queue"
+434	copy user's palette into shadow palette, then set real palette
+435	commit COW file into the raw image
+436	Form the orthogonal matrix Q from the packed QR matrix
+437	Reverse bin_keyword & bin_binmask for backward search
+438	Helper function to form the Gen2 IAVDenatran Custom commad write Sec
+439	Create a new trie by reading from an open file
+440	Convert a unicode RRune into a unicode RRune
+441	Form the orthogonal matrix Q from the packed QR matrix
+442	Form the orthogonal matrix Q from the packed QR matrix
+443	Form the orthogonal matrix Q from the packed QR matrix
+444	static DEVICE_STOP( segapcm )
+445	Shell decoder, operates on one shell code frame of 16 pulses
+446	Removes conversion paths that match the specified criteria
+447	sort for title formatting v1
+448	default routine, can be overridden by user
+449	Internal Flicky bubbling function
+450	Unregister a UserAgent event handler
+451	Conditional expansion of this file
+452	Remove a device from a device list
+453	Set up libCEED for a given degree
+454	Free all the132132 descriptors in the frame
+455	Free the result returned by one of 'r'
+456	Dummy function definitions, used when OVS is built without OpenSSL
+457	mrb_gc_unregister() removes the object from GC root
+458	Conditional expansion of this file
+459	commit COW file into the raw image
+460	Discard all buffered characters
+461	Destroys route_tree by freeing all its memory
+462	! \brief concatenate two pixmaps horizontal concatenation
+463	default routine, can be overridden by user
+464	parse Constant Pool String Ref
+465	Enumerate EtherIP ID settings
+466	NOTE: Signed due to 1 on error
+467	Flush any dataset sieve buffer info cached in memory
+468	default routine, can be overridden by user
+469	rename to head last
+470	rename to r_io_undo_length ?
+471	Form the orthogonal matrix Q from the packed QR matrix
+472	Conditional expansion of this file
+473	! \brief concatenate two pixmaps horizontal concatenation
+474	Reset a matrix to an empty state
+475	pass @stats to qht_statistics_destroy() when done
+476	Form the orthogonal matrix Q from the packed QR matrix
+477	Grow VEC by SIZE bytes
+478	Sets part of a bit vector to the specified unsigned value
+479	Registers a new VOL connector as a member of the virtual object layer class
+480	Given a link class ID return a pointer to a global struct that defines the link class
+481	virtqueue_enable_cb restart callbacks after disable
+482	This function initializes the internal state array
+483	Set up libCEED for a given degree
+484	Generic hook that takes a rtx and returns NULL_RTX
+485	Evaluate a boolean expression
+486	Set up libCEED for a given cluster
+487	Set CRL (Certificate Revocation List) entry
+488	Conditional expansion of this file
+489	Convert lpc coefficients to lsp coefficients
+490	Creates a new row of kind "Manager"
+491	Returns true if 'a' and 'b' contain the same strings, false otherwise
+492	swap (uninternalized) attrs from src and dest
+493	This function gets called during a group iterate operation
+494	Remove NAME from links
+495	rename to head last
+496	Add a new publicside port
+497	Free a trie state
+498	Sleep for a given # of nanoseconds
+499	Helper function to keep code base small
+500	fix fix_div(fix a, fix b)
+501	Retrieve the 'num_objs_corked' field for the cache
+502	bits for handling cycle counter overflows
+503	g_int_hash() is lifted from glib2
+504	reset frame synchronizer object
+505	not declared static because a machinespecific function may call this one in some cases
+506	Return TRUE if LOOP nest should be optimized for size
+507	Convert Left Right stereo signal to adaptive Mid Side representation
+508	Enumerate CA(Certificate Authority) in the hub
+509	Function to append Table desc information in a reply list
+510	Chirp (bandwidth expand) LP AR filter
+511	default routine, can be overridden by user
+512	This subroutine attaches a palette to an existing image
+513	Creates a new row of kind "Ucast_Macs_Remote"
+514	Convert an UTF16LE buf into a unicode RRune
+515	! \brief concatenate two pixmaps horizontal concatenation
+516	Conditional expansion of this file
+517	Import a public key from a ssh string
+518	returns 1 if entity is involved in circularity, 0 otherwise
+519	Add a new linked loop to the current polygon
+520	Frees a datatype and all associated memory
+521	be nice and clean up resources
+522	mps_sac_destroy destroy a scac object
+523	Does the given instruction evaluate to false? This returns true if 'r' evaluates to false
+524	Verify the DiffieHellman public key
+525	Write the virtual host option (extended)
+526	This is a POSIXstyle regex implementation
+527	called by main task upon detection of a problem
+528	called by single process upon detection of a problem
+529	returns 1 if any of the previous options forwarded was 'help'
+530	temporary function to migrate seemlessly to ssh agent
+531	Remove a node from the graph
+532	Convert an integer to a string
+533	only leaves last component of path
