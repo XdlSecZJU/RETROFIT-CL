@@ -62,10 +62,6 @@ python Malware_Detection/run_fig5.py
 
 This command uses the released artifacts in `Malware_Detection/input/` and `Malware_Detection/model/`, runs `eval_fig5.py` and `draw_fig5.py`, writes `fig5_results.json`, and outputs the Figure 5 content. Due to differences in hardware, software versions, random seeds, and numerical non-determinism, the reproduced values may differ slightly from the exact values in Figure 5, while the overall trend should remain unchanged.
 
-### Note: Representation Collisions
-
-Representation collisions may appear in the released Transcendent inputs. Different APKs may be mapped to the same vector after feature vectorization and feature selection. This is an expected consequence of using compressed feature representations for efficient artifact evaluation, and does not indicate errors in the released inputs.
-
 ## BINARY ANALYSIS
 
 ### Data and Model
