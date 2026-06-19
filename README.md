@@ -19,7 +19,7 @@ Each `features.pkl` must contain:
 - `json_features`
 - `label`
 
-The complete RETROFIT workflow uses the dimension-reduced Transcendent inputs released on Hugging Face: [link](https://huggingface.co/collections/SheHongyu/codet5-capybara-retrofit). The Figure 5 plotting workflow uses the same dimension-reduced inputs together with the released malware-detection models from the same link.
+The complete RETROFIT workflow uses the dimension-reduced Transcendent inputs released on Hugging Face: [link](https://huggingface.co/collections/SheHongyu/mlp-transcendent-cl). The Figure 5 plotting workflow uses the same dimension-reduced inputs together with the released malware-detection models from the same link.
 
 Place the released artifacts under:
 
