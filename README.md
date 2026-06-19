@@ -6,7 +6,7 @@ For more details, please refer to our paper `RETROFIT: Continual Learning with C
 
 ## MALWARE DETECTION
 
-### Data
+### Data and Released Artifacts
 
 The raw APK samples used in our malware-detection experiments come from the Transcendent dataset and should be requested from the original authors: [project page](https://s2lab.cs.ucl.ac.uk/projects/transcend/). To facilitate reproducibility and avoid redistributing raw APKs, we provide the extracted Drebin features used by our training and evaluation scripts under `Malware_Detection/data/transcendent/`, where you can find raw monthly feature files in:
 
@@ -19,6 +19,17 @@ Each `features.pkl` must contain:
 - `json_features`
 - `label`
 
+The complete RETROFIT workflow uses the dimension-reduced Transcendent inputs released on Hugging Face: [link](https://huggingface.co/collections/SheHongyu/codet5-capybara-retrofit). The Figure 5 plotting workflow uses the same dimension-reduced inputs together with the released malware-detection models from the same link.
+
+Place the released artifacts under:
+
+```text
+Malware_Detection/input/
+Malware_Detection/model/
+```
+
+`Malware_Detection/input/` stores the dimension-reduced Transcendent inputs used by both workflows. `Malware_Detection/model/` stores the released checkpoints used by the Figure 5 plotting workflow.
+
 ### Install
 
 ```bash
@@ -27,20 +38,33 @@ pip install -r Malware_Detection/requirements.txt
 
 ### Run
 
-Full pipeline:
+#### Complete RETROFIT Workflow
 
 ```bash
 python Malware_Detection/run_all.py all
 ```
 
+This command uses `Malware_Detection/input/`, trains the 2014 base model, performs yearly updates from 2015 to 2018, merges old and newly adapted models with RETROFIT, evaluates F1/AUT/PTR metrics, and draws Figure 5.
+
 Single stages:
 
 ```bash
-python Malware_Detection/run_all.py prepare
 python Malware_Detection/run_all.py train
 python Malware_Detection/run_all.py eval
 python Malware_Detection/run_all.py draw
 ```
+
+#### Figure 5 Plotting Workflow
+
+```bash
+python Malware_Detection/run_fig5.py
+```
+
+This command uses the released artifacts in `Malware_Detection/input/` and `Malware_Detection/model/`, runs `eval_fig5.py` and `draw_fig5.py`, writes `fig5_results.json`, and outputs the Figure 5 content. Due to differences in hardware, software versions, random seeds, and numerical non-determinism, the reproduced values may differ slightly from the exact values in Figure 5, while the overall trend should remain unchanged.
+
+### Note: Representation Collisions
+
+Representation collisions may appear in the released Transcendent inputs. Different APKs may be mapped to the same vector after feature vectorization and feature selection. This is an expected consequence of using compressed feature representations for efficient artifact evaluation, and does not indicate errors in the released inputs.
 
 ## BINARY ANALYSIS
 
