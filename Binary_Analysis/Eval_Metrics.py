@@ -86,9 +86,9 @@ def compute_rouge(base_dir, out_file='rouge_results.txt'):
 def compute_bertscore(base_dir, out_file='bertscore_results.txt'):
     # offline roberta-large path
     local_model_path = 'roberta-large'
-    os.environ['TRANSFORMERS_OFFLINE'] = '1'
-    os.environ['HF_HOME'] = local_model_path
-    os.environ['HF_DATASETS_OFFLINE'] = '1'
+    # os.environ['TRANSFORMERS_OFFLINE'] = '1'
+    # os.environ['HF_HOME'] = local_model_path
+    # os.environ['HF_DATASETS_OFFLINE'] = '1'
 
     results = []
     task_folders = [d for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d))]

@@ -73,7 +73,7 @@ display_names = [
 ]
 
 tasks = ["Dec-Full", "Dec-Anon", "Dec-Strip", "XRep"]
-data = get_performance_matrix("./Output")
+data = get_performance_matrix("./Binary_Analysis/Output")
 """
 data = np.array(
     [

@@ -73,7 +73,7 @@ Representation collisions may appear in the released Transcendent inputs. Differ
 For the binary-summarization experiments, we use the BinT5 dataset and base model released by the CAPYBARA project; the original [dataset](https://huggingface.co/datasets/AISE-TUDelft/Capybara) and [model](https://huggingface.co/collections/AISE-TUDelft/bint5) are publicly available on Hugging Face. We additionally release our fine-tuned checkpoints on Hugging Face: [link](https://huggingface.co/collections/SheHongyu/codet5-capybara-retrofit) 
 
 ### Setup
-We build our replication package upon the [BinT5](https://github.com/AISE-TUDelft/Capybara-BinT5) environment. Follow the steps below inside your workspace to initialize the container and download the external artifacts:
+We build our replication package upon the [BinT5](https://github.com/AISE-TUDelft/Capybara-BinT5) environment (Python 3.10). Follow the steps below inside your workspace to initialize the container and download the external artifacts:
 
 1. **Docker Environment**: Pull the image and run the container:
 ```bash
@@ -189,7 +189,10 @@ Besides BLEU reported in the main experiments of our paper, we provide supplemen
 python Binary_Analysis/draw_fig6.py
 ```
 This command uses the evaluation outputs in Binary_Analysis/Output/, runs draw_fig6.py, and reproduces and outputs the content of Figure 6.
+
 Note: The plotting script depends on smooth_bleu, which is from the official CodeT5 repository. Please ensure that CodeT5/CodeT5/evaluator/smooth_bleu.py is placed in a Python-importable path.
+
+Note on Base/Stripped Baseline Value: The Base/stripped cell (7.19) in Figure 6 is hard-coded to align with the BinT5 paper's reported result (Table V: fine-tuning CodeT5-base on deduplicated datasets). The recomputed value from our outputs is 8.85. We use 7.19 to maintain consistency with the established baseline in prior work. All RETROFIT-specific numbers are computed directly from outputs and remain unaffected.
 
 ## License
 
