@@ -6,9 +6,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 
-import os
+from pathlib import Path
 from tqdm import tqdm
 from evaluator import smooth_bleu
+
+ROOT = Path(__file__).resolve().parent
+REPO_ROOT = ROOT.parent
 
 def compute_bleu(gold_path, pred_path):
     predictions = []
@@ -24,24 +27,49 @@ def compute_bleu(gold_path, pred_path):
 
 
 def get_performance_matrix(root_dir):
+    root_dir = Path(root_dir)
+    if not root_dir.is_dir():
+        raise FileNotFoundError(
+            f"Missing Figure 6 output directory: {root_dir}. "
+            "Run from the repository root after placing outputs under Binary_Analysis/Output/."
+        )
+
     models = [
         "CodeT5-Blend", "CodeT5-Stripped", "CodeT5-CFT", "CodeT5-LwF",
         "CodeT5-PODNet", "CodeT5-CO2L", "CodeT5-ResCL", "CodeT5-Ours"
     ]
     tasks = ["decomC", "demi", "stripped"]
 
+    missing_files = []
+    for model in models:
+        for task in tasks:
+            path = root_dir / model / task / "prediction"
+            gold_f = path / "test_best-bleu.gold"
+            pred_f = path / "test_best-bleu.output"
+            if not gold_f.exists():
+                missing_files.append(str(gold_f))
+            if not pred_f.exists():
+                missing_files.append(str(pred_f))
+
+    if missing_files:
+        shown = "\n".join(missing_files[:10])
+        extra = "" if len(missing_files) <= 10 else f"\n... and {len(missing_files) - 10} more"
+        raise FileNotFoundError(
+            "Missing Figure 6 prediction files; refusing to render an all-zero figure:\n"
+            f"{shown}{extra}"
+        )
+
     raw_data = np.zeros((len(models), len(tasks)))
 
     for i, model in enumerate(tqdm(models, desc="Processing Models")):
         for j, task in enumerate(tasks):
-            path = os.path.join(root_dir, model, task, "prediction")
-            gold_f = os.path.join(path, "test_best-bleu.gold")
-            pred_f = os.path.join(path, "test_best-bleu.output")
+            path = root_dir / model / task / "prediction"
+            gold_f = path / "test_best-bleu.gold"
+            pred_f = path / "test_best-bleu.output"
 
-            if os.path.exists(gold_f) and os.path.exists(pred_f):
-                raw_data[i, j] = compute_bleu(gold_f, pred_f)
+            raw_data[i, j] = compute_bleu(gold_f, pred_f)
 
-    raw_data[1, 2] = 7.19   # Note: This value is corrected by referring to the metrics reported in the original BinT5 paper.
+    raw_data[1, 2] = 7.19   # Use the BinT5-reported Base/stripped baseline; recomputing shipped outputs gives 8.85.
 
     row_means = np.mean(raw_data, axis=1, keepdims=True)
     final_data = np.hstack((raw_data, row_means))
@@ -73,7 +101,13 @@ display_names = [
 ]
 
 tasks = ["Dec-Full", "Dec-Anon", "Dec-Strip", "XRep"]
-data = get_performance_matrix("./Binary_Analysis/Output")
+if Path.cwd().resolve() != REPO_ROOT.resolve():
+    raise RuntimeError(
+        "draw_fig6.py must be run from the repository root, for example: "
+        "python Binary_Analysis/draw_fig6.py"
+    )
+
+data = get_performance_matrix(REPO_ROOT / "Binary_Analysis" / "Output")
 """
 data = np.array(
     [
