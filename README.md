@@ -19,7 +19,7 @@ Each `features.pkl` must contain:
 - `json_features`
 - `label`
 
-The complete RETROFIT workflow uses the dimension-reduced Transcendent inputs released on Hugging Face: [link](https://huggingface.co/collections/SheHongyu/mlp-transcendent-cl). The same collection contains the released malware-detection models used by the Figure 5 plotting workflow.
+The complete RETROFIT workflow uses the Drebin features of Transcendent dataset released on Hugging Face: [link](https://huggingface.co/collections/SheHongyu/mlp-transcendent-cl). The same collection contains the released malware-detection models used by the Figure 5 plotting workflow.
 
 Place the released artifacts under:
 
